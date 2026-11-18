@@ -1,0 +1,828 @@
+{
+ "synthetic": true,
+ "generated_on": "2026-11-16",
+ "period_start": "2025-11-01",
+ "period_end": "2026-10-31",
+ "assumptions": [
+  {
+   "key": "seed",
+   "value": 20261116,
+   "note": "Setting: random seed, so every synthetic run is identical"
+  },
+  {
+   "key": "period.start_date",
+   "value": "2025-11-01",
+   "note": "Assumption: first day of the 12 months of synthetic operations"
+  },
+  {
+   "key": "period.end_date",
+   "value": "2026-10-31",
+   "note": "Assumption: last day of the synthetic operations period"
+  },
+  {
+   "key": "period.timezone",
+   "value": "America/Phoenix",
+   "note": "Fact: Arizona local time, which has no daylight saving time"
+  },
+  {
+   "key": "period.operating_days",
+   "value": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "note": "Assumption: delivery days each week"
+  },
+  {
+   "key": "yards.phoenix_dc.id",
+   "value": "PHX_DC",
+   "note": "Setting: location ID used in route plans"
+  },
+  {
+   "key": "yards.phoenix_dc.label",
+   "value": "Phoenix DC",
+   "note": "Setting: display name of the hypothetical distribution center"
+  },
+  {
+   "key": "yards.phoenix_dc.lat",
+   "value": 33.418,
+   "note": "Assumption: approximate hypothetical location in west Phoenix, not a real site"
+  },
+  {
+   "key": "yards.phoenix_dc.lon",
+   "value": -112.155,
+   "note": "Assumption: approximate hypothetical location in west Phoenix, not a real site"
+  },
+  {
+   "key": "yards.phoenix_dc.onsite_fuel",
+   "value": false,
+   "note": "Assumption: no yard tank, so every fill is a fuel card swipe at a public station"
+  },
+  {
+   "key": "yards.tucson_yard.id",
+   "value": "TUC_YARD",
+   "note": "Setting: location ID used in route plans"
+  },
+  {
+   "key": "yards.tucson_yard.label",
+   "value": "Tucson yard",
+   "note": "Setting: display name of the hypothetical satellite yard"
+  },
+  {
+   "key": "yards.tucson_yard.lat",
+   "value": 32.14,
+   "note": "Assumption: approximate hypothetical location in south Tucson, not a real site"
+  },
+  {
+   "key": "yards.tucson_yard.lon",
+   "value": -110.96,
+   "note": "Assumption: approximate hypothetical location in south Tucson, not a real site"
+  },
+  {
+   "key": "yards.tucson_yard.onsite_fuel",
+   "value": false,
+   "note": "Assumption (SPEC section 1): the Tucson yard has no on-site fueling"
+  },
+  {
+   "key": "fleet.linehaul_trucks",
+   "value": 6,
+   "note": "Assumption: Phoenix tractors running Phoenix DC to Tucson yard and back"
+  },
+  {
+   "key": "fleet.local_trucks",
+   "value": 14,
+   "note": "Assumption: Tucson tractors delivering to customers (10 routes plus spares)"
+  },
+  {
+   "key": "fleet.linehaul_tank_gal",
+   "value": 200,
+   "note": "Assumption: usable diesel tank capacity of a linehaul tractor, gallons"
+  },
+  {
+   "key": "fleet.local_tank_gal",
+   "value": 120,
+   "note": "Assumption: usable diesel tank capacity of a local tractor, gallons"
+  },
+  {
+   "key": "fleet.linehaul_mpg",
+   "value": 6.8,
+   "note": "Assumption: highway miles per gallon for a loaded tractor-trailer"
+  },
+  {
+   "key": "fleet.local_mpg",
+   "value": 6.0,
+   "note": "Assumption: stop-and-go miles per gallon on city delivery routes"
+  },
+  {
+   "key": "fleet.mpg_daily_noise_sd",
+   "value": 0.3,
+   "note": "Assumption: day-to-day standard deviation of MPG"
+  },
+  {
+   "key": "fleet.mpg_noise_cap_sd",
+   "value": 3,
+   "note": "Setting: day-to-day MPG noise is cut off at this many standard deviations"
+  },
+  {
+   "key": "fleet.starting_odometer_min_mi",
+   "value": 120000,
+   "note": "Assumption: lowest starting odometer in the fleet, miles"
+  },
+  {
+   "key": "fleet.starting_odometer_max_mi",
+   "value": 480000,
+   "note": "Assumption: highest starting odometer in the fleet, miles"
+  },
+  {
+   "key": "routes.local_route_count",
+   "value": 10,
+   "note": "Assumption: Tucson local delivery routes, fixed for the whole period"
+  },
+  {
+   "key": "routes.stops_per_route_min",
+   "value": 8,
+   "note": "Assumption (SPEC section 3): fewest customer stops on a route"
+  },
+  {
+   "key": "routes.stops_per_route_max",
+   "value": 12,
+   "note": "Assumption (SPEC section 3): most customer stops on a route"
+  },
+  {
+   "key": "routes.minutes_per_stop",
+   "value": 25,
+   "note": "Assumption: unloading time at each customer"
+  },
+  {
+   "key": "routes.avg_speed_mph_local",
+   "value": 28,
+   "note": "Assumption: average city driving speed between stops"
+  },
+  {
+   "key": "routes.avg_speed_mph_linehaul",
+   "value": 58,
+   "note": "Assumption: average I-10 speed for a loaded truck"
+  },
+  {
+   "key": "routes.straight_line_circuity",
+   "value": 1.25,
+   "note": "Assumption: road miles per straight-line mile, used until real routing in Wave 2"
+  },
+  {
+   "key": "routes.local_start_time",
+   "value": "05:00",
+   "note": "Assumption: local routes leave the Tucson yard at this time"
+  },
+  {
+   "key": "routes.linehaul_start_time",
+   "value": "02:00",
+   "note": "Assumption: linehaul trucks leave Phoenix DC at this time"
+  },
+  {
+   "key": "routes.linehaul_yard_dwell_minutes",
+   "value": 45,
+   "note": "Assumption: time at the Tucson yard to swap trailers"
+  },
+  {
+   "key": "routes.linehaul_runs_per_day",
+   "value": 5,
+   "note": "Assumption: daily Phoenix DC to Tucson yard round trips, one tractor each; the sixth linehaul tractor is a spare"
+  },
+  {
+   "key": "routes.linehaul_departure_stagger_minutes",
+   "value": 30,
+   "note": "Assumption: gap between linehaul departures from Phoenix DC, starting at linehaul_start_time"
+  },
+  {
+   "key": "routes.actual_miles_noise_pct",
+   "value": 0.05,
+   "note": "Assumption: actual miles vary from planned by up to this fraction"
+  },
+  {
+   "key": "fueling.refuel_below_tank_fraction",
+   "value": 0.35,
+   "note": "Assumption: drivers look for fuel once the tank is below this share"
+  },
+  {
+   "key": "fueling.fill_to_tank_fraction",
+   "value": 0.95,
+   "note": "Assumption: drivers fill to about this share of the tank"
+  },
+  {
+   "key": "fueling.fill_fraction_noise_sd",
+   "value": 0.03,
+   "note": "Assumption: variation in how full drivers fill the tank"
+  },
+  {
+   "key": "fueling.search_radius_mi",
+   "value": 15,
+   "note": "Assumption: drivers only consider stations within this distance of their route"
+  },
+  {
+   "key": "fueling.use_unverified_truck_access",
+   "value": false,
+   "note": "Assumption: synthetic drivers only fuel where truck access is confirmed"
+  },
+  {
+   "key": "fueling.fill_minutes",
+   "value": 15,
+   "note": "Assumption: time at the pump for one fill"
+  },
+  {
+   "key": "fueling.behavior_mix.sensible",
+   "value": 0.8,
+   "note": "Assumption: share of fills at the lowest net-cost station after detour costs"
+  },
+  {
+   "key": "fueling.behavior_mix.convenient",
+   "value": 0.15,
+   "note": "Assumption: share of fills at the nearest station, even when pricier"
+  },
+  {
+   "key": "fueling.behavior_mix.odd",
+   "value": 0.05,
+   "note": "Assumption: share of fills at a random reachable station (creates exceptions)"
+  },
+  {
+   "key": "prices.class_offset_per_gal.travel_center",
+   "value": 0.0,
+   "note": "Assumption: travel center price versus the EIA regional average, dollars per gallon"
+  },
+  {
+   "key": "prices.class_offset_per_gal.branded",
+   "value": 0.08,
+   "note": "Assumption: branded retail station premium versus the EIA average, dollars per gallon"
+  },
+  {
+   "key": "prices.class_offset_per_gal.unbranded",
+   "value": -0.05,
+   "note": "Assumption: unbranded station discount versus the EIA average, dollars per gallon"
+  },
+  {
+   "key": "prices.class_offset_per_gal.cardlock",
+   "value": -0.1,
+   "note": "Assumption: cardlock fleet fueling site discount versus the EIA average, dollars per gallon"
+  },
+  {
+   "key": "prices.station_offset_sd_per_gal",
+   "value": 0.08,
+   "note": "Assumption: spread of fixed per-station price offsets, dollars per gallon"
+  },
+  {
+   "key": "prices.daily_noise_sd_per_gal",
+   "value": 0.02,
+   "note": "Assumption: day-to-day price noise at a station, dollars per gallon"
+  },
+  {
+   "key": "prices.partner_set_description",
+   "value": "Named truck stops on I-10 between Casa Grande and Eloy (truck access confirmed)",
+   "note": "Assumption: the hypothetical fuel partner program is the confirmed truck stops on the I-10 corridor near Casa Grande"
+  },
+  {
+   "key": "prices.partner_set_bbox",
+   "value": [
+    32.7,
+    -111.75,
+    32.85,
+    -111.5
+   ],
+   "note": "Setting: south, west, north, east box; every truck-confirmed station inside is a partner"
+  },
+  {
+   "key": "prices.partner_discount_cpg",
+   "value": 12,
+   "note": "Assumption: partner discount off the posted price, cents per gallon"
+  },
+  {
+   "key": "export.max_missed_paths",
+   "value": 25,
+   "note": "Setting: the largest missed-savings rows that get road-path drawings (each costs openrouteservice calls once, then is cached)"
+  },
+  {
+   "key": "partner_scout.discount_min_cpg",
+   "value": 0,
+   "note": "Setting: lowest partner discount on the Overview slider, cents per gallon"
+  },
+  {
+   "key": "partner_scout.discount_max_cpg",
+   "value": 30,
+   "note": "Setting: highest partner discount on the Overview slider, cents per gallon"
+  },
+  {
+   "key": "partner_scout.discount_step_cpg",
+   "value": 1,
+   "note": "Setting: slider step, cents per gallon"
+  },
+  {
+   "key": "partner_scout.default_discount_cpg",
+   "value": 12,
+   "note": "Assumption: starting slider value, the same discount the existing partner program gets"
+  },
+  {
+   "key": "stations.add_match_distance_m",
+   "value": 300,
+   "note": "Setting: a chain-locator site this close to an OSM station is treated as the same site"
+  },
+  {
+   "key": "savings.driver_cost_per_hour",
+   "value": 38.0,
+   "note": "Assumption: loaded driver wage plus benefits, dollars per hour"
+  },
+  {
+   "key": "savings.include_variable_cost",
+   "value": true,
+   "note": "Assumption: count wear and tear on detour miles (the optional SPEC term)"
+  },
+  {
+   "key": "savings.variable_cost_per_mile",
+   "value": 0.25,
+   "note": "Assumption: maintenance and tire cost per detour mile, dollars"
+  },
+  {
+   "key": "savings.min_saving_threshold_usd",
+   "value": 5.0,
+   "note": "Assumption: a missed saving must beat this many dollars to count"
+  },
+  {
+   "key": "savings.reserve_gal",
+   "value": 25,
+   "note": "Assumption: fuel a truck must keep in reserve when reaching an alternative station"
+  },
+  {
+   "key": "savings.typical_fill_gal",
+   "value": 90,
+   "note": "Assumption: typical fill size used for break-even and test-route math, gallons"
+  },
+  {
+   "key": "savings.price_basis_weeks",
+   "value": 4,
+   "note": "Setting: the test route page prices stations at their average posted net price over this many final weeks of the period"
+  },
+  {
+   "key": "savings.include_unverified_truck_access_default",
+   "value": false,
+   "note": "Setting: starting position of the site toggle; recommendations and missed savings use confirmed stations only"
+  },
+  {
+   "key": "savings.max_route_day_minutes",
+   "value": 840,
+   "note": "Fact: 14-hour on-duty window for property-carrying drivers (FMCSA)"
+  },
+  {
+   "key": "messiness.name_variant_mix.canonical",
+   "value": 0.4,
+   "note": "Assumption: share of swipes showing the station's OSM name as-is"
+  },
+  {
+   "key": "messiness.name_variant_mix.upper_store",
+   "value": 0.35,
+   "note": "Assumption: share shown upper-case with a store number, like \"BRAND #812 TUCSON\""
+  },
+  {
+   "key": "messiness.name_variant_mix.short_brand",
+   "value": 0.15,
+   "note": "Assumption: share shown as a shortened brand only"
+  },
+  {
+   "key": "messiness.name_variant_mix.merchant_code",
+   "value": 0.1,
+   "note": "Assumption: share shown only as a merchant code, like \"MERCH 004512\""
+  },
+  {
+   "key": "messiness.duplicate_swipe_rate",
+   "value": 0.02,
+   "note": "Assumption: share of fills that also appear as a duplicate swipe"
+  },
+  {
+   "key": "messiness.missing_odometer_rate",
+   "value": 0.05,
+   "note": "Assumption: share of swipes with a blank odometer"
+  },
+  {
+   "key": "messiness.wrong_odometer_rate",
+   "value": 0.03,
+   "note": "Assumption: share of swipes with a mistyped or implausible odometer"
+  },
+  {
+   "key": "messiness.ping_interval_min_minutes",
+   "value": 5,
+   "note": "Assumption: shortest gap between GPS pings while driving"
+  },
+  {
+   "key": "messiness.ping_interval_max_minutes",
+   "value": 25,
+   "note": "Assumption: longest normal gap between GPS pings while driving"
+  },
+  {
+   "key": "messiness.gps_gap_rate_per_truck_day",
+   "value": 0.05,
+   "note": "Assumption: chance a truck-day has a GPS outage"
+  },
+  {
+   "key": "messiness.gps_gap_minutes_min",
+   "value": 20,
+   "note": "Assumption: shortest GPS outage"
+  },
+  {
+   "key": "messiness.gps_gap_minutes_max",
+   "value": 90,
+   "note": "Assumption: longest GPS outage"
+  },
+  {
+   "key": "messiness.telematics_export_timezone",
+   "value": "UTC",
+   "note": "Assumption: the GPS vendor exports timestamps in UTC"
+  },
+  {
+   "key": "messiness.store_number_min",
+   "value": 100,
+   "note": "Setting: lowest invented store number in 'upper_store' merchant names"
+  },
+  {
+   "key": "messiness.store_number_max",
+   "value": 999,
+   "note": "Setting: highest invented store number in 'upper_store' merchant names"
+  },
+  {
+   "key": "messiness.unnamed_station_merchant_label",
+   "value": "FUEL STOP",
+   "note": "Setting: generic merchant label a card vendor shows for a station with no OSM name or brand, followed by a stable store number"
+  },
+  {
+   "key": "messiness.wrong_odometer_attempts",
+   "value": 20,
+   "note": "Setting: tries to draw a mistyped odometer far enough off to be detectable"
+  },
+  {
+   "key": "messiness.wrong_odometer_fallback_multiple",
+   "value": 2,
+   "note": "Setting: if no draw works, the wrong odometer is this many detection thresholds off"
+  },
+  {
+   "key": "messiness.ping_position_noise_m",
+   "value": 15,
+   "note": "Assumption: GPS position jitter on each ping, meters"
+  },
+  {
+   "key": "messiness.ping_speed_sd_fraction",
+   "value": 0.15,
+   "note": "Assumption: spread of reported speed around the true speed, as a fraction"
+  },
+  {
+   "key": "pipeline.source_timezones.fuel_card",
+   "value": "America/Phoenix",
+   "note": "Assumption: fuel card export uses local merchant time"
+  },
+  {
+   "key": "pipeline.source_timezones.telematics",
+   "value": "UTC",
+   "note": "Assumption: what the GPS vendor's documentation says it exports"
+  },
+  {
+   "key": "pipeline.source_timezones.route_plans",
+   "value": "America/Phoenix",
+   "note": "Assumption: routing software export uses local time"
+  },
+  {
+   "key": "pipeline.station_match.ping_window_minutes",
+   "value": 30,
+   "note": "Setting: look for the truck's GPS position within this many minutes of a swipe"
+  },
+  {
+   "key": "pipeline.station_match.max_distance_mi",
+   "value": 1.0,
+   "note": "Setting: candidate stations must be within this distance of that GPS position"
+  },
+  {
+   "key": "pipeline.station_match.name_score_min",
+   "value": 60,
+   "note": "Setting: lowest fuzzy name score (0 to 100) that counts as name evidence"
+  },
+  {
+   "key": "pipeline.station_match.weight_name",
+   "value": 0.5,
+   "note": "Setting: weight of name similarity in the match confidence"
+  },
+  {
+   "key": "pipeline.station_match.weight_brand",
+   "value": 0.2,
+   "note": "Setting: weight of brand agreement in the match confidence"
+  },
+  {
+   "key": "pipeline.station_match.weight_distance",
+   "value": 0.3,
+   "note": "Setting: weight of GPS distance in the match confidence"
+  },
+  {
+   "key": "pipeline.station_match.min_confidence",
+   "value": 0.7,
+   "note": "Setting: below this confidence a swipe stays unmatched instead of guessed"
+  },
+  {
+   "key": "pipeline.station_match.ambiguity_margin",
+   "value": 0.03,
+   "note": "Setting: if the top two candidates score closer than this, the swipe stays unmatched"
+  },
+  {
+   "key": "pipeline.station_match.alias_min_swipes",
+   "value": 3,
+   "note": "Setting: a code-only merchant string is tied to a station only after this many GPS-confirmed swipes"
+  },
+  {
+   "key": "pipeline.station_match.alias_min_share",
+   "value": 0.8,
+   "note": "Setting: and only if at least this share of those swipes point to the same station"
+  },
+  {
+   "key": "pipeline.timezones.start_diff_tolerance_minutes",
+   "value": 120,
+   "note": "Setting: flag trucks whose first GPS ping is this far from the planned route start"
+  },
+  {
+   "key": "pipeline.dedupe.window_minutes",
+   "value": 2,
+   "note": "Setting: swipes by the same truck this close together can be duplicates"
+  },
+  {
+   "key": "pipeline.dedupe.amount_tolerance_usd",
+   "value": 0.01,
+   "note": "Setting: duplicate swipes must have totals this close"
+  },
+  {
+   "key": "pipeline.odometer.max_gap_vs_telematics_mi",
+   "value": 25,
+   "note": "Setting: card odometer further than this from GPS odometer is treated as wrong"
+  },
+  {
+   "key": "pipeline.odometer.eval_tolerance_mi",
+   "value": 2.0,
+   "note": "Setting: a repaired odometer within this of the truth counts as correct"
+  },
+  {
+   "key": "fetch.eia.api_base",
+   "value": "https://api.eia.gov/v2",
+   "note": "Fact: EIA Open Data API v2 base URL"
+  },
+  {
+   "key": "fetch.eia.region_description",
+   "value": "West Coast (PADD 5) except California",
+   "note": "Fact: EIA region that includes Arizona"
+  },
+  {
+   "key": "fetch.eia.product_description",
+   "value": "No 2 Diesel",
+   "note": "Fact: on-highway retail diesel product in EIA data"
+  },
+  {
+   "key": "fetch.eia.start_date",
+   "value": "2022-11-01",
+   "note": "Setting: pull at least 3 years of weekly history"
+  },
+  {
+   "key": "fetch.eia.page_size",
+   "value": 5000,
+   "note": "Setting: rows per EIA API page"
+  },
+  {
+   "key": "fetch.eia.pause_s",
+   "value": 1.0,
+   "note": "Setting: polite pause between EIA requests, seconds"
+  },
+  {
+   "key": "fetch.connect_timeout_s",
+   "value": 30,
+   "note": "Setting: seconds to wait for an API connection before giving up"
+  },
+  {
+   "key": "fetch.read_timeout_s",
+   "value": 60,
+   "note": "Setting: seconds to wait for an API response once connected"
+  },
+  {
+   "key": "fetch.retry.max_retries",
+   "value": 4,
+   "note": "Setting: retries when Overpass or EIA answers busy (HTTP 429, 502, 503, 504)"
+  },
+  {
+   "key": "fetch.retry.wait_s",
+   "value": 30,
+   "note": "Setting: first wait before a retry, seconds; doubles each retry"
+  },
+  {
+   "key": "fetch.overpass.endpoint",
+   "value": "https://overpass-api.de/api/interpreter",
+   "note": "Fact: public Overpass API endpoint"
+  },
+  {
+   "key": "fetch.overpass.user_agent",
+   "value": "fleet-fuel-hub/0.1 (public portfolio demo, synthetic data)",
+   "note": "Setting: polite User-Agent"
+  },
+  {
+   "key": "fetch.overpass.timeout_s",
+   "value": 180,
+   "note": "Setting: Overpass query timeout, seconds"
+  },
+  {
+   "key": "fetch.overpass.pause_between_queries_s",
+   "value": 10,
+   "note": "Setting: wait between Overpass queries, seconds"
+  },
+  {
+   "key": "fetch.overpass.stations_bbox",
+   "value": [
+    31.95,
+    -112.45,
+    33.75,
+    -110.6
+   ],
+   "note": "Setting: south, west, north, east covering Phoenix, I-10 via Casa Grande, and Tucson through Vail"
+  },
+  {
+   "key": "fetch.overpass.tucson_metro_bbox",
+   "value": [
+    31.95,
+    -111.3,
+    32.5,
+    -110.6
+   ],
+   "note": "Setting: south, west, north, east for the wider Tucson station filter: I-10 from Marana to Vail plus the I-19 junction"
+  },
+  {
+   "key": "fetch.overpass.cardlock_aliases",
+   "value": [
+    "Pacific Pride",
+    "CFN",
+    "Commercial Fueling Network",
+    "Cardlock",
+    "Card Lock",
+    "Fleet Fueling"
+   ],
+   "note": "Fact: fleet fueling network words matched in brand, name or operator (Tucson metro only)"
+  },
+  {
+   "key": "fetch.overpass.fleet_access_values",
+   "value": [
+    "customers",
+    "private"
+   ],
+   "note": "Setting: access tag values that, with fuel:diesel=yes, mark a commercial fleet fueling site"
+  },
+  {
+   "key": "fetch.overpass.truck_evidence_hgv_values",
+   "value": [
+    "destination",
+    "permissive",
+    "delivery"
+   ],
+   "note": "Setting: weaker hgv tag values that count as truck-access evidence for an unverified station"
+  },
+  {
+   "key": "fetch.overpass.truck_evidence_words",
+   "value": [
+    "truck",
+    "diesel",
+    "fleet",
+    "semi"
+   ],
+   "note": "Setting: words in name or operator that count as truck-access evidence for an unverified station"
+  },
+  {
+   "key": "fetch.overpass.truck_brand_aliases",
+   "value": [
+    "Love's",
+    "Loves",
+    "Pilot",
+    "Flying J",
+    "TA",
+    "TravelCenters of America",
+    "Petro",
+    "Petro Stopping Centers"
+   ],
+   "note": "Fact (SPEC section 3): truck-stop brands kept even without truck tags"
+  },
+  {
+   "key": "fetch.overpass.dedupe_distance_m",
+   "value": 100,
+   "note": "Setting: a node and a way this close are one station (raised from 75: five same-site pairs sat 75 to 94 m apart)"
+  },
+  {
+   "key": "fetch.customers.bbox",
+   "value": [
+    32.1,
+    -111.05,
+    32.35,
+    -110.8
+   ],
+   "note": "Setting: south, west, north, east covering metro Tucson"
+  },
+  {
+   "key": "fetch.customers.osm_tags",
+   "value": [
+    "amenity=restaurant",
+    "amenity=fast_food",
+    "amenity=cafe"
+   ],
+   "note": "Setting: food-service places used as stand-in customer locations"
+  },
+  {
+   "key": "fetch.customers.max_points",
+   "value": 300,
+   "note": "Setting: sample size of anonymized customer points"
+  },
+  {
+   "key": "fetch.customers.coord_decimals",
+   "value": 5,
+   "note": "Setting: decimals kept on customer coordinates (about 1 meter)"
+  },
+  {
+   "key": "routing.ors_base_url",
+   "value": "https://api.heigit.org",
+   "note": "Fact: openrouteservice hosted API; api.openrouteservice.org is being deprecated in favor of this host"
+  },
+  {
+   "key": "routing.ors_profile",
+   "value": "driving-hgv",
+   "note": "Fact: truck routing profile"
+  },
+  {
+   "key": "routing.ors_pause_s",
+   "value": 2.0,
+   "note": "Setting: wait between calls to stay under 40 a minute"
+  },
+  {
+   "key": "routing.max_matrix_cells",
+   "value": 3500,
+   "note": "Fact: free-plan limit of origins x destinations per matrix call"
+  },
+  {
+   "key": "routing.daily_directions_limit",
+   "value": 2000,
+   "note": "Fact: free-plan directions calls per day"
+  },
+  {
+   "key": "routing.daily_matrix_limit",
+   "value": 500,
+   "note": "Fact: free-plan matrix calls per day"
+  },
+  {
+   "key": "routing.candidate_station_radius_mi",
+   "value": 15,
+   "note": "Assumption: stations farther than this from a route are never a sensible detour; kept equal to fueling.search_radius_mi so every station a driver could pick has detour figures"
+  },
+  {
+   "key": "derived.tucson_local_route_miles_per_day",
+   "value": 31.6,
+   "source": "derived",
+   "note": "synthetic-route assumption: openrouteservice road miles over the synthetic route plans"
+  }
+ ],
+ "trucks_in_fleet": 20,
+ "headline_assumptions": [
+  {
+   "key": "prices.class_offset_per_gal.cardlock",
+   "value": -0.1,
+   "note": "Assumption: cardlock fleet fueling site discount versus the EIA average, dollars per gallon",
+   "source": "config"
+  },
+  {
+   "key": "yard_fuel.discount_vs_eia_per_gal",
+   "value": 0.5,
+   "note": "Assumption: fixture value",
+   "source": "config"
+  },
+  {
+   "key": "yard_fuel.skip_rate",
+   "value": 0.5,
+   "note": "Assumption: fixture value",
+   "source": "config"
+  },
+  {
+   "key": "savings.driver_cost_per_hour",
+   "value": 38.0,
+   "note": "Assumption: loaded driver wage plus benefits, dollars per hour",
+   "source": "config"
+  },
+  {
+   "key": "savings.variable_cost_per_mile",
+   "value": 0.25,
+   "note": "Assumption: maintenance and tire cost per detour mile, dollars",
+   "source": "config"
+  },
+  {
+   "key": "savings.min_saving_threshold_usd",
+   "value": 5.0,
+   "note": "Assumption: a missed saving must beat this many dollars to count",
+   "source": "config"
+  },
+  {
+   "key": "derived.tucson_local_route_miles_per_day",
+   "value": 31.6,
+   "source": "derived",
+   "note": "synthetic-route assumption: openrouteservice road miles over the synthetic route plans"
+  }
+ ]
+}

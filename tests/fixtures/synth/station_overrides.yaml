@@ -1,0 +1,8 @@
+overrides:
+  - osm_ref: node/9000023
+    action: exclude
+    reason: truck scale, not a fuel station
+  - osm_ref: node/9000022
+    action: merge_into
+    target_osm_ref: node/9000021
+    reason: same site mapped twice

@@ -1,0 +1,19 @@
+source_row,TransactionID,true_event_id,is_duplicate,truck_id,true_station_id,true_ts_local,true_odometer,odometer_issue,name_variant,fill_behavior,route_id
+1,FC0000001,EVT-0001,false,PHX-01,STN-001,2026-03-02 04:06:00,250111.1,none,merchant_code,sensible,PHX-L01
+2,FC0000002,EVT-0002,false,TUC-02,STN-003,2026-03-02 06:13:00,150520.4,none,short_brand,sensible,TUC-R02
+3,FC0000003,EVT-0002S,false,TUC-02,STN-003,2026-03-02 06:14:00,150520.4,none,short_brand,sensible,TUC-R02
+4,FC0000004,EVT-0003,false,TUC-01,STN-002,2026-03-02 06:36:00,180019.4,none,canonical,sensible,TUC-R01
+5,FC0000005,EVT-0004,false,PHX-01,STN-001,2026-03-03 04:06:00,250391.9,wrong,merchant_code,sensible,PHX-L01
+6,FC0000006,EVT-0005,false,TUC-02,STN-002,2026-03-03 06:03:00,150563.5,none,canonical,sensible,TUC-R02
+7,FC0000007,EVT-0006,false,TUC-01,STN-002,2026-03-03 06:36:00,180052.4,missing,upper_store,sensible,TUC-R01
+8,FC0000008,EVT-0007,false,PHX-01,STN-001,2026-03-04 04:06:00,250672.7,missing,merchant_code,sensible,PHX-L01
+9,FC0000009,EVT-0008,false,TUC-02,STN-002,2026-03-04 06:03:00,150601.7,wrong,upper_store,sensible,TUC-R02
+10,FC0000010,EVT-0009,false,TUC-01,STN-002,2026-03-04 06:36:00,180085.3,none,canonical,sensible,TUC-R01
+11,FC0000011,EVT-0009,true,TUC-01,STN-002,2026-03-04 06:37:00,180085.3,none,canonical,sensible,TUC-R01
+12,FC0000012,EVT-0010,false,PHX-01,STN-004,2026-03-05 03:04:00,250897.3,none,short_brand,sensible,PHX-L01
+13,FC0000013,EVT-0011,false,TUC-02,STN-003,2026-03-05 06:13:00,150644.5,none,canonical,sensible,TUC-R02
+14,FC0000014,EVT-0011,true,TUC-02,STN-003,2026-03-05 06:15:00,150644.5,none,canonical,sensible,TUC-R02
+15,FC0000015,EVT-0012,false,TUC-01,STN-003,2026-03-05 06:36:00,180118.0,none,upper_store,sensible,TUC-R01
+16,FC0000016,EVT-0013,false,PHX-01,STN-004,2026-03-06 03:04:00,251178.7,none,canonical,sensible,PHX-L01
+17,FC0000017,EVT-0014,false,TUC-02,STN-002,2026-03-06 06:03:00,150687.6,missing,canonical,sensible,TUC-R02
+18,FC0000018,EVT-0015,false,TUC-01,STN-003,2026-03-06 06:36:00,180148.6,none,merchant_code,sensible,TUC-R01

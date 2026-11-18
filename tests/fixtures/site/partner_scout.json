@@ -1,0 +1,500 @@
+{
+ "synthetic": true,
+ "scenario_label": "Synthetic scenario",
+ "scope": "Tucson box, truck-confirmed stations that are not partners",
+ "discount_steps_cpg": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  15
+ ],
+ "default_discount_cpg": 10,
+ "best_station_id_at_default": "STN-017",
+ "method": "Fills already at a station save the discount on every gallon, and fills that would move there save the price gap after the cost of the extra driving.",
+ "stations": [
+  {
+   "station_id": "STN-017",
+   "display_name": "Desert Fuel Plaza",
+   "lat": 32.189,
+   "lon": -110.845,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 6,
+     "gallons_existing": 600.0,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 50.0,
+     "annual_net_savings_usd": 0.0
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 6,
+     "gallons_existing": 600.0,
+     "fills_shifted": 6,
+     "gallons_shifted": 900.0,
+     "gallons_per_month": 125.0,
+     "annual_net_savings_usd": 588.0
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 6,
+     "gallons_existing": 600.0,
+     "fills_shifted": 12,
+     "gallons_shifted": 1800.0,
+     "gallons_per_month": 200.0,
+     "annual_net_savings_usd": 2136.0
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 6,
+     "gallons_existing": 600.0,
+     "fills_shifted": 18,
+     "gallons_shifted": 2700.0,
+     "gallons_per_month": 275.0,
+     "annual_net_savings_usd": 4644.0
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 6,
+     "gallons_existing": 600.0,
+     "fills_shifted": 24,
+     "gallons_shifted": 3600.0,
+     "gallons_per_month": 350.0,
+     "annual_net_savings_usd": 8112.0
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 6,
+     "gallons_existing": 600.0,
+     "fills_shifted": 30,
+     "gallons_shifted": 4500.0,
+     "gallons_per_month": 425.0,
+     "annual_net_savings_usd": 12540.0
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 6,
+     "gallons_existing": 600.0,
+     "fills_shifted": 36,
+     "gallons_shifted": 5400.0,
+     "gallons_per_month": 500.0,
+     "annual_net_savings_usd": 17928.0
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 6,
+     "gallons_existing": 600.0,
+     "fills_shifted": 45,
+     "gallons_shifted": 6750.0,
+     "gallons_per_month": 612.5,
+     "annual_net_savings_usd": 27810.0
+    }
+   ]
+  },
+  {
+   "station_id": "STN-011",
+   "display_name": "Truck Stop Alpha",
+   "lat": 32.221,
+   "lon": -110.912,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 10,
+     "gallons_existing": 900.0,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 75.0,
+     "annual_net_savings_usd": 0.0
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 10,
+     "gallons_existing": 900.0,
+     "fills_shifted": 4,
+     "gallons_shifted": 720.0,
+     "gallons_per_month": 135.0,
+     "annual_net_savings_usd": 546.0
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 10,
+     "gallons_existing": 900.0,
+     "fills_shifted": 9,
+     "gallons_shifted": 1440.0,
+     "gallons_per_month": 195.0,
+     "annual_net_savings_usd": 1860.0
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 10,
+     "gallons_existing": 900.0,
+     "fills_shifted": 14,
+     "gallons_shifted": 2160.0,
+     "gallons_per_month": 255.0,
+     "annual_net_savings_usd": 3942.0
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 10,
+     "gallons_existing": 900.0,
+     "fills_shifted": 19,
+     "gallons_shifted": 2880.0,
+     "gallons_per_month": 315.0,
+     "annual_net_savings_usd": 6792.0
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 10,
+     "gallons_existing": 900.0,
+     "fills_shifted": 24,
+     "gallons_shifted": 3600.0,
+     "gallons_per_month": 375.0,
+     "annual_net_savings_usd": 10410.0
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 10,
+     "gallons_existing": 900.0,
+     "fills_shifted": 28,
+     "gallons_shifted": 4320.0,
+     "gallons_per_month": 435.0,
+     "annual_net_savings_usd": 14796.0
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 10,
+     "gallons_existing": 900.0,
+     "fills_shifted": 36,
+     "gallons_shifted": 5400.0,
+     "gallons_per_month": 525.0,
+     "annual_net_savings_usd": 22815.0
+    }
+   ]
+  },
+  {
+   "station_id": "STN-004",
+   "display_name": "Pilot",
+   "lat": 32.125678,
+   "lon": -110.873704,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 16,
+     "gallons_existing": 1500.0,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 125.0,
+     "annual_net_savings_usd": 0.0
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 16,
+     "gallons_existing": 1500.0,
+     "fills_shifted": 3,
+     "gallons_shifted": 570.0,
+     "gallons_per_month": 172.5,
+     "annual_net_savings_usd": 574.0
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 16,
+     "gallons_existing": 1500.0,
+     "fills_shifted": 7,
+     "gallons_shifted": 1140.0,
+     "gallons_per_month": 220.0,
+     "annual_net_savings_usd": 1756.0
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 16,
+     "gallons_existing": 1500.0,
+     "fills_shifted": 11,
+     "gallons_shifted": 1710.0,
+     "gallons_per_month": 267.5,
+     "annual_net_savings_usd": 3546.0
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 16,
+     "gallons_existing": 1500.0,
+     "fills_shifted": 15,
+     "gallons_shifted": 2280.0,
+     "gallons_per_month": 315.0,
+     "annual_net_savings_usd": 5944.0
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 16,
+     "gallons_existing": 1500.0,
+     "fills_shifted": 19,
+     "gallons_shifted": 2850.0,
+     "gallons_per_month": 362.5,
+     "annual_net_savings_usd": 8950.0
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 16,
+     "gallons_existing": 1500.0,
+     "fills_shifted": 22,
+     "gallons_shifted": 3420.0,
+     "gallons_per_month": 410.0,
+     "annual_net_savings_usd": 12564.0
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 16,
+     "gallons_existing": 1500.0,
+     "fills_shifted": 28,
+     "gallons_shifted": 4275.0,
+     "gallons_per_month": 481.2,
+     "annual_net_savings_usd": 19125.0
+    }
+   ]
+  },
+  {
+   "station_id": "STN-023",
+   "display_name": "Saguaro Diesel",
+   "lat": 32.26,
+   "lon": -110.98,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 4,
+     "gallons_existing": 400.0,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 33.3,
+     "annual_net_savings_usd": 0.0
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 4,
+     "gallons_existing": 400.0,
+     "fills_shifted": 3,
+     "gallons_shifted": 480.0,
+     "gallons_per_month": 73.3,
+     "annual_net_savings_usd": 328.0
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 4,
+     "gallons_existing": 400.0,
+     "fills_shifted": 6,
+     "gallons_shifted": 960.0,
+     "gallons_per_month": 113.3,
+     "annual_net_savings_usd": 1168.0
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 4,
+     "gallons_existing": 400.0,
+     "fills_shifted": 9,
+     "gallons_shifted": 1440.0,
+     "gallons_per_month": 153.3,
+     "annual_net_savings_usd": 2520.0
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 4,
+     "gallons_existing": 400.0,
+     "fills_shifted": 12,
+     "gallons_shifted": 1920.0,
+     "gallons_per_month": 193.3,
+     "annual_net_savings_usd": 4384.0
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 4,
+     "gallons_existing": 400.0,
+     "fills_shifted": 16,
+     "gallons_shifted": 2400.0,
+     "gallons_per_month": 233.3,
+     "annual_net_savings_usd": 6760.0
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 4,
+     "gallons_existing": 400.0,
+     "fills_shifted": 19,
+     "gallons_shifted": 2880.0,
+     "gallons_per_month": 273.3,
+     "annual_net_savings_usd": 9648.0
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 4,
+     "gallons_existing": 400.0,
+     "fills_shifted": 24,
+     "gallons_shifted": 3600.0,
+     "gallons_per_month": 333.3,
+     "annual_net_savings_usd": 14940.0
+    }
+   ]
+  },
+  {
+   "station_id": "STN-031",
+   "display_name": "Old Pueblo Fuel",
+   "lat": 32.205,
+   "lon": -111.01,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 2,
+     "gallons_existing": 200.0,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 16.7,
+     "annual_net_savings_usd": 0.0
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 2,
+     "gallons_existing": 200.0,
+     "fills_shifted": 2,
+     "gallons_shifted": 360.0,
+     "gallons_per_month": 46.7,
+     "annual_net_savings_usd": 228.0
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 2,
+     "gallons_existing": 200.0,
+     "fills_shifted": 4,
+     "gallons_shifted": 720.0,
+     "gallons_per_month": 76.7,
+     "annual_net_savings_usd": 840.0
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 2,
+     "gallons_existing": 200.0,
+     "fills_shifted": 7,
+     "gallons_shifted": 1080.0,
+     "gallons_per_month": 106.7,
+     "annual_net_savings_usd": 1836.0
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 2,
+     "gallons_existing": 200.0,
+     "fills_shifted": 9,
+     "gallons_shifted": 1440.0,
+     "gallons_per_month": 136.7,
+     "annual_net_savings_usd": 3216.0
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 2,
+     "gallons_existing": 200.0,
+     "fills_shifted": 12,
+     "gallons_shifted": 1800.0,
+     "gallons_per_month": 166.7,
+     "annual_net_savings_usd": 4980.0
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 2,
+     "gallons_existing": 200.0,
+     "fills_shifted": 14,
+     "gallons_shifted": 2160.0,
+     "gallons_per_month": 196.7,
+     "annual_net_savings_usd": 7128.0
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 2,
+     "gallons_existing": 200.0,
+     "fills_shifted": 18,
+     "gallons_shifted": 2700.0,
+     "gallons_per_month": 241.7,
+     "annual_net_savings_usd": 11070.0
+    }
+   ]
+  },
+  {
+   "station_id": "STN-040",
+   "display_name": "Rincon Travel Stop",
+   "lat": 32.17,
+   "lon": -110.79,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 1,
+     "gallons_existing": 100.0,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 8.3,
+     "annual_net_savings_usd": 0.0
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 1,
+     "gallons_existing": 100.0,
+     "fills_shifted": 1,
+     "gallons_shifted": 240.0,
+     "gallons_per_month": 28.3,
+     "annual_net_savings_usd": 146.0
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 1,
+     "gallons_existing": 100.0,
+     "fills_shifted": 3,
+     "gallons_shifted": 480.0,
+     "gallons_per_month": 48.3,
+     "annual_net_savings_usd": 548.0
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 1,
+     "gallons_existing": 100.0,
+     "fills_shifted": 4,
+     "gallons_shifted": 720.0,
+     "gallons_per_month": 68.3,
+     "annual_net_savings_usd": 1206.0
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 1,
+     "gallons_existing": 100.0,
+     "fills_shifted": 6,
+     "gallons_shifted": 960.0,
+     "gallons_per_month": 88.3,
+     "annual_net_savings_usd": 2120.0
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 1,
+     "gallons_existing": 100.0,
+     "fills_shifted": 8,
+     "gallons_shifted": 1200.0,
+     "gallons_per_month": 108.3,
+     "annual_net_savings_usd": 3290.0
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 1,
+     "gallons_existing": 100.0,
+     "fills_shifted": 9,
+     "gallons_shifted": 1440.0,
+     "gallons_per_month": 128.3,
+     "annual_net_savings_usd": 4716.0
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 1,
+     "gallons_existing": 100.0,
+     "fills_shifted": 12,
+     "gallons_shifted": 1800.0,
+     "gallons_per_month": 158.3,
+     "annual_net_savings_usd": 7335.0
+    }
+   ]
+  }
+ ]
+}

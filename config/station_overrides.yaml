@@ -1,0 +1,67 @@
+# Manual station fixes. This file is the ONLY place for them (contracts section 4.11).
+# Matching uses osm_ref, because station IDs renumber whenever the station filter changes.
+# station_id records the ID when the entry was written, for readers only.
+# Actions: exclude | merge_into (needs target_osm_ref) | rename (needs new_name) | add (needs add_id,
+# name, lat, lon, source_url, reason). An add must come from a chain's or cardlock network's own public
+# locator showing diesel with truck lanes or rig access. Never from satellite imagery (SPEC section 3).
+# Forbidden-term exclusions use reason "name conflict" and never record the name.
+# Every entry applied is logged in dq_log as a station_override row.
+
+overrides:
+  - osm_ref: "node/12297548599"
+    station_id: "STN-009"
+    action: exclude
+    reason: "CAT Scale: a truck scale, not a fuel stop."
+
+  - osm_ref: "way/728194668"
+    station_id: "STN-030"
+    action: merge_into
+    target_osm_ref: "node/12234391042"
+    reason: "Same site mapped twice as STN-006 (about 80 m apart); one record lacks a brand."
+
+  - osm_ref: "node/4854438923"
+    station_id: "STN-020"
+    action: merge_into
+    target_osm_ref: "node/12256366613"
+    reason: "Same site mapped twice as STN-007 (about 80 m apart); one record lacks a brand."
+
+  # Chain-locator confirmations, Tucson box. Checked Nov 17 2026 against saved copies of the pages.
+  - add_id: "A01"
+    action: add
+    name: "Pilot Travel Center #593"
+    brand: "Pilot"
+    city: "Tucson"
+    lat: 32.125581
+    lon: -110.873546
+    source_url: "https://pilotcompany.com/locations/us/az/tucson/5570-e-travel-plaza-way"
+    reason: "Chain store page lists Diesel Lanes (8), separate from Auto Diesel, and Truck Parking Spaces (83). Same site as the OSM Pilot (STN-006)."
+
+  - add_id: "A02"
+    action: add
+    name: "CFN 5915 Tucson"
+    brand: "CFN"
+    city: "Tucson"
+    lat: 32.252908
+    lon: -110.987639
+    source_url: "https://cfnfleetwide.com/site-locator/"
+    reason: "CFN cardlock locator (site 203490) lists ULS Diesel #2 with 18 Wheel Access and High Speed Pumps. CFN's official site links to this locator as its Site Locator (https://www.cfnnet.com/directions.html)."
+
+  - add_id: "A03"
+    action: add
+    name: "CFN 1792 Benson Hwy"
+    brand: "CFN"
+    city: "Tucson"
+    lat: 32.178823
+    lon: -110.954327
+    source_url: "https://cfnfleetwide.com/site-locator/"
+    reason: "CFN cardlock locator (site 203495) lists ULS Diesel #2 with 18 Wheel Access and High Speed Pumps. CFN's official site links to this locator as its Site Locator (https://www.cfnnet.com/directions.html)."
+
+  - add_id: "A04"
+    action: add
+    name: "CFN 0307 Richey Blvd"
+    brand: "CFN"
+    city: "Tucson"
+    lat: 32.182126
+    lon: -110.916397
+    source_url: "https://cfnfleetwide.com/site-locator/"
+    reason: "CFN cardlock locator (site 203493) lists ULS Diesel #2 with 18 Wheel Access and High Speed Pumps. CFN's official site links to this locator as its Site Locator (https://www.cfnnet.com/directions.html)."

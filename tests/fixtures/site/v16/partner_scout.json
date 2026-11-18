@@ -1,0 +1,1639 @@
+{
+ "synthetic": true,
+ "scenario_label": "Synthetic scenario",
+ "scope": "Tucson box, truck-confirmed stations that are not partners",
+ "discount_steps_cpg": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30
+ ],
+ "default_discount_cpg": 12,
+ "best_station_id_at_default": "STN-A02",
+ "method": "Fills already made at a station save the discount on every gallon; fills made elsewhere move to it only when, after the extra miles and driver time of the detour, the stop is cheaper by more than the minimum saving.",
+ "stations": [
+  {
+   "station_id": "STN-A02",
+   "display_name": "CFN 5915 Tucson",
+   "lat": 32.252908,
+   "lon": -110.987639,
+   "annual_savings_without_deal_usd": 1845.73,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 86,
+     "gallons_shifted": 10059.7,
+     "gallons_per_month": 1422.1,
+     "annual_net_savings_usd": 0.0,
+     "annual_net_savings_per_truck_usd": 0.0
+    },
+    {
+     "discount_cpg": 1,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 90,
+     "gallons_shifted": 10437.7,
+     "gallons_per_month": 1453.6,
+     "annual_net_savings_usd": 192.12,
+     "annual_net_savings_per_truck_usd": 9.61
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 91,
+     "gallons_shifted": 10508.1,
+     "gallons_per_month": 1459.5,
+     "annual_net_savings_usd": 371.95,
+     "annual_net_savings_per_truck_usd": 18.6
+    },
+    {
+     "discount_cpg": 3,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 92,
+     "gallons_shifted": 10576.7,
+     "gallons_per_month": 1465.2,
+     "annual_net_savings_usd": 552.93,
+     "annual_net_savings_per_truck_usd": 27.65
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 92,
+     "gallons_shifted": 10576.7,
+     "gallons_per_month": 1465.2,
+     "annual_net_savings_usd": 728.93,
+     "annual_net_savings_per_truck_usd": 36.45
+    },
+    {
+     "discount_cpg": 5,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 94,
+     "gallons_shifted": 10786.4,
+     "gallons_per_month": 1482.7,
+     "annual_net_savings_usd": 915.34,
+     "annual_net_savings_per_truck_usd": 45.77
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 95,
+     "gallons_shifted": 10931.6,
+     "gallons_per_month": 1494.8,
+     "annual_net_savings_usd": 1098.54,
+     "annual_net_savings_per_truck_usd": 54.93
+    },
+    {
+     "discount_cpg": 7,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 98,
+     "gallons_shifted": 11290.2,
+     "gallons_per_month": 1524.7,
+     "annual_net_savings_usd": 1294.35,
+     "annual_net_savings_per_truck_usd": 64.72
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 103,
+     "gallons_shifted": 11928.6,
+     "gallons_per_month": 1577.9,
+     "annual_net_savings_usd": 1504.65,
+     "annual_net_savings_per_truck_usd": 75.23
+    },
+    {
+     "discount_cpg": 9,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 109,
+     "gallons_shifted": 12707.9,
+     "gallons_per_month": 1642.8,
+     "annual_net_savings_usd": 1729.54,
+     "annual_net_savings_per_truck_usd": 86.48
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 124,
+     "gallons_shifted": 14683.0,
+     "gallons_per_month": 1807.4,
+     "annual_net_savings_usd": 2010.79,
+     "annual_net_savings_per_truck_usd": 100.54
+    },
+    {
+     "discount_cpg": 11,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 156,
+     "gallons_shifted": 19083.1,
+     "gallons_per_month": 2174.1,
+     "annual_net_savings_usd": 2405.91,
+     "annual_net_savings_per_truck_usd": 120.3
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 194,
+     "gallons_shifted": 24362.6,
+     "gallons_per_month": 2614.0,
+     "annual_net_savings_usd": 2886.18,
+     "annual_net_savings_per_truck_usd": 144.31
+    },
+    {
+     "discount_cpg": 13,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 245,
+     "gallons_shifted": 31205.6,
+     "gallons_per_month": 3184.3,
+     "annual_net_savings_usd": 3483.48,
+     "annual_net_savings_per_truck_usd": 174.17
+    },
+    {
+     "discount_cpg": 14,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 310,
+     "gallons_shifted": 39973.7,
+     "gallons_per_month": 3915.0,
+     "annual_net_savings_usd": 4229.99,
+     "annual_net_savings_per_truck_usd": 211.5
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 367,
+     "gallons_shifted": 47724.8,
+     "gallons_per_month": 4560.9,
+     "annual_net_savings_usd": 5018.77,
+     "annual_net_savings_per_truck_usd": 250.94
+    },
+    {
+     "discount_cpg": 16,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 408,
+     "gallons_shifted": 52971.4,
+     "gallons_per_month": 4998.1,
+     "annual_net_savings_usd": 5800.52,
+     "annual_net_savings_per_truck_usd": 290.03
+    },
+    {
+     "discount_cpg": 17,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 447,
+     "gallons_shifted": 58151.7,
+     "gallons_per_month": 5429.8,
+     "annual_net_savings_usd": 6619.0,
+     "annual_net_savings_per_truck_usd": 330.95
+    },
+    {
+     "discount_cpg": 18,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 486,
+     "gallons_shifted": 63136.4,
+     "gallons_per_month": 5845.2,
+     "annual_net_savings_usd": 7495.65,
+     "annual_net_savings_per_truck_usd": 374.78
+    },
+    {
+     "discount_cpg": 19,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 509,
+     "gallons_shifted": 65959.6,
+     "gallons_per_month": 6080.5,
+     "annual_net_savings_usd": 8329.46,
+     "annual_net_savings_per_truck_usd": 416.47
+    },
+    {
+     "discount_cpg": 20,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 524,
+     "gallons_shifted": 67770.0,
+     "gallons_per_month": 6231.3,
+     "annual_net_savings_usd": 9145.76,
+     "annual_net_savings_per_truck_usd": 457.29
+    },
+    {
+     "discount_cpg": 21,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 531,
+     "gallons_shifted": 68497.4,
+     "gallons_per_month": 6291.9,
+     "annual_net_savings_usd": 9933.37,
+     "annual_net_savings_per_truck_usd": 496.67
+    },
+    {
+     "discount_cpg": 22,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 538,
+     "gallons_shifted": 69155.9,
+     "gallons_per_month": 6346.8,
+     "annual_net_savings_usd": 10728.47,
+     "annual_net_savings_per_truck_usd": 536.42
+    },
+    {
+     "discount_cpg": 23,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 543,
+     "gallons_shifted": 69606.4,
+     "gallons_per_month": 6384.3,
+     "annual_net_savings_usd": 11520.11,
+     "annual_net_savings_per_truck_usd": 576.01
+    },
+    {
+     "discount_cpg": 24,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 549,
+     "gallons_shifted": 70037.4,
+     "gallons_per_month": 6420.3,
+     "annual_net_savings_usd": 12320.68,
+     "annual_net_savings_per_truck_usd": 616.03
+    },
+    {
+     "discount_cpg": 25,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 552,
+     "gallons_shifted": 70253.7,
+     "gallons_per_month": 6438.3,
+     "annual_net_savings_usd": 13109.77,
+     "annual_net_savings_per_truck_usd": 655.49
+    },
+    {
+     "discount_cpg": 26,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 555,
+     "gallons_shifted": 70475.9,
+     "gallons_per_month": 6456.8,
+     "annual_net_savings_usd": 13900.51,
+     "annual_net_savings_per_truck_usd": 695.03
+    },
+    {
+     "discount_cpg": 27,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 558,
+     "gallons_shifted": 70687.5,
+     "gallons_per_month": 6474.4,
+     "annual_net_savings_usd": 14693.1,
+     "annual_net_savings_per_truck_usd": 734.65
+    },
+    {
+     "discount_cpg": 28,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 559,
+     "gallons_shifted": 70755.8,
+     "gallons_per_month": 6480.1,
+     "annual_net_savings_usd": 15477.73,
+     "annual_net_savings_per_truck_usd": 773.89
+    },
+    {
+     "discount_cpg": 29,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 560,
+     "gallons_shifted": 70829.0,
+     "gallons_per_month": 6486.2,
+     "annual_net_savings_usd": 16263.03,
+     "annual_net_savings_per_truck_usd": 813.15
+    },
+    {
+     "discount_cpg": 30,
+     "fills_existing": 96,
+     "gallons_existing": 7005.8,
+     "fills_shifted": 562,
+     "gallons_shifted": 70973.0,
+     "gallons_per_month": 6498.2,
+     "annual_net_savings_usd": 17054.7,
+     "annual_net_savings_per_truck_usd": 852.74
+    }
+   ]
+  },
+  {
+   "station_id": "STN-A03",
+   "display_name": "CFN 1792 Benson Hwy",
+   "lat": 32.178823,
+   "lon": -110.954327,
+   "annual_savings_without_deal_usd": 1024.42,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 50,
+     "gallons_shifted": 5462.0,
+     "gallons_per_month": 1159.9,
+     "annual_net_savings_usd": 0.0,
+     "annual_net_savings_per_truck_usd": 0.0
+    },
+    {
+     "discount_cpg": 1,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 54,
+     "gallons_shifted": 5752.5,
+     "gallons_per_month": 1184.1,
+     "annual_net_savings_usd": 160.07,
+     "annual_net_savings_per_truck_usd": 8.0
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 61,
+     "gallons_shifted": 6266.3,
+     "gallons_per_month": 1227.0,
+     "annual_net_savings_usd": 339.63,
+     "annual_net_savings_per_truck_usd": 16.98
+    },
+    {
+     "discount_cpg": 3,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 69,
+     "gallons_shifted": 6902.5,
+     "gallons_per_month": 1280.0,
+     "annual_net_savings_usd": 530.42,
+     "annual_net_savings_per_truck_usd": 26.52
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 80,
+     "gallons_shifted": 7852.0,
+     "gallons_per_month": 1359.1,
+     "annual_net_savings_usd": 744.38,
+     "annual_net_savings_per_truck_usd": 37.22
+    },
+    {
+     "discount_cpg": 5,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 83,
+     "gallons_shifted": 8081.0,
+     "gallons_per_month": 1378.2,
+     "annual_net_savings_usd": 923.52,
+     "annual_net_savings_per_truck_usd": 46.18
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 93,
+     "gallons_shifted": 8874.9,
+     "gallons_per_month": 1444.3,
+     "annual_net_savings_usd": 1142.26,
+     "annual_net_savings_per_truck_usd": 57.11
+    },
+    {
+     "discount_cpg": 7,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 105,
+     "gallons_shifted": 9826.9,
+     "gallons_per_month": 1523.7,
+     "annual_net_savings_usd": 1381.35,
+     "annual_net_savings_per_truck_usd": 69.07
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 112,
+     "gallons_shifted": 10316.2,
+     "gallons_per_month": 1564.4,
+     "annual_net_savings_usd": 1601.34,
+     "annual_net_savings_per_truck_usd": 80.07
+    },
+    {
+     "discount_cpg": 9,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 118,
+     "gallons_shifted": 10749.3,
+     "gallons_per_month": 1600.5,
+     "annual_net_savings_usd": 1820.85,
+     "annual_net_savings_per_truck_usd": 91.04
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 122,
+     "gallons_shifted": 11038.0,
+     "gallons_per_month": 1624.6,
+     "annual_net_savings_usd": 2034.98,
+     "annual_net_savings_per_truck_usd": 101.75
+    },
+    {
+     "discount_cpg": 11,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 130,
+     "gallons_shifted": 11627.2,
+     "gallons_per_month": 1673.7,
+     "annual_net_savings_usd": 2272.6,
+     "annual_net_savings_per_truck_usd": 113.63
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 137,
+     "gallons_shifted": 12197.8,
+     "gallons_per_month": 1721.3,
+     "annual_net_savings_usd": 2511.73,
+     "annual_net_savings_per_truck_usd": 125.59
+    },
+    {
+     "discount_cpg": 13,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 140,
+     "gallons_shifted": 12505.3,
+     "gallons_per_month": 1746.9,
+     "annual_net_savings_usd": 2734.92,
+     "annual_net_savings_per_truck_usd": 136.75
+    },
+    {
+     "discount_cpg": 14,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 149,
+     "gallons_shifted": 13157.2,
+     "gallons_per_month": 1801.2,
+     "annual_net_savings_usd": 2993.7,
+     "annual_net_savings_per_truck_usd": 149.69
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 159,
+     "gallons_shifted": 13948.0,
+     "gallons_per_month": 1867.1,
+     "annual_net_savings_usd": 3263.23,
+     "annual_net_savings_per_truck_usd": 163.16
+    },
+    {
+     "discount_cpg": 16,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 171,
+     "gallons_shifted": 15028.3,
+     "gallons_per_month": 1957.1,
+     "annual_net_savings_usd": 3551.81,
+     "annual_net_savings_per_truck_usd": 177.59
+    },
+    {
+     "discount_cpg": 17,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 177,
+     "gallons_shifted": 15688.6,
+     "gallons_per_month": 2012.1,
+     "annual_net_savings_usd": 3819.11,
+     "annual_net_savings_per_truck_usd": 190.96
+    },
+    {
+     "discount_cpg": 18,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 185,
+     "gallons_shifted": 16548.5,
+     "gallons_per_month": 2083.8,
+     "annual_net_savings_usd": 4103.11,
+     "annual_net_savings_per_truck_usd": 205.16
+    },
+    {
+     "discount_cpg": 19,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 210,
+     "gallons_shifted": 19488.5,
+     "gallons_per_month": 2328.8,
+     "annual_net_savings_usd": 4495.81,
+     "annual_net_savings_per_truck_usd": 224.79
+    },
+    {
+     "discount_cpg": 20,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 244,
+     "gallons_shifted": 24054.2,
+     "gallons_per_month": 2709.3,
+     "annual_net_savings_usd": 4966.2,
+     "annual_net_savings_per_truck_usd": 248.31
+    },
+    {
+     "discount_cpg": 21,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 289,
+     "gallons_shifted": 30257.4,
+     "gallons_per_month": 3226.2,
+     "annual_net_savings_usd": 5544.41,
+     "annual_net_savings_per_truck_usd": 277.22
+    },
+    {
+     "discount_cpg": 22,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 326,
+     "gallons_shifted": 35449.8,
+     "gallons_per_month": 3658.9,
+     "annual_net_savings_usd": 6140.7,
+     "annual_net_savings_per_truck_usd": 307.03
+    },
+    {
+     "discount_cpg": 23,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 379,
+     "gallons_shifted": 42894.3,
+     "gallons_per_month": 4279.3,
+     "annual_net_savings_usd": 6881.41,
+     "annual_net_savings_per_truck_usd": 344.07
+    },
+    {
+     "discount_cpg": 24,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 429,
+     "gallons_shifted": 49901.9,
+     "gallons_per_month": 4863.3,
+     "annual_net_savings_usd": 7680.33,
+     "annual_net_savings_per_truck_usd": 384.02
+    },
+    {
+     "discount_cpg": 25,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 466,
+     "gallons_shifted": 55146.1,
+     "gallons_per_month": 5300.3,
+     "annual_net_savings_usd": 8479.05,
+     "annual_net_savings_per_truck_usd": 423.95
+    },
+    {
+     "discount_cpg": 26,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 492,
+     "gallons_shifted": 58835.0,
+     "gallons_per_month": 5607.7,
+     "annual_net_savings_usd": 9268.7,
+     "annual_net_savings_per_truck_usd": 463.44
+    },
+    {
+     "discount_cpg": 27,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 521,
+     "gallons_shifted": 62957.0,
+     "gallons_per_month": 5951.2,
+     "annual_net_savings_usd": 10110.86,
+     "annual_net_savings_per_truck_usd": 505.54
+    },
+    {
+     "discount_cpg": 28,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 551,
+     "gallons_shifted": 67202.9,
+     "gallons_per_month": 6305.0,
+     "annual_net_savings_usd": 10998.62,
+     "annual_net_savings_per_truck_usd": 549.93
+    },
+    {
+     "discount_cpg": 29,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 557,
+     "gallons_shifted": 68003.4,
+     "gallons_per_month": 6371.7,
+     "annual_net_savings_usd": 11792.62,
+     "annual_net_savings_per_truck_usd": 589.63
+    },
+    {
+     "discount_cpg": 30,
+     "fills_existing": 95,
+     "gallons_existing": 8457.2,
+     "fills_shifted": 564,
+     "gallons_shifted": 69006.4,
+     "gallons_per_month": 6455.3,
+     "annual_net_savings_usd": 12595.94,
+     "annual_net_savings_per_truck_usd": 629.8
+    }
+   ]
+  },
+  {
+   "station_id": "STN-A04",
+   "display_name": "CFN 0307 Richey Blvd",
+   "lat": 32.182126,
+   "lon": -110.916397,
+   "annual_savings_without_deal_usd": 521.51,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 33,
+     "gallons_shifted": 3786.1,
+     "gallons_per_month": 627.8,
+     "annual_net_savings_usd": 0.0,
+     "annual_net_savings_per_truck_usd": 0.0
+    },
+    {
+     "discount_cpg": 1,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 35,
+     "gallons_shifted": 3932.6,
+     "gallons_per_month": 640.0,
+     "annual_net_savings_usd": 85.93,
+     "annual_net_savings_per_truck_usd": 4.3
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 35,
+     "gallons_shifted": 3932.6,
+     "gallons_per_month": 640.0,
+     "annual_net_savings_usd": 162.99,
+     "annual_net_savings_per_truck_usd": 8.15
+    },
+    {
+     "discount_cpg": 3,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 36,
+     "gallons_shifted": 4082.0,
+     "gallons_per_month": 652.4,
+     "annual_net_savings_usd": 246.51,
+     "annual_net_savings_per_truck_usd": 12.33
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 36,
+     "gallons_shifted": 4082.0,
+     "gallons_per_month": 652.4,
+     "annual_net_savings_usd": 325.07,
+     "annual_net_savings_per_truck_usd": 16.25
+    },
+    {
+     "discount_cpg": 5,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 37,
+     "gallons_shifted": 4160.5,
+     "gallons_per_month": 659.0,
+     "annual_net_savings_usd": 408.89,
+     "annual_net_savings_per_truck_usd": 20.44
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 38,
+     "gallons_shifted": 4236.5,
+     "gallons_per_month": 665.3,
+     "annual_net_savings_usd": 493.76,
+     "annual_net_savings_per_truck_usd": 24.69
+    },
+    {
+     "discount_cpg": 7,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 41,
+     "gallons_shifted": 4459.2,
+     "gallons_per_month": 683.9,
+     "annual_net_savings_usd": 590.07,
+     "annual_net_savings_per_truck_usd": 29.5
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 46,
+     "gallons_shifted": 4817.8,
+     "gallons_per_month": 713.7,
+     "annual_net_savings_usd": 699.54,
+     "annual_net_savings_per_truck_usd": 34.98
+    },
+    {
+     "discount_cpg": 9,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 51,
+     "gallons_shifted": 5320.6,
+     "gallons_per_month": 755.6,
+     "annual_net_savings_usd": 812.32,
+     "annual_net_savings_per_truck_usd": 40.62
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 59,
+     "gallons_shifted": 5952.8,
+     "gallons_per_month": 808.3,
+     "annual_net_savings_usd": 945.73,
+     "annual_net_savings_per_truck_usd": 47.29
+    },
+    {
+     "discount_cpg": 11,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 65,
+     "gallons_shifted": 6502.4,
+     "gallons_per_month": 854.1,
+     "annual_net_savings_usd": 1075.3,
+     "annual_net_savings_per_truck_usd": 53.77
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 78,
+     "gallons_shifted": 7602.6,
+     "gallons_per_month": 945.8,
+     "annual_net_savings_usd": 1250.34,
+     "annual_net_savings_per_truck_usd": 62.52
+    },
+    {
+     "discount_cpg": 13,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 89,
+     "gallons_shifted": 8790.8,
+     "gallons_per_month": 1044.8,
+     "annual_net_savings_usd": 1427.13,
+     "annual_net_savings_per_truck_usd": 71.36
+    },
+    {
+     "discount_cpg": 14,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 95,
+     "gallons_shifted": 9359.5,
+     "gallons_per_month": 1092.2,
+     "annual_net_savings_usd": 1585.08,
+     "annual_net_savings_per_truck_usd": 79.25
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 105,
+     "gallons_shifted": 10601.6,
+     "gallons_per_month": 1195.7,
+     "annual_net_savings_usd": 1775.78,
+     "annual_net_savings_per_truck_usd": 88.79
+    },
+    {
+     "discount_cpg": 16,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 118,
+     "gallons_shifted": 11901.7,
+     "gallons_per_month": 1304.1,
+     "annual_net_savings_usd": 1989.89,
+     "annual_net_savings_per_truck_usd": 99.49
+    },
+    {
+     "discount_cpg": 17,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 127,
+     "gallons_shifted": 12708.8,
+     "gallons_per_month": 1371.3,
+     "annual_net_savings_usd": 2195.57,
+     "annual_net_savings_per_truck_usd": 109.78
+    },
+    {
+     "discount_cpg": 18,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 134,
+     "gallons_shifted": 13292.8,
+     "gallons_per_month": 1420.0,
+     "annual_net_savings_usd": 2399.31,
+     "annual_net_savings_per_truck_usd": 119.97
+    },
+    {
+     "discount_cpg": 19,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 145,
+     "gallons_shifted": 14095.3,
+     "gallons_per_month": 1486.9,
+     "annual_net_savings_usd": 2629.59,
+     "annual_net_savings_per_truck_usd": 131.48
+    },
+    {
+     "discount_cpg": 20,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 152,
+     "gallons_shifted": 14655.2,
+     "gallons_per_month": 1533.5,
+     "annual_net_savings_usd": 2848.29,
+     "annual_net_savings_per_truck_usd": 142.41
+    },
+    {
+     "discount_cpg": 21,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 159,
+     "gallons_shifted": 15177.1,
+     "gallons_per_month": 1577.0,
+     "annual_net_savings_usd": 3070.81,
+     "annual_net_savings_per_truck_usd": 153.54
+    },
+    {
+     "discount_cpg": 22,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 164,
+     "gallons_shifted": 15536.6,
+     "gallons_per_month": 1607.0,
+     "annual_net_savings_usd": 3288.47,
+     "annual_net_savings_per_truck_usd": 164.42
+    },
+    {
+     "discount_cpg": 23,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 166,
+     "gallons_shifted": 15670.0,
+     "gallons_per_month": 1618.1,
+     "annual_net_savings_usd": 3493.43,
+     "annual_net_savings_per_truck_usd": 174.67
+    },
+    {
+     "discount_cpg": 24,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 173,
+     "gallons_shifted": 16312.5,
+     "gallons_per_month": 1671.6,
+     "annual_net_savings_usd": 3727.1,
+     "annual_net_savings_per_truck_usd": 186.35
+    },
+    {
+     "discount_cpg": 25,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 189,
+     "gallons_shifted": 17757.8,
+     "gallons_per_month": 1792.1,
+     "annual_net_savings_usd": 4014.47,
+     "annual_net_savings_per_truck_usd": 200.72
+    },
+    {
+     "discount_cpg": 26,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 199,
+     "gallons_shifted": 18879.6,
+     "gallons_per_month": 1885.6,
+     "annual_net_savings_usd": 4285.92,
+     "annual_net_savings_per_truck_usd": 214.3
+    },
+    {
+     "discount_cpg": 27,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 216,
+     "gallons_shifted": 20577.9,
+     "gallons_per_month": 2027.1,
+     "annual_net_savings_usd": 4605.46,
+     "annual_net_savings_per_truck_usd": 230.27
+    },
+    {
+     "discount_cpg": 28,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 230,
+     "gallons_shifted": 22166.9,
+     "gallons_per_month": 2159.5,
+     "annual_net_savings_usd": 4930.26,
+     "annual_net_savings_per_truck_usd": 246.51
+    },
+    {
+     "discount_cpg": 29,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 254,
+     "gallons_shifted": 25583.1,
+     "gallons_per_month": 2444.2,
+     "annual_net_savings_usd": 5327.63,
+     "annual_net_savings_per_truck_usd": 266.38
+    },
+    {
+     "discount_cpg": 30,
+     "fills_existing": 48,
+     "gallons_existing": 3747.1,
+     "fills_shifted": 285,
+     "gallons_shifted": 29870.9,
+     "gallons_per_month": 2801.5,
+     "annual_net_savings_usd": 5794.66,
+     "annual_net_savings_per_truck_usd": 289.73
+    }
+   ]
+  },
+  {
+   "station_id": "STN-006",
+   "display_name": "Pilot",
+   "lat": 32.125678,
+   "lon": -110.873704,
+   "annual_savings_without_deal_usd": 30.8,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 3,
+     "gallons_shifted": 297.0,
+     "gallons_per_month": 93.6,
+     "annual_net_savings_usd": 0.0,
+     "annual_net_savings_per_truck_usd": 0.0
+    },
+    {
+     "discount_cpg": 1,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 3,
+     "gallons_shifted": 297.0,
+     "gallons_per_month": 93.6,
+     "annual_net_savings_usd": 11.27,
+     "annual_net_savings_per_truck_usd": 0.56
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 3,
+     "gallons_shifted": 297.0,
+     "gallons_per_month": 93.6,
+     "annual_net_savings_usd": 22.55,
+     "annual_net_savings_per_truck_usd": 1.13
+    },
+    {
+     "discount_cpg": 3,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 3,
+     "gallons_shifted": 297.0,
+     "gallons_per_month": 93.6,
+     "annual_net_savings_usd": 33.82,
+     "annual_net_savings_per_truck_usd": 1.69
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 3,
+     "gallons_shifted": 297.0,
+     "gallons_per_month": 93.6,
+     "annual_net_savings_usd": 45.1,
+     "annual_net_savings_per_truck_usd": 2.25
+    },
+    {
+     "discount_cpg": 5,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 4,
+     "gallons_shifted": 430.5,
+     "gallons_per_month": 104.7,
+     "annual_net_savings_usd": 61.71,
+     "annual_net_savings_per_truck_usd": 3.09
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 4,
+     "gallons_shifted": 430.5,
+     "gallons_per_month": 104.7,
+     "annual_net_savings_usd": 74.33,
+     "annual_net_savings_per_truck_usd": 3.72
+    },
+    {
+     "discount_cpg": 7,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 4,
+     "gallons_shifted": 430.5,
+     "gallons_per_month": 104.7,
+     "annual_net_savings_usd": 86.95,
+     "annual_net_savings_per_truck_usd": 4.35
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 4,
+     "gallons_shifted": 430.5,
+     "gallons_per_month": 104.7,
+     "annual_net_savings_usd": 99.57,
+     "annual_net_savings_per_truck_usd": 4.98
+    },
+    {
+     "discount_cpg": 9,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 5,
+     "gallons_shifted": 501.9,
+     "gallons_per_month": 110.6,
+     "annual_net_savings_usd": 117.29,
+     "annual_net_savings_per_truck_usd": 5.86
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 6,
+     "gallons_shifted": 575.6,
+     "gallons_per_month": 116.8,
+     "annual_net_savings_usd": 136.2,
+     "annual_net_savings_per_truck_usd": 6.81
+    },
+    {
+     "discount_cpg": 11,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 8,
+     "gallons_shifted": 788.2,
+     "gallons_per_month": 134.5,
+     "annual_net_savings_usd": 161.8,
+     "annual_net_savings_per_truck_usd": 8.09
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 9,
+     "gallons_shifted": 858.4,
+     "gallons_per_month": 140.3,
+     "annual_net_savings_usd": 183.59,
+     "annual_net_savings_per_truck_usd": 9.18
+    },
+    {
+     "discount_cpg": 13,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 12,
+     "gallons_shifted": 1070.1,
+     "gallons_per_month": 158.0,
+     "annual_net_savings_usd": 217.18,
+     "annual_net_savings_per_truck_usd": 10.86
+    },
+    {
+     "discount_cpg": 14,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 14,
+     "gallons_shifted": 1213.7,
+     "gallons_per_month": 170.0,
+     "annual_net_savings_usd": 247.22,
+     "annual_net_savings_per_truck_usd": 12.36
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 19,
+     "gallons_shifted": 1574.6,
+     "gallons_per_month": 200.0,
+     "annual_net_savings_usd": 293.82,
+     "annual_net_savings_per_truck_usd": 14.69
+    },
+    {
+     "discount_cpg": 16,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 23,
+     "gallons_shifted": 1927.7,
+     "gallons_per_month": 229.4,
+     "annual_net_savings_usd": 339.83,
+     "annual_net_savings_per_truck_usd": 16.99
+    },
+    {
+     "discount_cpg": 17,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 24,
+     "gallons_shifted": 1996.1,
+     "gallons_per_month": 235.1,
+     "annual_net_savings_usd": 372.88,
+     "annual_net_savings_per_truck_usd": 18.64
+    },
+    {
+     "discount_cpg": 18,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 27,
+     "gallons_shifted": 2361.4,
+     "gallons_per_month": 265.6,
+     "annual_net_savings_usd": 417.84,
+     "annual_net_savings_per_truck_usd": 20.89
+    },
+    {
+     "discount_cpg": 19,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 30,
+     "gallons_shifted": 2757.4,
+     "gallons_per_month": 298.6,
+     "annual_net_savings_usd": 467.44,
+     "annual_net_savings_per_truck_usd": 23.37
+    },
+    {
+     "discount_cpg": 20,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 36,
+     "gallons_shifted": 3423.6,
+     "gallons_per_month": 354.1,
+     "annual_net_savings_usd": 536.5,
+     "annual_net_savings_per_truck_usd": 26.82
+    },
+    {
+     "discount_cpg": 21,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 37,
+     "gallons_shifted": 3560.8,
+     "gallons_per_month": 365.5,
+     "annual_net_savings_usd": 585.0,
+     "annual_net_savings_per_truck_usd": 29.25
+    },
+    {
+     "discount_cpg": 22,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 39,
+     "gallons_shifted": 3800.5,
+     "gallons_per_month": 385.5,
+     "annual_net_savings_usd": 639.89,
+     "annual_net_savings_per_truck_usd": 31.99
+    },
+    {
+     "discount_cpg": 23,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 42,
+     "gallons_shifted": 4196.1,
+     "gallons_per_month": 418.5,
+     "annual_net_savings_usd": 704.2,
+     "annual_net_savings_per_truck_usd": 35.21
+    },
+    {
+     "discount_cpg": 24,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 42,
+     "gallons_shifted": 4196.1,
+     "gallons_per_month": 418.5,
+     "annual_net_savings_usd": 754.77,
+     "annual_net_savings_per_truck_usd": 37.74
+    },
+    {
+     "discount_cpg": 25,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 43,
+     "gallons_shifted": 4318.7,
+     "gallons_per_month": 428.7,
+     "annual_net_savings_usd": 811.06,
+     "annual_net_savings_per_truck_usd": 40.55
+    },
+    {
+     "discount_cpg": 26,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 44,
+     "gallons_shifted": 4449.4,
+     "gallons_per_month": 439.6,
+     "annual_net_savings_usd": 868.06,
+     "annual_net_savings_per_truck_usd": 43.4
+    },
+    {
+     "discount_cpg": 27,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 45,
+     "gallons_shifted": 4604.6,
+     "gallons_per_month": 452.5,
+     "annual_net_savings_usd": 927.08,
+     "annual_net_savings_per_truck_usd": 46.35
+    },
+    {
+     "discount_cpg": 28,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 48,
+     "gallons_shifted": 4961.7,
+     "gallons_per_month": 482.3,
+     "annual_net_savings_usd": 997.98,
+     "annual_net_savings_per_truck_usd": 49.9
+    },
+    {
+     "discount_cpg": 29,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 50,
+     "gallons_shifted": 5179.3,
+     "gallons_per_month": 500.4,
+     "annual_net_savings_usd": 1067.1,
+     "annual_net_savings_per_truck_usd": 53.35
+    },
+    {
+     "discount_cpg": 30,
+     "fills_existing": 9,
+     "gallons_existing": 825.7,
+     "fills_shifted": 51,
+     "gallons_shifted": 5253.4,
+     "gallons_per_month": 506.6,
+     "annual_net_savings_usd": 1133.0,
+     "annual_net_savings_per_truck_usd": 56.65
+    }
+   ]
+  },
+  {
+   "station_id": "STN-032",
+   "display_name": "Pilot Express",
+   "lat": 32.084348,
+   "lon": -110.803649,
+   "annual_savings_without_deal_usd": 0.0,
+   "curve": [
+    {
+     "discount_cpg": 0,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 35.9,
+     "annual_net_savings_usd": 0.0,
+     "annual_net_savings_per_truck_usd": 0.0
+    },
+    {
+     "discount_cpg": 1,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 35.9,
+     "annual_net_savings_usd": 4.3,
+     "annual_net_savings_per_truck_usd": 0.21
+    },
+    {
+     "discount_cpg": 2,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 35.9,
+     "annual_net_savings_usd": 8.61,
+     "annual_net_savings_per_truck_usd": 0.43
+    },
+    {
+     "discount_cpg": 3,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 35.9,
+     "annual_net_savings_usd": 12.91,
+     "annual_net_savings_per_truck_usd": 0.65
+    },
+    {
+     "discount_cpg": 4,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 35.9,
+     "annual_net_savings_usd": 17.22,
+     "annual_net_savings_per_truck_usd": 0.86
+    },
+    {
+     "discount_cpg": 5,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 35.9,
+     "annual_net_savings_usd": 21.52,
+     "annual_net_savings_per_truck_usd": 1.08
+    },
+    {
+     "discount_cpg": 6,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 35.9,
+     "annual_net_savings_usd": 25.83,
+     "annual_net_savings_per_truck_usd": 1.29
+    },
+    {
+     "discount_cpg": 7,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 35.9,
+     "annual_net_savings_usd": 30.13,
+     "annual_net_savings_per_truck_usd": 1.51
+    },
+    {
+     "discount_cpg": 8,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 0,
+     "gallons_shifted": 0.0,
+     "gallons_per_month": 35.9,
+     "annual_net_savings_usd": 34.44,
+     "annual_net_savings_per_truck_usd": 1.72
+    },
+    {
+     "discount_cpg": 9,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 1,
+     "gallons_shifted": 156.3,
+     "gallons_per_month": 48.9,
+     "annual_net_savings_usd": 44.49,
+     "annual_net_savings_per_truck_usd": 2.22
+    },
+    {
+     "discount_cpg": 10,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 2,
+     "gallons_shifted": 307.5,
+     "gallons_per_month": 61.5,
+     "annual_net_savings_usd": 55.71,
+     "annual_net_savings_per_truck_usd": 2.79
+    },
+    {
+     "discount_cpg": 11,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 4,
+     "gallons_shifted": 527.5,
+     "gallons_per_month": 79.8,
+     "annual_net_savings_usd": 74.69,
+     "annual_net_savings_per_truck_usd": 3.73
+    },
+    {
+     "discount_cpg": 12,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 4,
+     "gallons_shifted": 527.5,
+     "gallons_per_month": 79.8,
+     "annual_net_savings_usd": 84.37,
+     "annual_net_savings_per_truck_usd": 4.22
+    },
+    {
+     "discount_cpg": 13,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 4,
+     "gallons_shifted": 527.5,
+     "gallons_per_month": 79.8,
+     "annual_net_savings_usd": 94.05,
+     "annual_net_savings_per_truck_usd": 4.7
+    },
+    {
+     "discount_cpg": 14,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 5,
+     "gallons_shifted": 600.9,
+     "gallons_per_month": 86.0,
+     "annual_net_savings_usd": 109.22,
+     "annual_net_savings_per_truck_usd": 5.46
+    },
+    {
+     "discount_cpg": 15,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 5,
+     "gallons_shifted": 600.9,
+     "gallons_per_month": 86.0,
+     "annual_net_savings_usd": 119.65,
+     "annual_net_savings_per_truck_usd": 5.98
+    },
+    {
+     "discount_cpg": 16,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 6,
+     "gallons_shifted": 673.1,
+     "gallons_per_month": 92.0,
+     "annual_net_savings_usd": 135.78,
+     "annual_net_savings_per_truck_usd": 6.79
+    },
+    {
+     "discount_cpg": 17,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 6,
+     "gallons_shifted": 673.1,
+     "gallons_per_month": 92.0,
+     "annual_net_savings_usd": 146.95,
+     "annual_net_savings_per_truck_usd": 7.35
+    },
+    {
+     "discount_cpg": 18,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 8,
+     "gallons_shifted": 883.8,
+     "gallons_per_month": 109.5,
+     "annual_net_savings_usd": 168.78,
+     "annual_net_savings_per_truck_usd": 8.44
+    },
+    {
+     "discount_cpg": 19,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 9,
+     "gallons_shifted": 960.8,
+     "gallons_per_month": 115.9,
+     "annual_net_savings_usd": 187.11,
+     "annual_net_savings_per_truck_usd": 9.36
+    },
+    {
+     "discount_cpg": 20,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 13,
+     "gallons_shifted": 1355.8,
+     "gallons_per_month": 148.9,
+     "annual_net_savings_usd": 223.92,
+     "annual_net_savings_per_truck_usd": 11.2
+    },
+    {
+     "discount_cpg": 21,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 13,
+     "gallons_shifted": 1355.8,
+     "gallons_per_month": 148.9,
+     "annual_net_savings_usd": 242.08,
+     "annual_net_savings_per_truck_usd": 12.1
+    },
+    {
+     "discount_cpg": 22,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 15,
+     "gallons_shifted": 1556.1,
+     "gallons_per_month": 165.6,
+     "annual_net_savings_usd": 270.89,
+     "annual_net_savings_per_truck_usd": 13.54
+    },
+    {
+     "discount_cpg": 23,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 16,
+     "gallons_shifted": 1627.7,
+     "gallons_per_month": 171.5,
+     "annual_net_savings_usd": 296.55,
+     "annual_net_savings_per_truck_usd": 14.83
+    },
+    {
+     "discount_cpg": 24,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 20,
+     "gallons_shifted": 2081.1,
+     "gallons_per_month": 209.3,
+     "annual_net_savings_usd": 338.87,
+     "annual_net_savings_per_truck_usd": 16.94
+    },
+    {
+     "discount_cpg": 25,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 24,
+     "gallons_shifted": 2440.5,
+     "gallons_per_month": 239.2,
+     "annual_net_savings_usd": 385.37,
+     "annual_net_savings_per_truck_usd": 19.27
+    },
+    {
+     "discount_cpg": 26,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 30,
+     "gallons_shifted": 3001.8,
+     "gallons_per_month": 286.0,
+     "annual_net_savings_usd": 447.01,
+     "annual_net_savings_per_truck_usd": 22.35
+    },
+    {
+     "discount_cpg": 27,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 35,
+     "gallons_shifted": 3384.7,
+     "gallons_per_month": 317.9,
+     "annual_net_savings_usd": 508.62,
+     "annual_net_savings_per_truck_usd": 25.43
+    },
+    {
+     "discount_cpg": 28,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 43,
+     "gallons_shifted": 4290.6,
+     "gallons_per_month": 393.4,
+     "annual_net_savings_usd": 591.7,
+     "annual_net_savings_per_truck_usd": 29.59
+    },
+    {
+     "discount_cpg": 29,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 45,
+     "gallons_shifted": 4502.7,
+     "gallons_per_month": 411.1,
+     "annual_net_savings_usd": 650.44,
+     "annual_net_savings_per_truck_usd": 32.52
+    },
+    {
+     "discount_cpg": 30,
+     "fills_existing": 4,
+     "gallons_existing": 430.5,
+     "fills_shifted": 49,
+     "gallons_shifted": 4900.7,
+     "gallons_per_month": 444.3,
+     "annual_net_savings_usd": 722.4,
+     "annual_net_savings_per_truck_usd": 36.12
+    }
+   ]
+  }
+ ],
+ "trucks_in_fleet": 20
+}

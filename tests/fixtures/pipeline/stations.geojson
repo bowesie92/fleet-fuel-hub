@@ -1,0 +1,120 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.21,
+     32.405
+    ]
+   },
+   "properties": {
+    "station_id": "STN-001",
+    "osm_ref": "node/1001",
+    "name": "Desert Star Travel Center",
+    "brand": "Desert Star",
+    "operator": null,
+    "city": "Marana",
+    "truck_tagged": true,
+    "truck_brand": true,
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "access_basis": "truck_brand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.9747,
+     32.2226
+    ]
+   },
+   "properties": {
+    "station_id": "STN-002",
+    "osm_ref": "node/1002",
+    "name": "Saguaro Fuel & Go",
+    "brand": "Saguaro Fuel",
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": false,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "access_basis": "truck_evidence"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.93,
+     32.18
+    ]
+   },
+   "properties": {
+    "station_id": "STN-003",
+    "osm_ref": "way/1003",
+    "name": "Mesquite Mart",
+    "brand": null,
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": false,
+    "truck_brand": false,
+    "station_class": "cardlock",
+    "truck_access": "confirmed",
+    "access_basis": "fleet_access"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.75,
+     32.88
+    ]
+   },
+   "properties": {
+    "station_id": "STN-004",
+    "osm_ref": "node/1004",
+    "name": "Copper Ridge Fuel Stop",
+    "brand": "Copper Ridge",
+    "operator": null,
+    "city": "Casa Grande",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.745,
+     32.883
+    ]
+   },
+   "properties": {
+    "station_id": "STN-005",
+    "osm_ref": "node/1005",
+    "name": "Copper Ridge Express",
+    "brand": "Copper Ridge",
+    "operator": null,
+    "city": "Casa Grande",
+    "truck_tagged": false,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  }
+ ]
+}

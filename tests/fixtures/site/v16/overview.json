@@ -1,0 +1,13 @@
+{
+ "synthetic": true,
+ "kpis": {
+  "total_gallons": 80500,
+  "avg_net_price_per_gal": 4.945,
+  "missed_savings_usd": 2832.11,
+  "partner_share_gallons": 0.68,
+  "card_gallons": 41200,
+  "yard_gallons": 39300,
+  "avg_yard_price_per_gal": 3.912,
+  "missed_usd_per_truck_per_year": 141.61
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "seed": 20261116,
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-31",
+  "row_counts": {
+    "fleet.csv": 20,
+    "partner_program.csv": 2,
+    "station_prices.csv": 12775,
+    "fuel_card.csv": 217,
+    "telematics.csv": 112020,
+    "route_plans.csv": 43194,
+    "yard_fuel.csv": 1520,
+    "ground_truth/fuel_txn_truth.csv": 217,
+    "ground_truth/injected_issues.csv": 386
+  },
+  "inputs": {
+    "stations": "real",
+    "customers": "real",
+    "eia": "real"
+  }
+}

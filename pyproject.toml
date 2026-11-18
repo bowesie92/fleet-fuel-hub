@@ -1,0 +1,32 @@
+[project]
+name = "fleetfuel"
+version = "0.1.0"
+description = "Synthetic fleet fuel data hub: one clean DuckDB layer over messy fuel card, telematics and routing exports, with net-of-detour savings."
+authors = [
+    { name = "Cass Bowes", email = "295998025+bowesie92@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=2.0.0",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
+    "rapidfuzz>=3.14.6",
+    "requests>=2.34.2",
+    "tzdata>=2026.6",
+]
+
+[project.scripts]
+fleetfuel = "fleetfuel.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

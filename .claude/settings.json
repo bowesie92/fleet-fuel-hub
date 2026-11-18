@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(uv *)", "Bash(git status*)", "Bash(git diff*)", "Bash(git log*)", "Bash(git add *)",
+      "Bash(git commit *)", "Bash(git branch*)", "Bash(git switch *)", "Bash(git checkout *)",
+      "Bash(git merge *)", "Bash(git worktree *)", "Bash(git push)", "Bash(git push -u origin *)",
+      "Bash(git pull*)", "Bash(git fetch*)", "Bash(ls*)", "Bash(mkdir *)",
+      "PowerShell(uv *)", "PowerShell(git status*)", "PowerShell(git diff*)", "PowerShell(git log*)",
+      "PowerShell(git add *)", "PowerShell(git commit *)", "PowerShell(git merge *)", "PowerShell(git worktree *)"
+    ],
+    "deny": [
+      "Read(./.env)", "Read(./.local/**)",
+      "Bash(git push --force*)", "Bash(git push * --force*)", "Bash(git push -f*)",
+      "Bash(git reset --hard*)", "Bash(rm -rf *)", "PowerShell(Remove-Item * -Recurse*)"
+    ]
+  }
+}

@@ -1,0 +1,387 @@
+issue_id,issue_type,source_file,source_row,truck_id,start_ts_local,end_ts_local,details
+ISS-00001,name_variant,fuel_card.csv,2,TUC-03,,,Merchant shown as 'CFN' (short_brand) for STN-A04
+ISS-00002,name_variant,fuel_card.csv,3,TUC-07,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00003,name_variant,fuel_card.csv,6,TUC-06,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00004,name_variant,fuel_card.csv,7,TUC-11,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00005,name_variant,fuel_card.csv,8,TUC-02,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00006,name_variant,fuel_card.csv,15,TUC-14,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00007,name_variant,fuel_card.csv,21,TUC-04,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00008,name_variant,fuel_card.csv,22,TUC-09,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00009,name_variant,fuel_card.csv,24,TUC-05,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00010,name_variant,fuel_card.csv,25,TUC-13,,,Merchant shown as 'MERCH 154215' (merchant_code) for STN-A03
+ISS-00011,name_variant,fuel_card.csv,26,TUC-01,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00012,name_variant,fuel_card.csv,28,TUC-12,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00013,name_variant,fuel_card.csv,29,TUC-08,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00014,name_variant,fuel_card.csv,31,TUC-03,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00015,name_variant,fuel_card.csv,32,TUC-10,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00016,name_variant,fuel_card.csv,36,TUC-02,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00017,name_variant,fuel_card.csv,37,TUC-04,,,Merchant shown as 'MERCH 265063' (merchant_code) for STN-A02
+ISS-00018,name_variant,fuel_card.csv,38,TUC-01,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00019,name_variant,fuel_card.csv,39,TUC-13,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00020,name_variant,fuel_card.csv,41,TUC-14,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00021,name_variant,fuel_card.csv,44,TUC-10,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00022,name_variant,fuel_card.csv,46,TUC-11,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00023,name_variant,fuel_card.csv,47,TUC-03,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00024,name_variant,fuel_card.csv,50,TUC-06,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00025,name_variant,fuel_card.csv,52,TUC-09,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00026,name_variant,fuel_card.csv,53,TUC-05,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00027,name_variant,fuel_card.csv,59,TUC-07,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00028,name_variant,fuel_card.csv,60,TUC-03,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00029,name_variant,fuel_card.csv,62,TUC-09,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00030,name_variant,fuel_card.csv,63,TUC-06,,,Merchant shown as 'MERCH 938089' (merchant_code) for STN-A04
+ISS-00031,name_variant,fuel_card.csv,64,TUC-11,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00032,name_variant,fuel_card.csv,67,TUC-13,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00033,name_variant,fuel_card.csv,68,TUC-05,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00034,name_variant,fuel_card.csv,72,TUC-10,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00035,name_variant,fuel_card.csv,75,TUC-03,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00036,name_variant,fuel_card.csv,77,TUC-06,,,Merchant shown as 'MERCH 265063' (merchant_code) for STN-A02
+ISS-00037,name_variant,fuel_card.csv,78,TUC-04,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00038,name_variant,fuel_card.csv,83,TUC-01,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00039,name_variant,fuel_card.csv,84,TUC-14,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00040,name_variant,fuel_card.csv,85,TUC-10,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00041,name_variant,fuel_card.csv,86,TUC-08,,,Merchant shown as 'MERCH 265063' (merchant_code) for STN-A02
+ISS-00042,name_variant,fuel_card.csv,87,TUC-03,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00043,name_variant,fuel_card.csv,88,TUC-07,,,Merchant shown as 'MERCH 154215' (merchant_code) for STN-A03
+ISS-00044,name_variant,fuel_card.csv,91,TUC-04,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00045,name_variant,fuel_card.csv,93,TUC-02,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00046,name_variant,fuel_card.csv,94,TUC-11,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00047,name_variant,fuel_card.csv,95,TUC-14,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00048,name_variant,fuel_card.csv,96,TUC-13,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00049,name_variant,fuel_card.csv,97,TUC-01,,,Merchant shown as 'PILOT #161 TUCSON' (upper_store) for STN-032
+ISS-00050,name_variant,fuel_card.csv,98,TUC-05,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00051,name_variant,fuel_card.csv,99,TUC-07,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00052,name_variant,fuel_card.csv,100,TUC-10,,,Merchant shown as 'MERCH 265063' (merchant_code) for STN-A02
+ISS-00053,name_variant,fuel_card.csv,104,TUC-03,,,Merchant shown as 'Pilot' (short_brand) for STN-032
+ISS-00054,name_variant,fuel_card.csv,105,TUC-02,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00055,name_variant,fuel_card.csv,108,TUC-05,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00056,name_variant,fuel_card.csv,110,TUC-14,,,Merchant shown as 'CFN' (short_brand) for STN-A04
+ISS-00057,name_variant,fuel_card.csv,112,TUC-13,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00058,name_variant,fuel_card.csv,113,TUC-10,,,Merchant shown as 'CFN' (short_brand) for STN-A04
+ISS-00059,name_variant,fuel_card.csv,114,TUC-07,,,Merchant shown as 'MERCH 265063' (merchant_code) for STN-A02
+ISS-00060,name_variant,fuel_card.csv,115,TUC-08,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00061,name_variant,fuel_card.csv,116,TUC-12,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00062,name_variant,fuel_card.csv,117,TUC-03,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00063,name_variant,fuel_card.csv,118,TUC-04,,,Merchant shown as 'CFN' (short_brand) for STN-A04
+ISS-00064,name_variant,fuel_card.csv,119,TUC-09,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00065,name_variant,fuel_card.csv,122,TUC-02,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00066,name_variant,fuel_card.csv,124,TUC-13,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00067,name_variant,fuel_card.csv,125,TUC-01,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00068,name_variant,fuel_card.csv,126,TUC-14,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00069,name_variant,fuel_card.csv,127,TUC-10,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00070,name_variant,fuel_card.csv,128,TUC-08,,,Merchant shown as 'MERCH 265063' (merchant_code) for STN-A02
+ISS-00071,name_variant,fuel_card.csv,131,TUC-09,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00072,name_variant,fuel_card.csv,132,TUC-01,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00073,name_variant,fuel_card.csv,133,TUC-06,,,Merchant shown as 'MERCH 154215' (merchant_code) for STN-A03
+ISS-00074,name_variant,fuel_card.csv,134,TUC-13,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00075,name_variant,fuel_card.csv,135,TUC-04,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00076,name_variant,fuel_card.csv,136,TUC-03,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00077,name_variant,fuel_card.csv,137,TUC-02,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00078,name_variant,fuel_card.csv,138,TUC-05,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00079,name_variant,fuel_card.csv,139,TUC-14,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00080,name_variant,fuel_card.csv,141,TUC-08,,,Merchant shown as 'CFN' (short_brand) for STN-A04
+ISS-00081,name_variant,fuel_card.csv,142,TUC-10,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00082,name_variant,fuel_card.csv,144,TUC-07,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00083,name_variant,fuel_card.csv,146,TUC-03,,,Merchant shown as 'CFN' (short_brand) for STN-A04
+ISS-00084,name_variant,fuel_card.csv,147,TUC-04,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00085,name_variant,fuel_card.csv,148,TUC-09,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00086,name_variant,fuel_card.csv,149,TUC-05,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00087,name_variant,fuel_card.csv,150,TUC-11,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00088,name_variant,fuel_card.csv,151,TUC-13,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00089,name_variant,fuel_card.csv,153,TUC-01,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00090,name_variant,fuel_card.csv,155,TUC-10,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00091,name_variant,fuel_card.csv,156,TUC-08,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00092,name_variant,fuel_card.csv,159,TUC-09,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00093,name_variant,fuel_card.csv,160,TUC-02,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00094,name_variant,fuel_card.csv,163,TUC-03,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00095,name_variant,fuel_card.csv,169,TUC-10,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00096,name_variant,fuel_card.csv,170,TUC-12,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00097,name_variant,fuel_card.csv,171,TUC-04,,,Merchant shown as 'MERCH 265063' (merchant_code) for STN-A02
+ISS-00098,name_variant,fuel_card.csv,173,TUC-02,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00099,name_variant,fuel_card.csv,174,TUC-07,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00100,name_variant,fuel_card.csv,177,TUC-09,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00101,name_variant,fuel_card.csv,178,TUC-05,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00102,name_variant,fuel_card.csv,181,TUC-14,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00103,name_variant,fuel_card.csv,182,TUC-01,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00104,name_variant,fuel_card.csv,184,TUC-12,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00105,name_variant,fuel_card.csv,185,TUC-08,,,Merchant shown as 'MERCH 265063' (merchant_code) for STN-A02
+ISS-00106,name_variant,fuel_card.csv,186,TUC-04,,,Merchant shown as 'CFN' (short_brand) for STN-A04
+ISS-00107,name_variant,fuel_card.csv,187,TUC-07,,,Merchant shown as 'CFN' (short_brand) for STN-A04
+ISS-00108,name_variant,fuel_card.csv,188,TUC-13,,,Merchant shown as 'MERCH 154215' (merchant_code) for STN-A03
+ISS-00109,name_variant,fuel_card.csv,189,TUC-02,,,Merchant shown as 'CFN #388 TUCSON' (upper_store) for STN-A02
+ISS-00110,name_variant,fuel_card.csv,193,TUC-14,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00111,name_variant,fuel_card.csv,195,TUC-01,,,Merchant shown as 'MERCH 154215' (merchant_code) for STN-A03
+ISS-00112,name_variant,fuel_card.csv,196,TUC-01,,,Merchant shown as 'MERCH 154215' (merchant_code) for STN-A03
+ISS-00113,name_variant,fuel_card.csv,199,TUC-12,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00114,name_variant,fuel_card.csv,200,TUC-08,,,Merchant shown as 'PILOT #161 TUCSON' (upper_store) for STN-032
+ISS-00115,name_variant,fuel_card.csv,202,TUC-03,,,Merchant shown as 'CFN' (short_brand) for STN-A02
+ISS-00116,name_variant,fuel_card.csv,203,TUC-07,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00117,name_variant,fuel_card.csv,205,TUC-02,,,Merchant shown as 'MERCH 938089' (merchant_code) for STN-A04
+ISS-00118,name_variant,fuel_card.csv,208,TUC-09,,,Merchant shown as 'CFN #479 TUCSON' (upper_store) for STN-A03
+ISS-00119,name_variant,fuel_card.csv,215,TUC-10,,,Merchant shown as 'CFN' (short_brand) for STN-A03
+ISS-00120,name_variant,fuel_card.csv,216,TUC-04,,,Merchant shown as 'CFN #623 TUCSON' (upper_store) for STN-A04
+ISS-00121,duplicate_swipe,fuel_card.csv,49,TUC-02,,,"Second copy of EVT-000048: same card, minute and amount, new TransactionID"
+ISS-00122,duplicate_swipe,fuel_card.csv,196,TUC-01,,,"Second copy of EVT-000194: same card, minute and amount, new TransactionID"
+ISS-00123,duplicate_swipe,fuel_card.csv,210,TUC-13,,,"Second copy of EVT-000207: same card, minute and amount, new TransactionID"
+ISS-00124,missing_odometer,fuel_card.csv,13,TUC-12,,,Odometer left blank by the driver
+ISS-00125,missing_odometer,fuel_card.csv,36,TUC-02,,,Odometer left blank by the driver
+ISS-00126,missing_odometer,fuel_card.csv,53,TUC-05,,,Odometer left blank by the driver
+ISS-00127,missing_odometer,fuel_card.csv,68,TUC-05,,,Odometer left blank by the driver
+ISS-00128,missing_odometer,fuel_card.csv,84,TUC-14,,,Odometer left blank by the driver
+ISS-00129,missing_odometer,fuel_card.csv,93,TUC-02,,,Odometer left blank by the driver
+ISS-00130,missing_odometer,fuel_card.csv,131,TUC-09,,,Odometer left blank by the driver
+ISS-00131,missing_odometer,fuel_card.csv,156,TUC-08,,,Odometer left blank by the driver
+ISS-00132,missing_odometer,fuel_card.csv,183,TUC-10,,,Odometer left blank by the driver
+ISS-00133,missing_odometer,fuel_card.csv,188,TUC-13,,,Odometer left blank by the driver
+ISS-00134,missing_odometer,fuel_card.csv,199,TUC-12,,,Odometer left blank by the driver
+ISS-00135,wrong_odometer,fuel_card.csv,52,TUC-09,,,"Odometer typed as 4644110, true reading 464409.6"
+ISS-00136,wrong_odometer,fuel_card.csv,115,TUC-08,,,"Odometer typed as 143819, true reading 143891.0"
+ISS-00137,wrong_odometer,fuel_card.csv,201,TUC-04,,,"Odometer typed as 48325, true reading 483250.7"
+ISS-00138,wrong_odometer,fuel_card.csv,217,TUC-07,,,"Odometer typed as 45701, true reading 453701.0"
+ISS-00139,irregular_ping,telematics.csv,,,,,"Pings arrive every 5 to 25 minutes while moving, plus one at each stop arrival and departure (112020 pings in total)"
+ISS-00140,gps_gap,telematics.csv,,TUC-01,2025-11-01 05:00:00,2025-11-01 05:57:32,No GPS pings between these two times; 3 expected pings missing
+ISS-00141,gps_gap,telematics.csv,,TUC-04,2025-11-01 07:01:57,2025-11-01 08:27:26,No GPS pings between these two times; 5 expected pings missing
+ISS-00142,gps_gap,telematics.csv,,PHX-05,2025-11-03 07:28:48,2025-11-03 08:41:38,No GPS pings between these two times; 4 expected pings missing
+ISS-00143,gps_gap,telematics.csv,,TUC-09,2025-11-05 07:28:58,2025-11-05 08:59:36,No GPS pings between these two times; 5 expected pings missing
+ISS-00144,gps_gap,telematics.csv,,PHX-05,2025-11-06 04:27:30,2025-11-06 06:38:35,No GPS pings between these two times; 6 expected pings missing
+ISS-00145,gps_gap,telematics.csv,,PHX-01,2025-11-06 07:17:45,2025-11-06 08:29:51,No GPS pings between these two times; 6 expected pings missing
+ISS-00146,gps_gap,telematics.csv,,PHX-04,2025-11-07 08:17:17,2025-11-07 09:40:41,No GPS pings between these two times; 5 expected pings missing
+ISS-00147,gps_gap,telematics.csv,,TUC-11,2025-11-08 10:15:55,2025-11-08 11:00:56,No GPS pings between these two times; 2 expected pings missing
+ISS-00148,gps_gap,telematics.csv,,PHX-05,2025-11-08 07:56:42,2025-11-08 09:41:48,No GPS pings between these two times; 5 expected pings missing
+ISS-00149,gps_gap,telematics.csv,,PHX-06,2025-11-10 07:30:57,2025-11-10 09:28:57,No GPS pings between these two times; 8 expected pings missing
+ISS-00150,gps_gap,telematics.csv,,TUC-14,2025-11-13 07:26:43,2025-11-13 08:00:45,No GPS pings between these two times; 2 expected pings missing
+ISS-00151,gps_gap,telematics.csv,,TUC-06,2025-11-13 05:29:59,2025-11-13 06:46:54,No GPS pings between these two times; 5 expected pings missing
+ISS-00152,gps_gap,telematics.csv,,TUC-13,2025-11-15 06:41:30,2025-11-15 08:01:39,No GPS pings between these two times; 5 expected pings missing
+ISS-00153,gps_gap,telematics.csv,,TUC-08,2025-11-15 05:30:06,2025-11-15 06:47:05,No GPS pings between these two times; 5 expected pings missing
+ISS-00154,gps_gap,telematics.csv,,TUC-01,2025-11-17 06:39:37,2025-11-17 07:32:14,No GPS pings between these two times; 2 expected pings missing
+ISS-00155,gps_gap,telematics.csv,,TUC-06,2025-11-17 07:08:05,2025-11-17 08:09:21,No GPS pings between these two times; 2 expected pings missing
+ISS-00156,gps_gap,telematics.csv,,PHX-04,2025-11-17 05:07:17,2025-11-17 06:10:00,No GPS pings between these two times; 2 expected pings missing
+ISS-00157,gps_gap,telematics.csv,,TUC-11,2025-11-22 09:19:08,2025-11-22 10:35:38,No GPS pings between these two times; 4 expected pings missing
+ISS-00158,gps_gap,telematics.csv,,PHX-05,2025-11-22 08:19:55,2025-11-22 09:29:23,No GPS pings between these two times; 3 expected pings missing
+ISS-00159,gps_gap,telematics.csv,,PHX-05,2025-11-24 07:09:17,2025-11-24 08:04:14,No GPS pings between these two times; 3 expected pings missing
+ISS-00160,gps_gap,telematics.csv,,TUC-10,2025-11-25 08:26:44,2025-11-25 09:37:24,No GPS pings between these two times; 4 expected pings missing
+ISS-00161,gps_gap,telematics.csv,,PHX-06,2025-11-26 02:45:00,2025-11-26 03:31:19,No GPS pings between these two times; 2 expected pings missing
+ISS-00162,gps_gap,telematics.csv,,TUC-13,2025-11-28 07:03:02,2025-11-28 08:55:55,No GPS pings between these two times; 6 expected pings missing
+ISS-00163,gps_gap,telematics.csv,,TUC-13,2025-11-29 05:38:19,2025-11-29 07:05:45,No GPS pings between these two times; 5 expected pings missing
+ISS-00164,gps_gap,telematics.csv,,TUC-08,2025-12-02 05:00:00,2025-12-02 06:21:26,No GPS pings between these two times; 5 expected pings missing
+ISS-00165,gps_gap,telematics.csv,,PHX-04,2025-12-02 07:20:29,2025-12-02 08:00:55,No GPS pings between these two times; 3 expected pings missing
+ISS-00166,gps_gap,telematics.csv,,TUC-12,2025-12-06 05:04:58,2025-12-06 07:13:26,No GPS pings between these two times; 8 expected pings missing
+ISS-00167,gps_gap,telematics.csv,,TUC-10,2025-12-08 05:37:07,2025-12-08 06:31:55,No GPS pings between these two times; 3 expected pings missing
+ISS-00168,gps_gap,telematics.csv,,TUC-14,2025-12-10 06:43:12,2025-12-10 07:13:21,No GPS pings between these two times; 1 expected pings missing
+ISS-00169,gps_gap,telematics.csv,,PHX-01,2025-12-12 05:53:30,2025-12-12 07:06:06,No GPS pings between these two times; 4 expected pings missing
+ISS-00170,gps_gap,telematics.csv,,TUC-02,2025-12-17 07:28:34,2025-12-17 08:42:09,No GPS pings between these two times; 4 expected pings missing
+ISS-00171,gps_gap,telematics.csv,,PHX-02,2025-12-18 07:29:11,2025-12-18 08:39:29,No GPS pings between these two times; 4 expected pings missing
+ISS-00172,gps_gap,telematics.csv,,TUC-05,2025-12-19 06:06:49,2025-12-19 07:27:15,No GPS pings between these two times; 5 expected pings missing
+ISS-00173,gps_gap,telematics.csv,,PHX-03,2025-12-20 07:43:51,2025-12-20 08:44:30,No GPS pings between these two times; 4 expected pings missing
+ISS-00174,gps_gap,telematics.csv,,PHX-06,2025-12-23 06:41:44,2025-12-23 08:09:56,No GPS pings between these two times; 5 expected pings missing
+ISS-00175,gps_gap,telematics.csv,,TUC-08,2025-12-24 06:07:06,2025-12-24 07:27:45,No GPS pings between these two times; 4 expected pings missing
+ISS-00176,gps_gap,telematics.csv,,PHX-05,2025-12-25 03:52:33,2025-12-25 05:23:08,No GPS pings between these two times; 4 expected pings missing
+ISS-00177,gps_gap,telematics.csv,,PHX-06,2025-12-25 02:49:23,2025-12-25 04:20:46,No GPS pings between these two times; 5 expected pings missing
+ISS-00178,gps_gap,telematics.csv,,PHX-01,2025-12-25 05:01:55,2025-12-25 06:07:14,No GPS pings between these two times; 2 expected pings missing
+ISS-00179,gps_gap,telematics.csv,,PHX-02,2025-12-25 07:48:24,2025-12-25 09:00:45,No GPS pings between these two times; 4 expected pings missing
+ISS-00180,gps_gap,telematics.csv,,TUC-10,2025-12-26 07:02:13,2025-12-26 08:05:27,No GPS pings between these two times; 4 expected pings missing
+ISS-00181,gps_gap,telematics.csv,,PHX-02,2025-12-26 03:44:49,2025-12-26 05:15:03,No GPS pings between these two times; 4 expected pings missing
+ISS-00182,gps_gap,telematics.csv,,TUC-08,2025-12-27 06:40:56,2025-12-27 08:36:51,No GPS pings between these two times; 6 expected pings missing
+ISS-00183,gps_gap,telematics.csv,,PHX-05,2025-12-29 03:30:00,2025-12-29 05:13:23,No GPS pings between these two times; 6 expected pings missing
+ISS-00184,gps_gap,telematics.csv,,TUC-03,2026-01-01 10:09:00,2026-01-01 11:16:15,No GPS pings between these two times; 4 expected pings missing
+ISS-00185,gps_gap,telematics.csv,,TUC-05,2026-01-03 05:00:00,2026-01-03 06:29:06,No GPS pings between these two times; 5 expected pings missing
+ISS-00186,gps_gap,telematics.csv,,TUC-06,2026-01-05 06:31:11,2026-01-05 08:19:40,No GPS pings between these two times; 6 expected pings missing
+ISS-00187,gps_gap,telematics.csv,,TUC-11,2026-01-08 09:04:49,2026-01-08 10:41:56,No GPS pings between these two times; 6 expected pings missing
+ISS-00188,gps_gap,telematics.csv,,TUC-07,2026-01-09 06:36:53,2026-01-09 07:27:42,No GPS pings between these two times; 2 expected pings missing
+ISS-00189,gps_gap,telematics.csv,,PHX-03,2026-01-15 07:33:56,2026-01-15 09:01:01,No GPS pings between these two times; 3 expected pings missing
+ISS-00190,gps_gap,telematics.csv,,PHX-02,2026-01-17 02:39:37,2026-01-17 04:20:35,No GPS pings between these two times; 6 expected pings missing
+ISS-00191,gps_gap,telematics.csv,,TUC-08,2026-01-23 07:43:47,2026-01-23 08:45:25,No GPS pings between these two times; 3 expected pings missing
+ISS-00192,gps_gap,telematics.csv,,PHX-04,2026-01-23 08:28:45,2026-01-23 09:37:30,No GPS pings between these two times; 5 expected pings missing
+ISS-00193,gps_gap,telematics.csv,,TUC-08,2026-01-26 07:02:16,2026-01-26 09:06:39,No GPS pings between these two times; 7 expected pings missing
+ISS-00194,gps_gap,telematics.csv,,TUC-09,2026-01-28 07:27:16,2026-01-28 08:54:55,No GPS pings between these two times; 5 expected pings missing
+ISS-00195,gps_gap,telematics.csv,,PHX-01,2026-01-29 03:00:00,2026-01-29 04:49:21,No GPS pings between these two times; 5 expected pings missing
+ISS-00196,gps_gap,telematics.csv,,PHX-01,2026-01-31 03:08:12,2026-01-31 04:18:27,No GPS pings between these two times; 3 expected pings missing
+ISS-00197,gps_gap,telematics.csv,,PHX-04,2026-01-31 03:59:13,2026-01-31 05:06:28,No GPS pings between these two times; 4 expected pings missing
+ISS-00198,gps_gap,telematics.csv,,PHX-04,2026-02-02 04:42:36,2026-02-02 06:36:45,No GPS pings between these two times; 4 expected pings missing
+ISS-00199,gps_gap,telematics.csv,,TUC-05,2026-02-03 07:44:44,2026-02-03 08:39:41,No GPS pings between these two times; 3 expected pings missing
+ISS-00200,gps_gap,telematics.csv,,TUC-01,2026-02-04 08:29:20,2026-02-04 09:37:29,No GPS pings between these two times; 3 expected pings missing
+ISS-00201,gps_gap,telematics.csv,,TUC-03,2026-02-04 08:21:56,2026-02-04 09:04:00,No GPS pings between these two times; 4 expected pings missing
+ISS-00202,gps_gap,telematics.csv,,TUC-03,2026-02-05 05:14:34,2026-02-05 06:05:56,No GPS pings between these two times; 3 expected pings missing
+ISS-00203,gps_gap,telematics.csv,,TUC-07,2026-02-05 09:04:29,2026-02-05 10:15:54,No GPS pings between these two times; 4 expected pings missing
+ISS-00204,gps_gap,telematics.csv,,PHX-03,2026-02-05 06:31:32,2026-02-05 08:37:01,No GPS pings between these two times; 5 expected pings missing
+ISS-00205,gps_gap,telematics.csv,,PHX-06,2026-02-06 04:10:45,2026-02-06 06:10:22,No GPS pings between these two times; 5 expected pings missing
+ISS-00206,gps_gap,telematics.csv,,TUC-01,2026-02-07 08:28:52,2026-02-07 09:20:21,No GPS pings between these two times; 3 expected pings missing
+ISS-00207,gps_gap,telematics.csv,,TUC-02,2026-02-07 09:05:00,2026-02-07 10:24:31,No GPS pings between these two times; 4 expected pings missing
+ISS-00208,gps_gap,telematics.csv,,PHX-03,2026-02-07 07:20:17,2026-02-07 08:15:07,No GPS pings between these two times; 3 expected pings missing
+ISS-00209,gps_gap,telematics.csv,,TUC-05,2026-02-10 08:24:05,2026-02-10 09:22:41,No GPS pings between these two times; 2 expected pings missing
+ISS-00210,gps_gap,telematics.csv,,PHX-03,2026-02-10 05:20:37,2026-02-10 06:56:31,No GPS pings between these two times; 5 expected pings missing
+ISS-00211,gps_gap,telematics.csv,,PHX-01,2026-02-10 04:30:09,2026-02-10 06:18:50,No GPS pings between these two times; 6 expected pings missing
+ISS-00212,gps_gap,telematics.csv,,TUC-07,2026-02-13 06:39:17,2026-02-13 08:09:57,No GPS pings between these two times; 5 expected pings missing
+ISS-00213,gps_gap,telematics.csv,,TUC-10,2026-02-14 07:32:05,2026-02-14 09:03:05,No GPS pings between these two times; 5 expected pings missing
+ISS-00214,gps_gap,telematics.csv,,PHX-03,2026-02-16 07:04:43,2026-02-16 07:57:05,No GPS pings between these two times; 3 expected pings missing
+ISS-00215,gps_gap,telematics.csv,,PHX-03,2026-02-19 05:30:17,2026-02-19 07:11:00,No GPS pings between these two times; 3 expected pings missing
+ISS-00216,gps_gap,telematics.csv,,TUC-14,2026-02-20 05:00:00,2026-02-20 05:38:07,No GPS pings between these two times; 2 expected pings missing
+ISS-00217,gps_gap,telematics.csv,,TUC-01,2026-02-20 07:01:12,2026-02-20 07:57:04,No GPS pings between these two times; 3 expected pings missing
+ISS-00218,gps_gap,telematics.csv,,TUC-04,2026-02-21 07:57:29,2026-02-21 09:05:00,No GPS pings between these two times; 4 expected pings missing
+ISS-00219,gps_gap,telematics.csv,,TUC-09,2026-02-23 06:21:29,2026-02-23 07:13:25,No GPS pings between these two times; 3 expected pings missing
+ISS-00220,gps_gap,telematics.csv,,TUC-06,2026-02-25 09:07:49,2026-02-25 10:27:28,No GPS pings between these two times; 5 expected pings missing
+ISS-00221,gps_gap,telematics.csv,,TUC-07,2026-02-27 05:07:29,2026-02-27 06:08:42,No GPS pings between these two times; 3 expected pings missing
+ISS-00222,gps_gap,telematics.csv,,TUC-10,2026-03-06 05:57:31,2026-03-06 07:35:49,No GPS pings between these two times; 6 expected pings missing
+ISS-00223,gps_gap,telematics.csv,,TUC-01,2026-03-09 07:57:29,2026-03-09 09:29:13,No GPS pings between these two times; 5 expected pings missing
+ISS-00224,gps_gap,telematics.csv,,PHX-05,2026-03-09 07:59:41,2026-03-09 09:00:42,No GPS pings between these two times; 5 expected pings missing
+ISS-00225,gps_gap,telematics.csv,,PHX-06,2026-03-09 07:51:36,2026-03-09 09:13:09,No GPS pings between these two times; 4 expected pings missing
+ISS-00226,gps_gap,telematics.csv,,TUC-05,2026-03-11 06:07:14,2026-03-11 07:27:36,No GPS pings between these two times; 5 expected pings missing
+ISS-00227,gps_gap,telematics.csv,,TUC-06,2026-03-14 06:10:20,2026-03-14 07:32:51,No GPS pings between these two times; 5 expected pings missing
+ISS-00228,gps_gap,telematics.csv,,PHX-01,2026-03-14 03:36:06,2026-03-14 05:17:18,No GPS pings between these two times; 5 expected pings missing
+ISS-00229,gps_gap,telematics.csv,,TUC-07,2026-03-16 05:44:25,2026-03-16 06:35:30,No GPS pings between these two times; 2 expected pings missing
+ISS-00230,gps_gap,telematics.csv,,TUC-06,2026-03-17 09:29:12,2026-03-17 10:29:06,No GPS pings between these two times; 4 expected pings missing
+ISS-00231,gps_gap,telematics.csv,,TUC-08,2026-03-18 07:31:59,2026-03-18 08:24:20,No GPS pings between these two times; 3 expected pings missing
+ISS-00232,gps_gap,telematics.csv,,TUC-10,2026-03-20 08:48:33,2026-03-20 10:28:55,No GPS pings between these two times; 6 expected pings missing
+ISS-00233,gps_gap,telematics.csv,,TUC-02,2026-03-20 09:07:41,2026-03-20 10:18:13,No GPS pings between these two times; 4 expected pings missing
+ISS-00234,gps_gap,telematics.csv,,TUC-12,2026-03-24 06:40:53,2026-03-24 08:36:29,No GPS pings between these two times; 7 expected pings missing
+ISS-00235,gps_gap,telematics.csv,,TUC-14,2026-03-24 07:57:52,2026-03-24 08:55:33,No GPS pings between these two times; 3 expected pings missing
+ISS-00236,gps_gap,telematics.csv,,TUC-02,2026-03-25 08:05:38,2026-03-25 09:59:54,No GPS pings between these two times; 7 expected pings missing
+ISS-00237,gps_gap,telematics.csv,,PHX-04,2026-03-25 02:47:22,2026-03-25 03:47:12,No GPS pings between these two times; 2 expected pings missing
+ISS-00238,gps_gap,telematics.csv,,TUC-01,2026-03-26 06:04:24,2026-03-26 07:58:06,No GPS pings between these two times; 6 expected pings missing
+ISS-00239,gps_gap,telematics.csv,,PHX-01,2026-03-26 06:08:42,2026-03-26 07:39:37,No GPS pings between these two times; 5 expected pings missing
+ISS-00240,gps_gap,telematics.csv,,PHX-01,2026-03-28 03:01:07,2026-03-28 04:03:00,No GPS pings between these two times; 5 expected pings missing
+ISS-00241,gps_gap,telematics.csv,,TUC-07,2026-04-02 08:58:38,2026-04-02 09:49:18,No GPS pings between these two times; 2 expected pings missing
+ISS-00242,gps_gap,telematics.csv,,TUC-10,2026-04-07 07:38:14,2026-04-07 09:02:52,No GPS pings between these two times; 4 expected pings missing
+ISS-00243,gps_gap,telematics.csv,,TUC-11,2026-04-07 05:38:33,2026-04-07 07:06:27,No GPS pings between these two times; 6 expected pings missing
+ISS-00244,gps_gap,telematics.csv,,TUC-13,2026-04-08 06:37:20,2026-04-08 07:58:03,No GPS pings between these two times; 4 expected pings missing
+ISS-00245,gps_gap,telematics.csv,,PHX-05,2026-04-09 05:23:10,2026-04-09 07:09:47,No GPS pings between these two times; 5 expected pings missing
+ISS-00246,gps_gap,telematics.csv,,PHX-03,2026-04-09 08:22:03,2026-04-09 09:35:41,No GPS pings between these two times; 6 expected pings missing
+ISS-00247,gps_gap,telematics.csv,,TUC-14,2026-04-10 09:23:10,2026-04-10 10:23:10,No GPS pings between these two times; 3 expected pings missing
+ISS-00248,gps_gap,telematics.csv,,TUC-01,2026-04-10 05:39:08,2026-04-10 06:35:01,No GPS pings between these two times; 3 expected pings missing
+ISS-00249,gps_gap,telematics.csv,,TUC-03,2026-04-14 09:48:40,2026-04-14 10:31:19,No GPS pings between these two times; 3 expected pings missing
+ISS-00250,gps_gap,telematics.csv,,TUC-05,2026-04-14 08:36:55,2026-04-14 09:32:33,No GPS pings between these two times; 3 expected pings missing
+ISS-00251,gps_gap,telematics.csv,,TUC-09,2026-04-15 10:15:05,2026-04-15 10:44:07,No GPS pings between these two times; 2 expected pings missing
+ISS-00252,gps_gap,telematics.csv,,TUC-11,2026-04-16 07:12:05,2026-04-16 08:11:01,No GPS pings between these two times; 3 expected pings missing
+ISS-00253,gps_gap,telematics.csv,,TUC-10,2026-04-17 10:10:08,2026-04-17 11:16:41,No GPS pings between these two times; 4 expected pings missing
+ISS-00254,gps_gap,telematics.csv,,TUC-11,2026-04-18 05:00:00,2026-04-18 06:05:06,No GPS pings between these two times; 4 expected pings missing
+ISS-00255,gps_gap,telematics.csv,,TUC-12,2026-04-18 06:59:08,2026-04-18 08:17:39,No GPS pings between these two times; 4 expected pings missing
+ISS-00256,gps_gap,telematics.csv,,PHX-03,2026-04-20 02:30:00,2026-04-20 03:58:30,No GPS pings between these two times; 4 expected pings missing
+ISS-00257,gps_gap,telematics.csv,,TUC-02,2026-04-22 09:31:35,2026-04-22 10:40:39,No GPS pings between these two times; 3 expected pings missing
+ISS-00258,gps_gap,telematics.csv,,TUC-12,2026-04-24 07:03:10,2026-04-24 07:58:01,No GPS pings between these two times; 3 expected pings missing
+ISS-00259,gps_gap,telematics.csv,,TUC-02,2026-04-25 05:05:11,2026-04-25 06:36:56,No GPS pings between these two times; 5 expected pings missing
+ISS-00260,gps_gap,telematics.csv,,TUC-06,2026-04-27 06:48:26,2026-04-27 08:12:29,No GPS pings between these two times; 4 expected pings missing
+ISS-00261,gps_gap,telematics.csv,,PHX-02,2026-04-27 06:06:19,2026-04-27 07:16:10,No GPS pings between these two times; 4 expected pings missing
+ISS-00262,gps_gap,telematics.csv,,PHX-05,2026-04-27 04:49:11,2026-04-27 05:37:36,No GPS pings between these two times; 3 expected pings missing
+ISS-00263,gps_gap,telematics.csv,,TUC-06,2026-04-29 06:31:33,2026-04-29 08:09:28,No GPS pings between these two times; 5 expected pings missing
+ISS-00264,gps_gap,telematics.csv,,PHX-05,2026-04-30 06:13:45,2026-04-30 07:37:36,No GPS pings between these two times; 5 expected pings missing
+ISS-00265,gps_gap,telematics.csv,,TUC-08,2026-05-01 06:42:25,2026-05-01 08:09:55,No GPS pings between these two times; 4 expected pings missing
+ISS-00266,gps_gap,telematics.csv,,TUC-13,2026-05-07 07:43:34,2026-05-07 08:45:11,No GPS pings between these two times; 2 expected pings missing
+ISS-00267,gps_gap,telematics.csv,,PHX-05,2026-05-07 03:57:21,2026-05-07 05:15:46,No GPS pings between these two times; 2 expected pings missing
+ISS-00268,gps_gap,telematics.csv,,TUC-14,2026-05-08 09:18:02,2026-05-08 10:34:34,No GPS pings between these two times; 4 expected pings missing
+ISS-00269,gps_gap,telematics.csv,,TUC-04,2026-05-09 05:05:18,2026-05-09 06:47:12,No GPS pings between these two times; 6 expected pings missing
+ISS-00270,gps_gap,telematics.csv,,TUC-05,2026-05-11 05:05:03,2026-05-11 07:13:30,No GPS pings between these two times; 8 expected pings missing
+ISS-00271,gps_gap,telematics.csv,,PHX-01,2026-05-12 07:41:57,2026-05-12 08:42:02,No GPS pings between these two times; 4 expected pings missing
+ISS-00272,gps_gap,telematics.csv,,TUC-14,2026-05-13 07:58:53,2026-05-13 09:23:55,No GPS pings between these two times; 5 expected pings missing
+ISS-00273,gps_gap,telematics.csv,,TUC-05,2026-05-14 09:44:34,2026-05-14 11:17:04,No GPS pings between these two times; 5 expected pings missing
+ISS-00274,gps_gap,telematics.csv,,TUC-05,2026-05-15 07:02:40,2026-05-15 07:53:43,No GPS pings between these two times; 3 expected pings missing
+ISS-00275,gps_gap,telematics.csv,,PHX-05,2026-05-16 08:36:11,2026-05-16 09:22:48,No GPS pings between these two times; 2 expected pings missing
+ISS-00276,gps_gap,telematics.csv,,TUC-05,2026-05-18 06:08:47,2026-05-18 07:27:23,No GPS pings between these two times; 5 expected pings missing
+ISS-00277,gps_gap,telematics.csv,,TUC-03,2026-05-19 06:38:51,2026-05-19 07:38:31,No GPS pings between these two times; 4 expected pings missing
+ISS-00278,gps_gap,telematics.csv,,PHX-06,2026-05-21 03:25:43,2026-05-21 04:38:18,No GPS pings between these two times; 3 expected pings missing
+ISS-00279,gps_gap,telematics.csv,,PHX-01,2026-05-21 04:14:19,2026-05-21 05:18:43,No GPS pings between these two times; 3 expected pings missing
+ISS-00280,gps_gap,telematics.csv,,TUC-06,2026-05-22 05:32:36,2026-05-22 07:09:18,No GPS pings between these two times; 4 expected pings missing
+ISS-00281,gps_gap,telematics.csv,,TUC-11,2026-05-22 05:42:28,2026-05-22 07:53:14,No GPS pings between these two times; 8 expected pings missing
+ISS-00282,gps_gap,telematics.csv,,TUC-13,2026-05-25 08:09:21,2026-05-25 09:02:39,No GPS pings between these two times; 3 expected pings missing
+ISS-00283,gps_gap,telematics.csv,,PHX-06,2026-05-25 08:13:49,2026-05-25 09:25:08,No GPS pings between these two times; 4 expected pings missing
+ISS-00284,gps_gap,telematics.csv,,TUC-05,2026-06-01 07:55:58,2026-06-01 09:03:59,No GPS pings between these two times; 4 expected pings missing
+ISS-00285,gps_gap,telematics.csv,,TUC-03,2026-06-03 08:03:48,2026-06-03 09:02:59,No GPS pings between these two times; 3 expected pings missing
+ISS-00286,gps_gap,telematics.csv,,PHX-01,2026-06-03 05:44:13,2026-06-03 07:18:58,No GPS pings between these two times; 3 expected pings missing
+ISS-00287,gps_gap,telematics.csv,,TUC-05,2026-06-06 08:02:32,2026-06-06 09:14:34,No GPS pings between these two times; 3 expected pings missing
+ISS-00288,gps_gap,telematics.csv,,PHX-02,2026-06-08 05:14:17,2026-06-08 06:08:57,No GPS pings between these two times; 2 expected pings missing
+ISS-00289,gps_gap,telematics.csv,,PHX-06,2026-06-09 03:30:00,2026-06-09 04:48:40,No GPS pings between these two times; 6 expected pings missing
+ISS-00290,gps_gap,telematics.csv,,TUC-04,2026-06-11 05:05:01,2026-06-11 07:13:29,No GPS pings between these two times; 8 expected pings missing
+ISS-00291,gps_gap,telematics.csv,,TUC-13,2026-06-13 08:58:14,2026-06-13 10:22:10,No GPS pings between these two times; 5 expected pings missing
+ISS-00292,gps_gap,telematics.csv,,TUC-03,2026-06-15 07:06:02,2026-06-15 08:22:06,No GPS pings between these two times; 4 expected pings missing
+ISS-00293,gps_gap,telematics.csv,,TUC-02,2026-06-16 08:55:25,2026-06-16 09:38:15,No GPS pings between these two times; 2 expected pings missing
+ISS-00294,gps_gap,telematics.csv,,TUC-06,2026-06-17 07:07:33,2026-06-17 08:09:58,No GPS pings between these two times; 4 expected pings missing
+ISS-00295,gps_gap,telematics.csv,,TUC-10,2026-06-18 08:42:07,2026-06-18 09:39:57,No GPS pings between these two times; 3 expected pings missing
+ISS-00296,gps_gap,telematics.csv,,PHX-02,2026-06-18 05:50:57,2026-06-18 07:03:01,No GPS pings between these two times; 3 expected pings missing
+ISS-00297,gps_gap,telematics.csv,,PHX-02,2026-06-19 06:07:58,2026-06-19 07:14:59,No GPS pings between these two times; 4 expected pings missing
+ISS-00298,gps_gap,telematics.csv,,TUC-05,2026-06-23 05:57:39,2026-06-23 07:36:31,No GPS pings between these two times; 5 expected pings missing
+ISS-00299,gps_gap,telematics.csv,,TUC-09,2026-06-24 07:32:32,2026-06-24 08:26:53,No GPS pings between these two times; 2 expected pings missing
+ISS-00300,gps_gap,telematics.csv,,PHX-05,2026-06-24 03:00:26,2026-06-24 04:54:28,No GPS pings between these two times; 5 expected pings missing
+ISS-00301,gps_gap,telematics.csv,,TUC-09,2026-06-25 07:58:27,2026-06-25 08:49:44,No GPS pings between these two times; 3 expected pings missing
+ISS-00302,gps_gap,telematics.csv,,TUC-11,2026-06-25 06:07:16,2026-06-25 08:06:31,No GPS pings between these two times; 7 expected pings missing
+ISS-00303,gps_gap,telematics.csv,,PHX-02,2026-06-25 06:58:17,2026-06-25 08:37:21,No GPS pings between these two times; 6 expected pings missing
+ISS-00304,gps_gap,telematics.csv,,TUC-08,2026-06-26 08:47:37,2026-06-26 10:02:50,No GPS pings between these two times; 4 expected pings missing
+ISS-00305,gps_gap,telematics.csv,,TUC-13,2026-06-26 07:57:23,2026-06-26 09:05:26,No GPS pings between these two times; 3 expected pings missing
+ISS-00306,gps_gap,telematics.csv,,TUC-14,2026-06-26 05:00:00,2026-06-26 06:30:49,No GPS pings between these two times; 5 expected pings missing
+ISS-00307,gps_gap,telematics.csv,,TUC-10,2026-06-27 05:18:10,2026-06-27 06:39:55,No GPS pings between these two times; 4 expected pings missing
+ISS-00308,gps_gap,telematics.csv,,PHX-04,2026-06-29 07:54:10,2026-06-29 08:29:32,No GPS pings between these two times; 3 expected pings missing
+ISS-00309,gps_gap,telematics.csv,,TUC-11,2026-06-30 06:40:45,2026-06-30 07:35:13,No GPS pings between these two times; 3 expected pings missing
+ISS-00310,gps_gap,telematics.csv,,TUC-05,2026-07-02 08:08:37,2026-07-02 09:12:52,No GPS pings between these two times; 3 expected pings missing
+ISS-00311,gps_gap,telematics.csv,,PHX-04,2026-07-04 05:21:37,2026-07-04 06:44:24,No GPS pings between these two times; 4 expected pings missing
+ISS-00312,gps_gap,telematics.csv,,PHX-02,2026-07-06 04:26:48,2026-07-06 05:16:34,No GPS pings between these two times; 1 expected pings missing
+ISS-00313,gps_gap,telematics.csv,,PHX-03,2026-07-07 02:33:41,2026-07-07 03:28:13,No GPS pings between these two times; 2 expected pings missing
+ISS-00314,gps_gap,telematics.csv,,PHX-06,2026-07-09 03:46:10,2026-07-09 05:43:44,No GPS pings between these two times; 6 expected pings missing
+ISS-00315,gps_gap,telematics.csv,,TUC-10,2026-07-10 06:05:30,2026-07-10 07:26:44,No GPS pings between these two times; 5 expected pings missing
+ISS-00316,gps_gap,telematics.csv,,TUC-10,2026-07-11 06:36:19,2026-07-11 07:57:08,No GPS pings between these two times; 4 expected pings missing
+ISS-00317,gps_gap,telematics.csv,,TUC-08,2026-07-13 08:02:23,2026-07-13 08:54:19,No GPS pings between these two times; 3 expected pings missing
+ISS-00318,gps_gap,telematics.csv,,TUC-03,2026-07-13 08:42:11,2026-07-13 09:40:02,No GPS pings between these two times; 3 expected pings missing
+ISS-00319,gps_gap,telematics.csv,,TUC-04,2026-07-16 05:40:33,2026-07-16 07:00:59,No GPS pings between these two times; 5 expected pings missing
+ISS-00320,gps_gap,telematics.csv,,TUC-12,2026-07-17 08:26:52,2026-07-17 09:18:48,No GPS pings between these two times; 3 expected pings missing
+ISS-00321,gps_gap,telematics.csv,,TUC-03,2026-07-17 05:42:55,2026-07-17 07:28:27,No GPS pings between these two times; 6 expected pings missing
+ISS-00322,gps_gap,telematics.csv,,PHX-06,2026-07-17 06:36:39,2026-07-17 07:36:38,No GPS pings between these two times; 4 expected pings missing
+ISS-00323,gps_gap,telematics.csv,,PHX-01,2026-07-17 02:15:00,2026-07-17 04:06:34,No GPS pings between these two times; 6 expected pings missing
+ISS-00324,gps_gap,telematics.csv,,PHX-04,2026-07-20 03:30:55,2026-07-20 04:27:54,No GPS pings between these two times; 2 expected pings missing
+ISS-00325,gps_gap,telematics.csv,,PHX-06,2026-07-21 07:14:05,2026-07-21 08:03:45,No GPS pings between these two times; 3 expected pings missing
+ISS-00326,gps_gap,telematics.csv,,PHX-06,2026-07-22 03:00:00,2026-07-22 04:39:50,No GPS pings between these two times; 5 expected pings missing
+ISS-00327,gps_gap,telematics.csv,,TUC-04,2026-07-24 06:44:18,2026-07-24 08:02:09,No GPS pings between these two times; 4 expected pings missing
+ISS-00328,gps_gap,telematics.csv,,TUC-07,2026-07-24 07:01:51,2026-07-24 07:27:44,No GPS pings between these two times; 1 expected pings missing
+ISS-00329,gps_gap,telematics.csv,,PHX-06,2026-07-24 04:18:38,2026-07-24 06:26:12,No GPS pings between these two times; 7 expected pings missing
+ISS-00330,gps_gap,telematics.csv,,PHX-01,2026-07-25 02:00:00,2026-07-25 03:21:37,No GPS pings between these two times; 4 expected pings missing
+ISS-00331,gps_gap,telematics.csv,,PHX-02,2026-07-30 04:27:12,2026-07-30 06:40:36,No GPS pings between these two times; 6 expected pings missing
+ISS-00332,gps_gap,telematics.csv,,TUC-03,2026-08-03 07:52:45,2026-08-03 09:04:17,No GPS pings between these two times; 4 expected pings missing
+ISS-00333,gps_gap,telematics.csv,,TUC-04,2026-08-05 07:01:49,2026-08-05 08:40:30,No GPS pings between these two times; 5 expected pings missing
+ISS-00334,gps_gap,telematics.csv,,TUC-08,2026-08-05 07:19:47,2026-08-05 09:05:47,No GPS pings between these two times; 6 expected pings missing
+ISS-00335,gps_gap,telematics.csv,,TUC-05,2026-08-06 05:08:03,2026-08-06 06:06:54,No GPS pings between these two times; 3 expected pings missing
+ISS-00336,gps_gap,telematics.csv,,TUC-08,2026-08-06 10:15:56,2026-08-06 10:44:25,No GPS pings between these two times; 1 expected pings missing
+ISS-00337,gps_gap,telematics.csv,,TUC-05,2026-08-07 06:09:38,2026-08-07 08:26:34,No GPS pings between these two times; 8 expected pings missing
+ISS-00338,gps_gap,telematics.csv,,TUC-06,2026-08-08 06:34:51,2026-08-08 08:01:45,No GPS pings between these two times; 6 expected pings missing
+ISS-00339,gps_gap,telematics.csv,,PHX-01,2026-08-11 08:26:33,2026-08-11 09:36:06,No GPS pings between these two times; 5 expected pings missing
+ISS-00340,gps_gap,telematics.csv,,TUC-06,2026-08-12 07:10:50,2026-08-12 09:06:36,No GPS pings between these two times; 7 expected pings missing
+ISS-00341,gps_gap,telematics.csv,,PHX-03,2026-08-13 05:56:31,2026-08-13 07:41:10,No GPS pings between these two times; 4 expected pings missing
+ISS-00342,gps_gap,telematics.csv,,PHX-02,2026-08-15 03:07:37,2026-08-15 03:58:33,No GPS pings between these two times; 2 expected pings missing
+ISS-00343,gps_gap,telematics.csv,,TUC-03,2026-08-19 05:06:59,2026-08-19 06:36:10,No GPS pings between these two times; 5 expected pings missing
+ISS-00344,gps_gap,telematics.csv,,PHX-06,2026-08-20 04:43:43,2026-08-20 05:34:34,No GPS pings between these two times; 1 expected pings missing
+ISS-00345,gps_gap,telematics.csv,,TUC-05,2026-08-22 09:09:08,2026-08-22 10:01:31,No GPS pings between these two times; 3 expected pings missing
+ISS-00346,gps_gap,telematics.csv,,PHX-06,2026-08-25 03:44:36,2026-08-25 05:42:03,No GPS pings between these two times; 6 expected pings missing
+ISS-00347,gps_gap,telematics.csv,,PHX-01,2026-08-26 06:38:02,2026-08-26 08:12:09,No GPS pings between these two times; 5 expected pings missing
+ISS-00348,gps_gap,telematics.csv,,TUC-14,2026-08-27 07:13:31,2026-08-27 08:08:42,No GPS pings between these two times; 3 expected pings missing
+ISS-00349,gps_gap,telematics.csv,,PHX-05,2026-08-27 06:39:03,2026-08-27 07:34:48,No GPS pings between these two times; 3 expected pings missing
+ISS-00350,gps_gap,telematics.csv,,PHX-01,2026-08-29 05:30:58,2026-08-29 06:52:36,No GPS pings between these two times; 5 expected pings missing
+ISS-00351,gps_gap,telematics.csv,,PHX-04,2026-09-02 05:25:46,2026-09-02 06:53:53,No GPS pings between these two times; 5 expected pings missing
+ISS-00352,gps_gap,telematics.csv,,PHX-05,2026-09-08 04:00:35,2026-09-08 04:58:38,No GPS pings between these two times; 3 expected pings missing
+ISS-00353,gps_gap,telematics.csv,,PHX-06,2026-09-08 06:56:46,2026-09-08 08:39:22,No GPS pings between these two times; 5 expected pings missing
+ISS-00354,gps_gap,telematics.csv,,TUC-03,2026-09-09 07:08:10,2026-09-09 08:10:56,No GPS pings between these two times; 3 expected pings missing
+ISS-00355,gps_gap,telematics.csv,,TUC-06,2026-09-10 08:29:27,2026-09-10 09:36:53,No GPS pings between these two times; 3 expected pings missing
+ISS-00356,gps_gap,telematics.csv,,TUC-07,2026-09-10 07:52:54,2026-09-10 09:07:41,No GPS pings between these two times; 4 expected pings missing
+ISS-00357,gps_gap,telematics.csv,,TUC-13,2026-09-11 08:08:58,2026-09-11 09:39:59,No GPS pings between these two times; 6 expected pings missing
+ISS-00358,gps_gap,telematics.csv,,PHX-03,2026-09-14 03:32:51,2026-09-14 05:38:17,No GPS pings between these two times; 5 expected pings missing
+ISS-00359,gps_gap,telematics.csv,,TUC-08,2026-09-15 06:15:08,2026-09-15 07:05:34,No GPS pings between these two times; 2 expected pings missing
+ISS-00360,gps_gap,telematics.csv,,TUC-14,2026-09-16 09:44:40,2026-09-16 11:16:58,No GPS pings between these two times; 5 expected pings missing
+ISS-00361,gps_gap,telematics.csv,,TUC-02,2026-09-16 07:46:59,2026-09-16 09:05:38,No GPS pings between these two times; 4 expected pings missing
+ISS-00362,gps_gap,telematics.csv,,PHX-01,2026-09-16 05:11:12,2026-09-16 07:05:25,No GPS pings between these two times; 4 expected pings missing
+ISS-00363,gps_gap,telematics.csv,,TUC-06,2026-09-22 09:23:39,2026-09-22 11:25:08,No GPS pings between these two times; 7 expected pings missing
+ISS-00364,gps_gap,telematics.csv,,PHX-04,2026-09-22 05:44:10,2026-09-22 06:50:20,No GPS pings between these two times; 5 expected pings missing
+ISS-00365,gps_gap,telematics.csv,,PHX-06,2026-09-23 04:22:55,2026-09-23 05:17:10,No GPS pings between these two times; 3 expected pings missing
+ISS-00366,gps_gap,telematics.csv,,TUC-07,2026-09-24 10:34:53,2026-09-24 11:16:20,No GPS pings between these two times; 2 expected pings missing
+ISS-00367,gps_gap,telematics.csv,,PHX-06,2026-09-24 04:27:24,2026-09-24 05:38:20,No GPS pings between these two times; 3 expected pings missing
+ISS-00368,gps_gap,telematics.csv,,TUC-03,2026-09-25 07:32:43,2026-09-25 09:03:22,No GPS pings between these two times; 5 expected pings missing
+ISS-00369,gps_gap,telematics.csv,,TUC-07,2026-09-25 07:28:30,2026-09-25 09:05:37,No GPS pings between these two times; 6 expected pings missing
+ISS-00370,gps_gap,telematics.csv,,TUC-07,2026-09-30 07:38:50,2026-09-30 09:03:15,No GPS pings between these two times; 4 expected pings missing
+ISS-00371,gps_gap,telematics.csv,,PHX-02,2026-10-02 07:52:41,2026-10-02 08:31:01,No GPS pings between these two times; 4 expected pings missing
+ISS-00372,gps_gap,telematics.csv,,TUC-05,2026-10-05 06:21:52,2026-10-05 07:39:02,No GPS pings between these two times; 5 expected pings missing
+ISS-00373,gps_gap,telematics.csv,,TUC-08,2026-10-09 06:35:22,2026-10-09 07:18:22,No GPS pings between these two times; 2 expected pings missing
+ISS-00374,gps_gap,telematics.csv,,TUC-12,2026-10-13 09:07:09,2026-10-13 09:32:35,No GPS pings between these two times; 1 expected pings missing
+ISS-00375,gps_gap,telematics.csv,,PHX-04,2026-10-14 06:14:23,2026-10-14 07:34:44,No GPS pings between these two times; 3 expected pings missing
+ISS-00376,gps_gap,telematics.csv,,PHX-05,2026-10-14 03:44:05,2026-10-14 04:42:27,No GPS pings between these two times; 2 expected pings missing
+ISS-00377,gps_gap,telematics.csv,,TUC-08,2026-10-16 06:54:24,2026-10-16 08:49:53,No GPS pings between these two times; 7 expected pings missing
+ISS-00378,gps_gap,telematics.csv,,TUC-11,2026-10-16 07:28:50,2026-10-16 09:04:44,No GPS pings between these two times; 6 expected pings missing
+ISS-00379,gps_gap,telematics.csv,,TUC-14,2026-10-20 07:02:38,2026-10-20 08:22:04,No GPS pings between these two times; 5 expected pings missing
+ISS-00380,gps_gap,telematics.csv,,PHX-02,2026-10-22 03:38:36,2026-10-22 04:26:11,No GPS pings between these two times; 2 expected pings missing
+ISS-00381,gps_gap,telematics.csv,,PHX-04,2026-10-23 05:58:00,2026-10-23 07:09:06,No GPS pings between these two times; 3 expected pings missing
+ISS-00382,gps_gap,telematics.csv,,TUC-05,2026-10-24 07:43:17,2026-10-24 09:12:54,No GPS pings between these two times; 4 expected pings missing
+ISS-00383,gps_gap,telematics.csv,,TUC-04,2026-10-26 06:37:20,2026-10-26 07:53:35,No GPS pings between these two times; 4 expected pings missing
+ISS-00384,gps_gap,telematics.csv,,TUC-07,2026-10-29 07:02:25,2026-10-29 07:53:27,No GPS pings between these two times; 2 expected pings missing
+ISS-00385,gps_gap,telematics.csv,,PHX-03,2026-10-30 07:28:16,2026-10-30 08:23:54,No GPS pings between these two times; 2 expected pings missing
+ISS-00386,timezone_utc,telematics.csv,,,,,"All event_time values are exported in UTC, not America/Phoenix local time"

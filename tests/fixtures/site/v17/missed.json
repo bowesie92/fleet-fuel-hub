@@ -1,0 +1,911 @@
+{
+ "synthetic": true,
+ "total_usd": 2832.11,
+ "fill_count": 104,
+ "weekly": [
+  {
+   "week_start": "2025-10-27",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2025-11-03",
+   "missed_savings_usd": 35.0,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-11-10",
+   "missed_savings_usd": 31.31,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-11-17",
+   "missed_savings_usd": 23.56,
+   "fills": 1
+  },
+  {
+   "week_start": "2025-11-24",
+   "missed_savings_usd": 20.8,
+   "fills": 1
+  },
+  {
+   "week_start": "2025-12-01",
+   "missed_savings_usd": 103.3,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-12-08",
+   "missed_savings_usd": 81.88,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-12-15",
+   "missed_savings_usd": 94.31,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-12-22",
+   "missed_savings_usd": 31.71,
+   "fills": 2
+  },
+  {
+   "week_start": "2025-12-29",
+   "missed_savings_usd": 56.56,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-01-05",
+   "missed_savings_usd": 44.84,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-01-12",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2026-01-19",
+   "missed_savings_usd": 63.7,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-01-26",
+   "missed_savings_usd": 79.74,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-02-02",
+   "missed_savings_usd": 5.07,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-02-09",
+   "missed_savings_usd": 19.57,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-02-16",
+   "missed_savings_usd": 87.15,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-02-23",
+   "missed_savings_usd": 31.86,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-03-02",
+   "missed_savings_usd": 7.99,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-03-09",
+   "missed_savings_usd": 65.9,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-03-16",
+   "missed_savings_usd": 140.32,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-03-23",
+   "missed_savings_usd": 23.22,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-03-30",
+   "missed_savings_usd": 21.46,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-04-06",
+   "missed_savings_usd": 101.47,
+   "fills": 5
+  },
+  {
+   "week_start": "2026-04-13",
+   "missed_savings_usd": 43.45,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-04-20",
+   "missed_savings_usd": 40.91,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-04-27",
+   "missed_savings_usd": 103.26,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-05-04",
+   "missed_savings_usd": 31.66,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-05-11",
+   "missed_savings_usd": 114.5,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-05-18",
+   "missed_savings_usd": 40.4,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-05-25",
+   "missed_savings_usd": 46.91,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-06-01",
+   "missed_savings_usd": 46.96,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-06-08",
+   "missed_savings_usd": 54.51,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-06-15",
+   "missed_savings_usd": 57.46,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-06-22",
+   "missed_savings_usd": 31.78,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-06-29",
+   "missed_savings_usd": 11.67,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-07-06",
+   "missed_savings_usd": 8.83,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-07-13",
+   "missed_savings_usd": 104.66,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-07-20",
+   "missed_savings_usd": 8.47,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-07-27",
+   "missed_savings_usd": 31.56,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-08-03",
+   "missed_savings_usd": 117.57,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-08-10",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2026-08-17",
+   "missed_savings_usd": 115.72,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-08-24",
+   "missed_savings_usd": 158.56,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-08-31",
+   "missed_savings_usd": 26.47,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-09-07",
+   "missed_savings_usd": 85.97,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-09-14",
+   "missed_savings_usd": 89.65,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-09-21",
+   "missed_savings_usd": 61.0,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-09-28",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2026-10-05",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2026-10-12",
+   "missed_savings_usd": 51.01,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-10-19",
+   "missed_savings_usd": 15.59,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-10-26",
+   "missed_savings_usd": 162.86,
+   "fills": 4
+  }
+ ],
+ "rows": [
+  {
+   "txn_id": "FC2041085",
+   "date": "2026-08-26",
+   "truck_id": "PHX-06",
+   "route_id": "PHX-L03",
+   "actual_station_id": "STN-032",
+   "alt_station_id": "STN-008",
+   "gallons": 137.244,
+   "actual_price_per_gal": 5.871,
+   "alt_price_per_gal": 5.525,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 82.83,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC9624786",
+   "date": "2026-08-18",
+   "truck_id": "PHX-05",
+   "route_id": "PHX-L03",
+   "actual_station_id": "STN-006",
+   "alt_station_id": "STN-008",
+   "gallons": 151.182,
+   "actual_price_per_gal": 5.761,
+   "alt_price_per_gal": 5.411,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 70.45,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC2917569",
+   "date": "2026-04-30",
+   "truck_id": "PHX-05",
+   "route_id": "PHX-L01",
+   "actual_station_id": "STN-006",
+   "alt_station_id": "STN-008",
+   "gallons": 156.295,
+   "actual_price_per_gal": 5.981,
+   "alt_price_per_gal": 5.647,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 70.04,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC4603394",
+   "date": "2026-03-09",
+   "truck_id": "PHX-03",
+   "route_id": "PHX-L02",
+   "actual_station_id": "STN-025",
+   "alt_station_id": "STN-008",
+   "gallons": 145.756,
+   "actual_price_per_gal": 5.148,
+   "alt_price_per_gal": 4.758,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 65.9,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC4333829",
+   "date": "2026-01-19",
+   "truck_id": "PHX-04",
+   "route_id": "PHX-L03",
+   "actual_station_id": "STN-032",
+   "alt_station_id": "STN-008",
+   "gallons": 133.422,
+   "actual_price_per_gal": 3.749,
+   "alt_price_per_gal": 3.491,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 63.7,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC1654491",
+   "date": "2026-10-27",
+   "truck_id": "PHX-04",
+   "route_id": "PHX-L02",
+   "actual_station_id": "STN-011",
+   "alt_station_id": "STN-008",
+   "gallons": 133.889,
+   "actual_price_per_gal": 6.696,
+   "alt_price_per_gal": 6.246,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 58.48,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC0506256",
+   "date": "2025-12-03",
+   "truck_id": "PHX-02",
+   "route_id": "PHX-L05",
+   "actual_station_id": "STN-011",
+   "alt_station_id": "STN-008",
+   "gallons": 137.551,
+   "actual_price_per_gal": 4.107,
+   "alt_price_per_gal": 3.678,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 57.13,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC1611777",
+   "date": "2026-10-27",
+   "truck_id": "PHX-06",
+   "route_id": "PHX-L04",
+   "actual_station_id": "STN-011",
+   "alt_station_id": "STN-008",
+   "gallons": 124.447,
+   "actual_price_per_gal": 6.696,
+   "alt_price_per_gal": 6.246,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 54.24,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC3343318",
+   "date": "2026-03-18",
+   "truck_id": "PHX-02",
+   "route_id": "PHX-L05",
+   "actual_station_id": "STN-025",
+   "alt_station_id": "STN-008",
+   "gallons": 120.964,
+   "actual_price_per_gal": 5.395,
+   "alt_price_per_gal": 5.031,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 53.3,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC4416170",
+   "date": "2026-08-06",
+   "truck_id": "PHX-01",
+   "route_id": "PHX-L03",
+   "actual_station_id": "STN-022",
+   "alt_station_id": "STN-008",
+   "gallons": 127.203,
+   "actual_price_per_gal": 5.515,
+   "alt_price_per_gal": 5.295,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 52.59,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC2732665",
+   "date": "2026-06-16",
+   "truck_id": "TUC-05",
+   "route_id": "TUC-R07",
+   "actual_station_id": "STN-032",
+   "alt_station_id": "STN-A03",
+   "gallons": 81.188,
+   "actual_price_per_gal": 5.532,
+   "alt_price_per_gal": 5.365,
+   "alt_extra_miles": 0.0,
+   "alt_extra_minutes": 1.2,
+   "net_savings_usd": 52.2,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC2370817",
+   "date": "2026-09-25",
+   "truck_id": "PHX-04",
+   "route_id": "PHX-L05",
+   "actual_station_id": "STN-011",
+   "alt_station_id": "STN-008",
+   "gallons": 141.175,
+   "actual_price_per_gal": 6.837,
+   "alt_price_per_gal": 6.465,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 50.75,
+   "alt_truck_access": "confirmed"
+  }
+ ],
+ "total_usd_incl_unverified": 2832.11,
+ "fill_count_incl_unverified": 104,
+ "weekly_incl_unverified": [
+  {
+   "week_start": "2025-10-27",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2025-11-03",
+   "missed_savings_usd": 35.0,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-11-10",
+   "missed_savings_usd": 31.31,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-11-17",
+   "missed_savings_usd": 23.56,
+   "fills": 1
+  },
+  {
+   "week_start": "2025-11-24",
+   "missed_savings_usd": 20.8,
+   "fills": 1
+  },
+  {
+   "week_start": "2025-12-01",
+   "missed_savings_usd": 103.3,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-12-08",
+   "missed_savings_usd": 81.88,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-12-15",
+   "missed_savings_usd": 94.31,
+   "fills": 3
+  },
+  {
+   "week_start": "2025-12-22",
+   "missed_savings_usd": 31.71,
+   "fills": 2
+  },
+  {
+   "week_start": "2025-12-29",
+   "missed_savings_usd": 56.56,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-01-05",
+   "missed_savings_usd": 44.84,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-01-12",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2026-01-19",
+   "missed_savings_usd": 63.7,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-01-26",
+   "missed_savings_usd": 79.74,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-02-02",
+   "missed_savings_usd": 5.07,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-02-09",
+   "missed_savings_usd": 19.57,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-02-16",
+   "missed_savings_usd": 87.15,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-02-23",
+   "missed_savings_usd": 31.86,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-03-02",
+   "missed_savings_usd": 7.99,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-03-09",
+   "missed_savings_usd": 65.9,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-03-16",
+   "missed_savings_usd": 140.32,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-03-23",
+   "missed_savings_usd": 23.22,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-03-30",
+   "missed_savings_usd": 21.46,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-04-06",
+   "missed_savings_usd": 101.47,
+   "fills": 5
+  },
+  {
+   "week_start": "2026-04-13",
+   "missed_savings_usd": 43.45,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-04-20",
+   "missed_savings_usd": 40.91,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-04-27",
+   "missed_savings_usd": 103.26,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-05-04",
+   "missed_savings_usd": 31.66,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-05-11",
+   "missed_savings_usd": 114.5,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-05-18",
+   "missed_savings_usd": 40.4,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-05-25",
+   "missed_savings_usd": 46.91,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-06-01",
+   "missed_savings_usd": 46.96,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-06-08",
+   "missed_savings_usd": 54.51,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-06-15",
+   "missed_savings_usd": 57.46,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-06-22",
+   "missed_savings_usd": 31.78,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-06-29",
+   "missed_savings_usd": 11.67,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-07-06",
+   "missed_savings_usd": 8.83,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-07-13",
+   "missed_savings_usd": 104.66,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-07-20",
+   "missed_savings_usd": 8.47,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-07-27",
+   "missed_savings_usd": 31.56,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-08-03",
+   "missed_savings_usd": 117.57,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-08-10",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2026-08-17",
+   "missed_savings_usd": 115.72,
+   "fills": 3
+  },
+  {
+   "week_start": "2026-08-24",
+   "missed_savings_usd": 158.56,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-08-31",
+   "missed_savings_usd": 26.47,
+   "fills": 1
+  },
+  {
+   "week_start": "2026-09-07",
+   "missed_savings_usd": 85.97,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-09-14",
+   "missed_savings_usd": 89.65,
+   "fills": 4
+  },
+  {
+   "week_start": "2026-09-21",
+   "missed_savings_usd": 61.0,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-09-28",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2026-10-05",
+   "missed_savings_usd": 0.0,
+   "fills": 0
+  },
+  {
+   "week_start": "2026-10-12",
+   "missed_savings_usd": 51.01,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-10-19",
+   "missed_savings_usd": 15.59,
+   "fills": 2
+  },
+  {
+   "week_start": "2026-10-26",
+   "missed_savings_usd": 162.86,
+   "fills": 4
+  }
+ ],
+ "rows_incl_unverified": [
+  {
+   "txn_id": "FC2041085",
+   "date": "2026-08-26",
+   "truck_id": "PHX-06",
+   "route_id": "PHX-L03",
+   "actual_station_id": "STN-032",
+   "alt_station_id": "STN-008",
+   "gallons": 137.244,
+   "actual_price_per_gal": 5.871,
+   "alt_price_per_gal": 5.525,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 82.83,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC9624786",
+   "date": "2026-08-18",
+   "truck_id": "PHX-05",
+   "route_id": "PHX-L03",
+   "actual_station_id": "STN-006",
+   "alt_station_id": "STN-008",
+   "gallons": 151.182,
+   "actual_price_per_gal": 5.761,
+   "alt_price_per_gal": 5.411,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 70.45,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC2917569",
+   "date": "2026-04-30",
+   "truck_id": "PHX-05",
+   "route_id": "PHX-L01",
+   "actual_station_id": "STN-006",
+   "alt_station_id": "STN-008",
+   "gallons": 156.295,
+   "actual_price_per_gal": 5.981,
+   "alt_price_per_gal": 5.647,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 70.04,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC4603394",
+   "date": "2026-03-09",
+   "truck_id": "PHX-03",
+   "route_id": "PHX-L02",
+   "actual_station_id": "STN-025",
+   "alt_station_id": "STN-008",
+   "gallons": 145.756,
+   "actual_price_per_gal": 5.148,
+   "alt_price_per_gal": 4.758,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 65.9,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC4333829",
+   "date": "2026-01-19",
+   "truck_id": "PHX-04",
+   "route_id": "PHX-L03",
+   "actual_station_id": "STN-032",
+   "alt_station_id": "STN-008",
+   "gallons": 133.422,
+   "actual_price_per_gal": 3.749,
+   "alt_price_per_gal": 3.491,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 63.7,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC1654491",
+   "date": "2026-10-27",
+   "truck_id": "PHX-04",
+   "route_id": "PHX-L02",
+   "actual_station_id": "STN-011",
+   "alt_station_id": "STN-008",
+   "gallons": 133.889,
+   "actual_price_per_gal": 6.696,
+   "alt_price_per_gal": 6.246,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 58.48,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC0506256",
+   "date": "2025-12-03",
+   "truck_id": "PHX-02",
+   "route_id": "PHX-L05",
+   "actual_station_id": "STN-011",
+   "alt_station_id": "STN-008",
+   "gallons": 137.551,
+   "actual_price_per_gal": 4.107,
+   "alt_price_per_gal": 3.678,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 57.13,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC1611777",
+   "date": "2026-10-27",
+   "truck_id": "PHX-06",
+   "route_id": "PHX-L04",
+   "actual_station_id": "STN-011",
+   "alt_station_id": "STN-008",
+   "gallons": 124.447,
+   "actual_price_per_gal": 6.696,
+   "alt_price_per_gal": 6.246,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 54.24,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC3343318",
+   "date": "2026-03-18",
+   "truck_id": "PHX-02",
+   "route_id": "PHX-L05",
+   "actual_station_id": "STN-025",
+   "alt_station_id": "STN-008",
+   "gallons": 120.964,
+   "actual_price_per_gal": 5.395,
+   "alt_price_per_gal": 5.031,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 53.3,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC4416170",
+   "date": "2026-08-06",
+   "truck_id": "PHX-01",
+   "route_id": "PHX-L03",
+   "actual_station_id": "STN-022",
+   "alt_station_id": "STN-008",
+   "gallons": 127.203,
+   "actual_price_per_gal": 5.515,
+   "alt_price_per_gal": 5.295,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 52.59,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC2732665",
+   "date": "2026-06-16",
+   "truck_id": "TUC-05",
+   "route_id": "TUC-R07",
+   "actual_station_id": "STN-032",
+   "alt_station_id": "STN-A03",
+   "gallons": 81.188,
+   "actual_price_per_gal": 5.532,
+   "alt_price_per_gal": 5.365,
+   "alt_extra_miles": 0.0,
+   "alt_extra_minutes": 1.2,
+   "net_savings_usd": 52.2,
+   "alt_truck_access": "confirmed"
+  },
+  {
+   "txn_id": "FC2370817",
+   "date": "2026-09-25",
+   "truck_id": "PHX-04",
+   "route_id": "PHX-L05",
+   "actual_station_id": "STN-011",
+   "alt_station_id": "STN-008",
+   "gallons": 141.175,
+   "actual_price_per_gal": 6.837,
+   "alt_price_per_gal": 6.465,
+   "alt_extra_miles": 0.68,
+   "alt_extra_minutes": 4.5,
+   "net_savings_usd": 50.75,
+   "alt_truck_access": "confirmed"
+  }
+ ],
+ "trucks_in_fleet": 20,
+ "usd_per_truck_per_year": 141.61,
+ "usd_per_truck_per_year_incl_unverified": 150.2,
+ "card_gallons": 41200,
+ "cpg_per_card_gallon": 6.87,
+ "cpg_per_card_gallon_incl_unverified": 6.87
+}

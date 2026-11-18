@@ -1,0 +1,21 @@
+{"version": 0.6, "elements": [
+ {"type": "node", "id": 101, "lat": 33.0, "lon": -112.0, "tags": {"amenity": "fuel", "name": "Big Rig Stop", "brand": "Acme Fuel", "hgv": "yes", "addr:city": "Casa Grande"}},
+ {"type": "way", "id": 202, "center": {"lat": 33.0003, "lon": -112.0003}, "tags": {"amenity": "fuel", "name": "Big Rig Stop", "brand": "Acme Fuel", "operator": "Acme Ops", "fuel:HGV_diesel": "yes", "addr:city": "Casa Grande", "building": "yes"}},
+ {"type": "node", "id": 303, "lat": 32.5, "lon": -111.5, "tags": {"amenity": "fuel", "name": "Pilot Travel Center", "brand": "Pilot"}},
+ {"type": "node", "id": 404, "lat": 32.4, "lon": -111.4, "tags": {"amenity": "fuel", "name": "Corner Gas", "brand": "Shell"}},
+ {"type": "node", "id": 505, "lat": 32.3, "lon": -111.3, "tags": {"amenity": "fuel", "name": "Data Station"}},
+ {"type": "node", "id": 606, "lat": 32.2, "lon": -111.2, "tags": {"amenity": "fuel", "name": "Roadside Fuel", "hgv": "yes"}},
+ {"type": "relation", "id": 707, "center": {"lat": 32.1, "lon": -111.1}, "tags": {"amenity": "fuel", "name": "Love's Travel Stop", "brand": "Love’s"}},
+ {"type": "node", "id": 808, "lat": 32.0, "lon": -111.0, "tags": {"amenity": "fuel", "name": "Metro Gas", "brand": "Chevron"}},
+ {"type": "node", "id": 909, "lat": 33.5, "lon": -112.2, "tags": {"amenity": "fuel", "brand": "Chevron", "hgv": "yes"}},
+ {"type": "node", "id": 910, "lat": 33.5, "lon": -112.2005, "tags": {"amenity": "fuel", "brand": "Shell", "hgv": "yes"}},
+ {"type": "node", "id": 1001, "lat": 32.25, "lon": -110.9, "tags": {"amenity": "fuel", "name": "Desert Fleet Fueling", "fuel:diesel": "yes"}},
+ {"type": "node", "id": 1002, "lat": 32.26, "lon": -110.91, "tags": {"amenity": "fuel", "name": "Yard Pumps", "access": "private", "fuel:diesel": "yes"}},
+ {"type": "node", "id": 1003, "lat": 32.27, "lon": -110.92, "tags": {"amenity": "fuel", "name": "Truck Plaza East", "fuel:diesel": "yes"}},
+ {"type": "node", "id": 1004, "lat": 32.28, "lon": -110.93, "tags": {"amenity": "fuel", "name": "Plain Gas", "fuel:diesel": "yes"}},
+ {"type": "node", "id": 1005, "lat": 32.29, "lon": -110.94, "tags": {"amenity": "fuel", "name": "Back Lot", "hgv": "destination", "fuel:diesel": "yes"}},
+ {"type": "node", "id": 1006, "lat": 33.2, "lon": -112.0, "tags": {"amenity": "fuel", "name": "Truck Plaza West", "fuel:diesel": "yes"}},
+ {"type": "node", "id": 1007, "lat": 33.1, "lon": -112.1, "tags": {"amenity": "fuel", "brand": "Pacific Pride", "fuel:diesel": "yes"}},
+ {"type": "node", "id": 1008, "lat": 33.6, "lon": -112.3, "tags": {"amenity": "fuel", "name": "Designated Diesel", "hgv": "designated"}},
+ {"type": "node", "id": 1009, "lat": 33.4, "lon": -112.4, "tags": {"amenity": "fuel", "name": "ZZBanned Truckstop", "hgv": "yes"}}
+]}

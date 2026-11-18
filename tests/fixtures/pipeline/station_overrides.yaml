@@ -1,0 +1,10 @@
+overrides:
+  - osm_ref: "node/1005"
+    station_id: "STN-005"
+    action: merge_into
+    target_osm_ref: "node/1004"
+    reason: "Same site mapped twice, about 0.4 miles apart in the fixture."
+  - osm_ref: "node/9999"
+    station_id: "STN-099"
+    action: exclude
+    reason: "Fixture entry for a station that is not in the file."

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="build-version" content="06ea23704a5e">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Missed savings | Fleet Fuel Hub</title>
+<meta name="description" content="Fills where a lower-cost stop would have won.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/tokens.css?v=06ea23704a5e">
+<link rel="stylesheet" href="css/app.css?v=06ea23704a5e">
+<link rel="stylesheet" href="css/extra.css?v=06ea23704a5e">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+</head>
+<body>
+<svg class="sprite" aria-hidden="true" focusable="false"><defs><symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 9.5V20h14V9.5"/></symbol><symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol><symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2"/><circle cx="18" cy="6" r="2"/><path d="M8 18h8a3 3 0 000-6H8a3 3 0 010-6h8"/></symbol><symbol id="i-dollar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5c-.5-1-1.5-1.5-2.5-1.5-1.5 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.8 2.5 2-1 2-2.5 2c-1 0-2-.5-2.5-1.5M12 6v2M12 16v2"/></symbol><symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></symbol><symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 001.3 2.2h12.4a1.5 1.5 0 001.3-2.2L14 9V3"/><path d="M7.5 15h9"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-pump" viewBox="0 0 24 24"><path d="M4 21V5a2 2 0 012-2h6a2 2 0 012 2v16"/><path d="M3 21h12M6 8h6"/><path d="M14 9h2a2 2 0 012 2v5a1.5 1.5 0 003 0V8l-3-3"/></symbol><symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v10M8 10l4 4 4-4M5 19h14"/></symbol><symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol><symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></symbol><symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 00-3.5 10.900c.6.5 1 1.200 1 2.100h5c0-.9.4-1.600 1-2.100A6 6 0 0012 3z"/></symbol><symbol id="i-plus" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></symbol><symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.500 9.500a2.500 2.500 0 114 2c-.9.6-1.500 1-1.500 2M12 17h.01"/></symbol><symbol id="i-pie" viewBox="0 0 24 24"><path d="M12 3v9h9"/><circle cx="12" cy="12" r="9"/></symbol><symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l10 18H2L12 3z"/><path d="M12 10v5M12 18h.01"/></symbol><symbol id="i-file" viewBox="0 0 24 24"><path d="M6 3h8l5 5v13H6z"/><path d="M14 3v5h5"/></symbol><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-sort" viewBox="0 0 24 24"><path d="M8 9l4-4 4 4M8 15l4 4 4-4"/></symbol><symbol id="i-left" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol><symbol id="i-right" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol><symbol id="i-gauge" viewBox="0 0 24 24"><path d="M4 18a9 9 0 1116 0"/><path d="M12 14l4-5"/></symbol></defs></svg>
+<div class="strip" role="note">
+<span class="chip-syn"><svg class="ic" aria-hidden="true"><use href="#i-flask"/></svg> SYNTHETIC DATA</span>
+<span class="right"><span class="note"><svg class="ic sm" aria-hidden="true"><use href="#i-info"/></svg> Demonstration only. Not real data.</span><a href="assumptions.html">Assumptions</a></span>
+</div>
+<aside class="sidebar">
+<div class="brand"><strong>Fleet Fuel Hub</strong><span>Fuel analytics demo</span></div>
+<nav aria-label="Main">
+<a href="index.html"><svg class="ic" aria-hidden="true"><use href="#i-home"/></svg> Overview</a>
+<a href="map.html"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg> Station map</a>
+<a href="route.html"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg> Test route</a>
+<a href="missed.html" aria-current="page"><svg class="ic" aria-hidden="true"><use href="#i-dollar"/></svg> Missed savings</a>
+<a href="hub.html"><svg class="ic" aria-hidden="true"><use href="#i-db"/></svg> Data hub</a>
+</nav>
+<div class="side-foot">
+<div class="asof"><b>Data as of <span id="asof">...</span></b>Synthetic data, rebuilt on each deploy</div>
+<div class="side-links"><a href="assumptions.html"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg> Assumptions</a><a href="assumptions.html#help"><svg class="ic" aria-hidden="true"><use href="#i-help"/></svg> Help</a><a href="assumptions.html#licences"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg> Data licences</a></div>
+<div class="credit">Built by Cass Bowes · <a href="https://github.com/bowesie92" rel="noopener">GitHub</a></div>
+</div>
+</aside>
+<nav class="tabbar" aria-label="Main (mobile)">
+<a href="index.html"><svg class="ic" aria-hidden="true"><use href="#i-home"/></svg><span>Overview</span></a>
+<a href="map.html"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span>Map</span></a>
+<a href="route.html"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Route</span></a>
+<a href="missed.html" aria-current="page"><svg class="ic" aria-hidden="true"><use href="#i-dollar"/></svg><span>Savings</span></a>
+<a href="hub.html"><svg class="ic" aria-hidden="true"><use href="#i-db"/></svg><span>Hub</span></a>
+</nav>
+<div class="content">
+<main class="page">
+<header class="page-head"><div><h1>Missed savings</h1><p class="sub">Fuel purchases where another reachable station would have cost less overall, after paying for the extra miles and driver time. Sometimes its pump price is higher, but it saves a detour.</p></div><div class="controls"><label class="toggle"><input type="checkbox" id="unv"> Include unverified truck access</label><button class="btn" id="export"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg> Export CSV</button></div></header>
+<div id="status" class="status" hidden></div>
+<div class="grid">
+<section class="card c5"><div class="hero-label">Missed savings per card gallon <svg class="ic sm" aria-hidden="true"><use href="#i-info"/></svg></div>
+<div class="hero-num" aria-live="polite"><span id="hero-cpg">n/a</span> <span class="unit">per card gallon</span></div>
+<div class="per-truck" id="hero-week" hidden></div><div class="delta" id="hero-delta"></div>
+<div class="per-truck" id="hero-truck" hidden></div>
+<div class="hero-note"><svg class="ic" aria-hidden="true"><use href="#i-dollar"/></svg><span id="hero-note">Ranked by net dollars, after detour costs.</span></div>
+<p class="foot eia-note">Synthetic prices built from the EIA weekly diesel average (benchmark source: U.S. Energy Information Administration)</p></section>
+<section class="card c7"><div class="card-head"><div><h2>Missed savings by week</h2><p class="sub">Net of detour costs</p></div></div>
+<div class="chartbox"><canvas id="weekly" role="img" aria-label="Missed savings by week"></canvas></div>
+<p class="foot">Net missed savings per week in USD (synthetic). Latest week in navy.</p>
+<p class="foot eia-note">Synthetic prices built from the EIA weekly diesel average (benchmark source: U.S. Energy Information Administration)</p></section>
+</div>
+<div class="grid">
+<section class="card c8"><div class="card-head"><div><h2>Missed savings details</h2><p class="sub" id="table-sub">Click a row to compare the two route options.</p></div>
+<div class="menuwrap"><button class="btn" id="cols" aria-haspopup="true" aria-expanded="false"><svg class="ic" aria-hidden="true"><use href="#i-sort"/></svg> Customize columns</button><div class="menu" id="colmenu" hidden></div></div></div>
+<div class="tablewrap"><table id="rows"></table></div>
+<div class="pager"><span id="pager-info"></span><span><label for="per">Rows per page</label> <select id="per"><option>5</option><option selected>10</option><option>25</option></select>
+<button class="btn" id="prev" aria-label="Previous page"><svg class="ic sm" aria-hidden="true"><use href="#i-left"/></svg></button> <button class="btn" id="next" aria-label="Next page"><svg class="ic sm" aria-hidden="true"><use href="#i-right"/></svg></button></span></div>
+<p class="foot">Times are MST (Arizona, no daylight saving time). All amounts are net of detour costs (synthetic).</p>
+<p class="foot eia-note">Synthetic prices built from the EIA weekly diesel average (benchmark source: U.S. Energy Information Administration)</p>
+<p class="foot attrib ors">© openrouteservice by HeiGIT | Data from <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>. Routing results licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>.</p></section>
+<section class="card c4"><div class="card-head"><div><h2>Route options comparison</h2><p class="sub" id="cmp-sub">Pick a row</p></div></div>
+<div id="map" class="minimap" role="region" aria-label="Map of the two options"></div>
+<div class="legend"><span><i></i>Base route</span><span><i class="dash navy"></i>Detour to the station used</span><span><i class="dash"></i>Detour to the lower-cost option</span></div>
+<div id="cmp" class="foot"></div>
+<p class="foot eia-note">Synthetic prices built from the EIA weekly diesel average (benchmark source: U.S. Energy Information Administration)</p>
+<p class="foot attrib ors">© openrouteservice by HeiGIT | Data from <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>. Routing results licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>.</p></section>
+</div>
+<details class="card assump" id="assump-panel" hidden>
+<summary><span><b>Assumptions behind these numbers</b><small>The settings that move the figures on this page</small></span><svg class="ic" aria-hidden="true"><use href="#i-chevron"/></svg></summary>
+<ul class="assump-list" id="assump-list"></ul>
+<p class="foot"><a href="assumptions.html">See every assumption <svg class="ic sm" aria-hidden="true"><use href="#i-arrow"/></svg></a> All values are synthetic settings.</p>
+</details>
+</main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+<script src="js/common.js?v=06ea23704a5e"></script>
+<script src="js/missed.js?v=06ea23704a5e"></script>
+</body>
+</html>

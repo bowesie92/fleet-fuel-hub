@@ -1,0 +1,592 @@
+{
+ "synthetic": true,
+ "sources": [
+  {
+   "name": "Fuel card export",
+   "file": "fuel_card.csv",
+   "rows": 217,
+   "columns": [
+    "TransactionID",
+    "CardLast4",
+    "Unit",
+    "TransDate",
+    "TransTime",
+    "MerchantName",
+    "MerchantCity",
+    "MerchantState",
+    "Product",
+    "Gallons",
+    "PPG",
+    "Total",
+    "Odometer"
+   ],
+   "sample": [
+    {
+     "TransactionID": "FC5338738",
+     "CardLast4": "7834",
+     "Unit": "TUC-08",
+     "TransDate": "11/01/2025",
+     "TransTime": "07:20",
+     "MerchantName": "CFN 5915 Tucson",
+     "MerchantCity": "Tucson",
+     "MerchantState": "AZ",
+     "Product": "ULSD",
+     "Gallons": "74.040",
+     "PPG": "3.874",
+     "Total": "286.83",
+     "Odometer": "140327"
+    },
+    {
+     "TransactionID": "FC4725795",
+     "CardLast4": "4515",
+     "Unit": "TUC-03",
+     "TransDate": "11/03/2025",
+     "TransTime": "05:17",
+     "MerchantName": "CFN",
+     "MerchantCity": "Tucson",
+     "MerchantState": "AZ",
+     "Product": "ULSD",
+     "Gallons": "74.296",
+     "PPG": "4.027",
+     "Total": "299.19",
+     "Odometer": "318431"
+    },
+    {
+     "TransactionID": "FC5532080",
+     "CardLast4": "0850",
+     "Unit": "TUC-07",
+     "TransDate": "11/04/2025",
+     "TransTime": "07:16",
+     "MerchantName": "CFN",
+     "MerchantCity": "Tucson",
+     "MerchantState": "AZ",
+     "Product": "ULSD",
+     "Gallons": "70.629",
+     "PPG": "3.903",
+     "Total": "275.66",
+     "Odometer": "447118"
+    },
+    {
+     "TransactionID": "FC8002635",
+     "CardLast4": "9239",
+     "Unit": "TUC-10",
+     "TransDate": "11/06/2025",
+     "TransTime": "05:56",
+     "MerchantName": "CFN 5915 Tucson",
+     "MerchantCity": "Tucson",
+     "MerchantState": "AZ",
+     "Product": "ULSD",
+     "Gallons": "68.397",
+     "PPG": "3.875",
+     "Total": "265.04",
+     "Odometer": "183689"
+    },
+    {
+     "TransactionID": "FC5825239",
+     "CardLast4": "9431",
+     "Unit": "TUC-09",
+     "TransDate": "11/06/2025",
+     "TransTime": "09:22",
+     "MerchantName": "CFN 5915 Tucson",
+     "MerchantCity": "Tucson",
+     "MerchantState": "AZ",
+     "Product": "ULSD",
+     "Gallons": "75.065",
+     "PPG": "3.875",
+     "Total": "290.88",
+     "Odometer": "463059"
+    }
+   ]
+  },
+  {
+   "name": "GPS telematics export",
+   "file": "telematics.csv",
+   "rows": 112020,
+   "columns": [
+    "device_id",
+    "event_time",
+    "lat",
+    "lon",
+    "odometer_mi",
+    "speed_mph"
+   ],
+   "sample": [
+    {
+     "device_id": "GPS-02068",
+     "event_time": "2025-11-01 10:45:00",
+     "lat": "33.41783",
+     "lon": "-112.15473",
+     "odometer_mi": "311791.0",
+     "speed_mph": "0"
+    },
+    {
+     "device_id": "GPS-02068",
+     "event_time": "2025-11-01 11:00:00",
+     "lat": "33.41783",
+     "lon": "-112.15450",
+     "odometer_mi": "311791.0",
+     "speed_mph": "0"
+    },
+    {
+     "device_id": "GPS-02068",
+     "event_time": "2025-11-01 11:15:21",
+     "lat": "33.28126",
+     "lon": "-112.02735",
+     "odometer_mi": "311805.8",
+     "speed_mph": "50"
+    },
+    {
+     "device_id": "GPS-02068",
+     "event_time": "2025-11-01 11:37:13",
+     "lat": "33.08689",
+     "lon": "-111.84540",
+     "odometer_mi": "311827.0",
+     "speed_mph": "72"
+    },
+    {
+     "device_id": "GPS-02068",
+     "event_time": "2025-11-01 12:01:19",
+     "lat": "32.87263",
+     "lon": "-111.64488",
+     "odometer_mi": "311850.3",
+     "speed_mph": "53"
+    }
+   ]
+  },
+  {
+   "name": "Route plan export",
+   "file": "route_plans.csv",
+   "rows": 43194,
+   "columns": [
+    "PlanDate",
+    "RouteID",
+    "Vehicle",
+    "StopSeq",
+    "StopType",
+    "LocationID",
+    "Lat",
+    "Lon",
+    "PlannedArrival",
+    "PlannedMilesFromPrev"
+   ],
+   "sample": [
+    {
+     "PlanDate": "2025-11-01",
+     "RouteID": "PHX-L01",
+     "Vehicle": "PHX-01",
+     "StopSeq": "0",
+     "StopType": "yard",
+     "LocationID": "PHX_DC",
+     "Lat": "33.41800",
+     "Lon": "-112.15500",
+     "PlannedArrival": "02:00",
+     "PlannedMilesFromPrev": "0.0"
+    },
+    {
+     "PlanDate": "2025-11-01",
+     "RouteID": "PHX-L01",
+     "Vehicle": "PHX-01",
+     "StopSeq": "1",
+     "StopType": "yard",
+     "LocationID": "TUC_YARD",
+     "Lat": "32.14000",
+     "Lon": "-110.96000",
+     "PlannedArrival": "04:25",
+     "PlannedMilesFromPrev": "140.4"
+    },
+    {
+     "PlanDate": "2025-11-01",
+     "RouteID": "PHX-L01",
+     "Vehicle": "PHX-01",
+     "StopSeq": "2",
+     "StopType": "yard",
+     "LocationID": "PHX_DC",
+     "Lat": "33.41800",
+     "Lon": "-112.15500",
+     "PlannedArrival": "07:35",
+     "PlannedMilesFromPrev": "140.4"
+    },
+    {
+     "PlanDate": "2025-11-01",
+     "RouteID": "PHX-L02",
+     "Vehicle": "PHX-02",
+     "StopSeq": "0",
+     "StopType": "yard",
+     "LocationID": "PHX_DC",
+     "Lat": "33.41800",
+     "Lon": "-112.15500",
+     "PlannedArrival": "02:30",
+     "PlannedMilesFromPrev": "0.0"
+    },
+    {
+     "PlanDate": "2025-11-01",
+     "RouteID": "PHX-L02",
+     "Vehicle": "PHX-02",
+     "StopSeq": "1",
+     "StopType": "yard",
+     "LocationID": "TUC_YARD",
+     "Lat": "32.14000",
+     "Lon": "-110.96000",
+     "PlannedArrival": "04:55",
+     "PlannedMilesFromPrev": "140.4"
+    }
+   ]
+  },
+  {
+   "name": "Phoenix DC tank log",
+   "file": "yard_fuel.csv",
+   "rows": 1520,
+   "columns": [
+    "FillDate",
+    "FillTime",
+    "Yard",
+    "Unit",
+    "Gallons",
+    "PricePerGal",
+    "Total"
+   ],
+   "sample": [
+    {
+     "FillDate": "2025-11-01",
+     "FillTime": "01:45",
+     "Yard": "PHX_DC",
+     "Unit": "PHX-01",
+     "Gallons": "1.936",
+     "PricePerGal": "3.895",
+     "Total": "7.54"
+    },
+    {
+     "FillDate": "2025-11-01",
+     "FillTime": "02:15",
+     "Yard": "PHX_DC",
+     "Unit": "PHX-02",
+     "Gallons": "82.077",
+     "PricePerGal": "3.895",
+     "Total": "319.69"
+    },
+    {
+     "FillDate": "2025-11-01",
+     "FillTime": "03:15",
+     "Yard": "PHX_DC",
+     "Unit": "PHX-04",
+     "Gallons": "34.047",
+     "PricePerGal": "3.895",
+     "Total": "132.61"
+    },
+    {
+     "FillDate": "2025-11-01",
+     "FillTime": "03:45",
+     "Yard": "PHX_DC",
+     "Unit": "PHX-05",
+     "Gallons": "74.946",
+     "PricePerGal": "3.895",
+     "Total": "291.91"
+    },
+    {
+     "FillDate": "2025-11-03",
+     "FillTime": "01:45",
+     "Yard": "PHX_DC",
+     "Unit": "PHX-02",
+     "Gallons": "40.355",
+     "PricePerGal": "3.921",
+     "Total": "158.23"
+    }
+   ],
+   "note": "Not a card feed: these are on-site fills at the Phoenix DC tank, kept apart from fuel card transactions."
+  }
+ ],
+ "clean_table": {
+  "name": "fact_fuel_txn",
+  "rows": 214,
+  "columns": [
+   "txn_id",
+   "truck_id",
+   "station_id",
+   "ts_local",
+   "gallons",
+   "price_per_gal",
+   "total",
+   "odometer",
+   "odometer_repaired_flag",
+   "source_row",
+   "station_match_confidence",
+   "station_match_method"
+  ],
+  "sample": [
+   {
+    "txn_id": "FC5338738",
+    "truck_id": "TUC-08",
+    "station_id": "STN-A02",
+    "ts_local": "2025-11-01 07:20:00",
+    "gallons": 74.04,
+    "price_per_gal": 3.874,
+    "total": 286.83,
+    "odometer": 140327.0,
+    "odometer_repaired_flag": false,
+    "source_row": 1,
+    "station_match_confidence": 0.999705,
+    "station_match_method": "name+brand+gps"
+   },
+   {
+    "txn_id": "FC4725795",
+    "truck_id": "TUC-03",
+    "station_id": "STN-A04",
+    "ts_local": "2025-11-03 05:17:00",
+    "gallons": 74.296,
+    "price_per_gal": 4.027,
+    "total": 299.19,
+    "odometer": 318431.0,
+    "odometer_repaired_flag": false,
+    "source_row": 2,
+    "station_match_confidence": 0.997946,
+    "station_match_method": "name+brand+gps"
+   },
+   {
+    "txn_id": "FC5532080",
+    "truck_id": "TUC-07",
+    "station_id": "STN-A02",
+    "ts_local": "2025-11-04 07:16:00",
+    "gallons": 70.629,
+    "price_per_gal": 3.903,
+    "total": 275.66,
+    "odometer": 447118.0,
+    "odometer_repaired_flag": false,
+    "source_row": 3,
+    "station_match_confidence": 0.998235,
+    "station_match_method": "name+brand+gps"
+   },
+   {
+    "txn_id": "FC8002635",
+    "truck_id": "TUC-10",
+    "station_id": "STN-A02",
+    "ts_local": "2025-11-06 05:56:00",
+    "gallons": 68.397,
+    "price_per_gal": 3.875,
+    "total": 265.04,
+    "odometer": 183689.0,
+    "odometer_repaired_flag": false,
+    "source_row": 4,
+    "station_match_confidence": 0.997452,
+    "station_match_method": "name+brand+gps"
+   },
+   {
+    "txn_id": "FC5825239",
+    "truck_id": "TUC-09",
+    "station_id": "STN-A02",
+    "ts_local": "2025-11-06 09:22:00",
+    "gallons": 75.065,
+    "price_per_gal": 3.875,
+    "total": 290.88,
+    "odometer": 463059.0,
+    "odometer_repaired_flag": false,
+    "source_row": 5,
+    "station_match_confidence": 0.998166,
+    "station_match_method": "name+brand+gps"
+   }
+  ]
+ },
+ "dq": [
+  {
+   "check_name": "ingest_fleet",
+   "rows_in": 20,
+   "rows_out": 20,
+   "issue_count": 0,
+   "notes": "Read 20 rows from the fleet list (fleet.csv); every row parsed."
+  },
+  {
+   "check_name": "ingest_stations",
+   "rows_in": 35,
+   "rows_out": 35,
+   "issue_count": 3,
+   "notes": "Read 35 rows from the station list (stations.geojson); every row parsed; 3 stations were dropped or merged by manual overrides."
+  },
+  {
+   "check_name": "station_override",
+   "rows_in": 1,
+   "rows_out": 1,
+   "issue_count": 0,
+   "notes": "Excluded STN-009 (node/12297548599): CAT Scale: a truck scale, not a fuel stop. Status: applied."
+  },
+  {
+   "check_name": "station_override",
+   "rows_in": 1,
+   "rows_out": 1,
+   "issue_count": 0,
+   "notes": "Merged STN-030 into STN-006 (way/728194668): Same site mapped twice as STN-006 (about 80 m apart); one record lacks a brand. Status: applied."
+  },
+  {
+   "check_name": "station_override",
+   "rows_in": 1,
+   "rows_out": 1,
+   "issue_count": 0,
+   "notes": "Merged STN-020 into STN-007 (node/4854438923): Same site mapped twice as STN-007 (about 80 m apart); one record lacks a brand. Status: applied."
+  },
+  {
+   "check_name": "station_override",
+   "rows_in": 1,
+   "rows_out": 1,
+   "issue_count": 0,
+   "notes": "Confirmed STN-006 (Pilot) from a chain locator: Chain store page lists Diesel Lanes (8), separate from Auto Diesel, and Truck Parking Spaces (83). Same site as the OSM Pilot (STN-006). Source: https://pilotcompany.com/locations/us/az/tucson/5570-e-travel-plaza-way. Status: applied_matched."
+  },
+  {
+   "check_name": "station_override",
+   "rows_in": 1,
+   "rows_out": 1,
+   "issue_count": 0,
+   "notes": "Added STN-A02 (CFN 5915 Tucson) from a chain locator: CFN cardlock locator (site 203490) lists ULS Diesel #2 with 18 Wheel Access and High Speed Pumps. CFN's official site links to this locator as its Site Locator (https://www.cfnnet.com/directions.html). Source: https://cfnfleetwide.com/site-locator/. Status: applied_new."
+  },
+  {
+   "check_name": "station_override",
+   "rows_in": 1,
+   "rows_out": 1,
+   "issue_count": 0,
+   "notes": "Added STN-A03 (CFN 1792 Benson Hwy) from a chain locator: CFN cardlock locator (site 203495) lists ULS Diesel #2 with 18 Wheel Access and High Speed Pumps. CFN's official site links to this locator as its Site Locator (https://www.cfnnet.com/directions.html). Source: https://cfnfleetwide.com/site-locator/. Status: applied_new."
+  },
+  {
+   "check_name": "station_override",
+   "rows_in": 1,
+   "rows_out": 1,
+   "issue_count": 0,
+   "notes": "Added STN-A04 (CFN 0307 Richey Blvd) from a chain locator: CFN cardlock locator (site 203493) lists ULS Diesel #2 with 18 Wheel Access and High Speed Pumps. CFN's official site links to this locator as its Site Locator (https://www.cfnnet.com/directions.html). Source: https://cfnfleetwide.com/site-locator/. Status: applied_new."
+  },
+  {
+   "check_name": "ingest_partner_program",
+   "rows_in": 2,
+   "rows_out": 2,
+   "issue_count": 0,
+   "notes": "Read 2 rows from the partner list (partner_program.csv); every row parsed."
+  },
+  {
+   "check_name": "ingest_station_prices",
+   "rows_in": 12775,
+   "rows_out": 12775,
+   "issue_count": 0,
+   "notes": "Read 12775 rows from the posted price feed (station_prices.csv); every row parsed."
+  },
+  {
+   "check_name": "ingest_eia",
+   "rows_in": 210,
+   "rows_out": 210,
+   "issue_count": 0,
+   "notes": "Read 210 rows from the EIA weekly diesel file (eia_diesel.csv); every row parsed."
+  },
+  {
+   "check_name": "ingest_fuel_card",
+   "rows_in": 217,
+   "rows_out": 217,
+   "issue_count": 11,
+   "notes": "Read 217 rows from the fuel card export (fuel_card.csv); every row parsed; 11 swipes have a blank or unreadable odometer, left for the repair step."
+  },
+  {
+   "check_name": "ingest_telematics",
+   "rows_in": 112020,
+   "rows_out": 111707,
+   "issue_count": 313,
+   "notes": "Read 112020 rows from the telematics export (telematics.csv); every row parsed; 313 repeated pings (same device and time) were collapsed to one."
+  },
+  {
+   "check_name": "ingest_route_plans",
+   "rows_in": 43194,
+   "rows_out": 43194,
+   "issue_count": 0,
+   "notes": "Read 43194 rows from the route plan export (route_plans.csv); every row parsed."
+  },
+  {
+   "check_name": "ingest_yard_fuel",
+   "rows_in": 1520,
+   "rows_out": 1520,
+   "issue_count": 0,
+   "notes": "Read 1520 on-site fills from the Phoenix DC tank log (yard_fuel.csv); these are not fuel card transactions."
+  },
+  {
+   "check_name": "timezone_fuel_card",
+   "rows_in": 217,
+   "rows_out": 217,
+   "issue_count": 0,
+   "notes": "Fuel card times are recorded in America/Phoenix; 0 needed shifting to America/Phoenix time."
+  },
+  {
+   "check_name": "timezone_telematics",
+   "rows_in": 111707,
+   "rows_out": 111707,
+   "issue_count": 111707,
+   "notes": "GPS pings are exported in UTC; 111707 pings were converted to America/Phoenix time."
+  },
+  {
+   "check_name": "timezone_start_sanity",
+   "rows_in": 4695,
+   "rows_out": 4695,
+   "issue_count": 0,
+   "notes": "Compared 4695 truck-days: the first GPS ping is a median of 0 minutes from the planned route start, and 0 are more than 120 minutes apart."
+  },
+  {
+   "check_name": "dedupe_swipes",
+   "rows_in": 217,
+   "rows_out": 214,
+   "issue_count": 3,
+   "notes": "Removed 3 duplicate card swipes (same truck, within 2 minutes, same amount); the first swipe was kept."
+  },
+  {
+   "check_name": "station_match",
+   "rows_in": 214,
+   "rows_out": 212,
+   "issue_count": 2,
+   "notes": "Matched 212 of 214 swipes to a station (average confidence 0.98); 2 were left unmatched rather than guessed."
+  },
+  {
+   "check_name": "odometer_repair",
+   "rows_in": 214,
+   "rows_out": 214,
+   "issue_count": 15,
+   "notes": "Repaired 15 odometers from GPS (11 blank, 4 implausible); 0 could not be repaired because GPS did not cover the swipe."
+  },
+  {
+   "check_name": "route_plan_stability",
+   "rows_in": 15,
+   "rows_out": 15,
+   "issue_count": 0,
+   "notes": "0 of 15 routes change their stop list during the period (the contract says none should)."
+  },
+  {
+   "check_name": "route_day_miles",
+   "rows_in": 4695,
+   "rows_out": 4695,
+   "issue_count": 0,
+   "notes": "Worked out miles driven for 4695 of 4695 route days from the GPS odometer."
+  },
+  {
+   "check_name": "routing_detours",
+   "rows_in": 15,
+   "rows_out": 338,
+   "issue_count": 0,
+   "notes": "Road routes for 15 routes and 338 route-station detours; 0 pairs could not be routed on truck roads."
+  }
+ ],
+ "accuracy": [
+  {
+   "metric": "station_match_precision",
+   "value": 1.0,
+   "notes": "212 of 212 matched swipes went to the correct station."
+  },
+  {
+   "metric": "station_match_recall",
+   "value": 0.991,
+   "notes": "212 of 214 real fills were matched to the correct station."
+  },
+  {
+   "metric": "dedupe_precision",
+   "value": 1.0,
+   "notes": "3 of 3 removed swipes were real duplicates."
+  },
+  {
+   "metric": "dedupe_recall",
+   "value": 1.0,
+   "notes": "3 of 3 real duplicate swipes were removed."
+  },
+  {
+   "metric": "odometer_repair_accuracy",
+   "value": 1.0,
+   "notes": "15 of 15 swipes with a blank or wrong odometer ended within 2 miles of the truth; 0 good readings were changed."
+  }
+ ]
+}

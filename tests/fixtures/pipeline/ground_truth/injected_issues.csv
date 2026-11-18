@@ -1,0 +1,21 @@
+issue_id,issue_type,source_file,source_row,truck_id,start_ts_local,end_ts_local,details
+ISS-00001,name_variant,fuel_card.csv,1,PHX-01,,,Merchant name printed as merchant_code.
+ISS-00002,name_variant,fuel_card.csv,2,TUC-02,,,Merchant name printed as short_brand.
+ISS-00003,name_variant,fuel_card.csv,3,TUC-02,,,Merchant name printed as short_brand.
+ISS-00004,wrong_odometer,fuel_card.csv,5,PHX-01,,,Odometer mistyped by thousands of miles.
+ISS-00005,name_variant,fuel_card.csv,5,PHX-01,,,Merchant name printed as merchant_code.
+ISS-00006,missing_odometer,fuel_card.csv,7,TUC-01,,,Odometer left blank.
+ISS-00007,name_variant,fuel_card.csv,7,TUC-01,,,Merchant name printed as upper_store.
+ISS-00008,missing_odometer,fuel_card.csv,8,PHX-01,,,Odometer left blank.
+ISS-00009,name_variant,fuel_card.csv,8,PHX-01,,,Merchant name printed as merchant_code.
+ISS-00010,wrong_odometer,fuel_card.csv,9,TUC-02,,,Odometer mistyped by thousands of miles.
+ISS-00011,name_variant,fuel_card.csv,9,TUC-02,,,Merchant name printed as upper_store.
+ISS-00012,duplicate_swipe,fuel_card.csv,11,TUC-01,,,Same swipe repeated within two minutes.
+ISS-00013,name_variant,fuel_card.csv,12,PHX-01,,,Merchant name printed as short_brand.
+ISS-00014,duplicate_swipe,fuel_card.csv,14,TUC-02,,,Same swipe repeated within two minutes.
+ISS-00015,name_variant,fuel_card.csv,15,TUC-01,,,Merchant name printed as upper_store.
+ISS-00016,missing_odometer,fuel_card.csv,17,TUC-02,,,Odometer left blank.
+ISS-00017,name_variant,fuel_card.csv,18,TUC-01,,,Merchant name printed as merchant_code.
+ISS-00018,gps_gap,telematics.csv,,PHX-01,2026-03-06 02:04:00,2026-03-06 04:04:00,No pings for two hours around a fill.
+ISS-00019,irregular_ping,telematics.csv,,,,,"Pings arrive every 5 to 25 minutes, not on a fixed clock."
+ISS-00020,timezone_utc,telematics.csv,,,,,"Event times are UTC, seven hours ahead of Arizona time."

@@ -1,0 +1,12 @@
+{
+ "route": "petroleum/pri/gnd",
+ "facets": {
+  "frequency": "weekly",
+  "duoarea": "R5XCA",
+  "product": "EPD2D"
+ },
+ "series_id": "EMD_EPD2D_PTE_R5XCA_DPG",
+ "description": "West Coast (PADD 5) Except California No 2 Diesel Retail Prices (Dollars per Gallon)",
+ "units": "$/GAL",
+ "fetched_on": "2026-11-16"
+}

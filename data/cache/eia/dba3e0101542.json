@@ -1,0 +1,1257 @@
+{
+ "response": {
+  "totalFacets": 311,
+  "facets": [
+   {
+    "id": "EMD_EPD2D_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_R10_DPG",
+    "name": "East Coast All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_NUS_DPG",
+    "name": "U.S. All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_R20_DPG",
+    "name": "Midwest All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_R40_DPG",
+    "name": "Rocky Mountain All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_SFL_DPG",
+    "name": "Florida All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_SNY_DPG",
+    "name": "New York All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_YMIA_DPG",
+    "name": "Miami, FL All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_SNY_DPG",
+    "name": "New York Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_YBOS_DPG",
+    "name": "Boston, MA Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_R40_DPG",
+    "name": "Rocky Mountain Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_SWA_DPG",
+    "name": "Washington Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_SCO_DPG",
+    "name": "Colorado Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_Y44HO_DPG",
+    "name": "Houston Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_YMIA_DPG",
+    "name": "Miami, FL Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_NUS_DPG",
+    "name": "U.S. Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_YORD_DPG",
+    "name": "Chicago, IL Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_R10_DPG",
+    "name": "East Coast Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_R50_DPG",
+    "name": "West Coast Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_SNY_DPG",
+    "name": "New York Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_SWA_DPG",
+    "name": "Washington Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_YMIA_DPG",
+    "name": "Miami, FL Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_R50_DPG",
+    "name": "West Coast Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_R30_DPG",
+    "name": "Gulf Coast No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_R10_DPG",
+    "name": "East Coast No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_R20_DPG",
+    "name": "Midwest No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_SFL_DPG",
+    "name": "Florida All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_SCA_DPG",
+    "name": "California All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_Y48SE_DPG",
+    "name": "Seattle, WA All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_NUS_DPG",
+    "name": "U.S. Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_R50_DPG",
+    "name": "West Coast Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_SCA_DPG",
+    "name": "California Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_SCO_DPG",
+    "name": "Colorado Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_Y35NY_DPG",
+    "name": "New York Harbor Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_YCLE_DPG",
+    "name": "Cleveland, OH Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_SNY_DPG",
+    "name": "New York Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_Y35NY_DPG",
+    "name": "New York City Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_YDEN_DPG",
+    "name": "Denver Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_R40_DPG",
+    "name": "Rocky Mountain Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_Y48SE_DPG",
+    "name": "Seattle, WA Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_R50_DPG",
+    "name": "West Coast Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_YCLE_DPG",
+    "name": "Cleveland, OH Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_R30_DPG",
+    "name": "Gulf Coast Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_SCO_DPG",
+    "name": "Colorado Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_STX_DPG",
+    "name": "Texas Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_Y44HO_DPG",
+    "name": "Houston Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_YORD_DPG",
+    "name": "Chicago Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_R50_DPG",
+    "name": "West Coast No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_SNY_DPG",
+    "name": "New York All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_Y48SE_DPG",
+    "name": "Seattle, WA All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_R50_DPG",
+    "name": "West Coast All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_SOH_DPG",
+    "name": "Ohio All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_Y05LA_DPG",
+    "name": "Los Angeles All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_R20_DPG",
+    "name": "Midwest Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_YMIA_DPG",
+    "name": "Miami, FL Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_R10_DPG",
+    "name": "East Coast Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_SMA_DPG",
+    "name": "Massachusetts Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_SOH_DPG",
+    "name": "Ohio Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_YBOS_DPG",
+    "name": "Boston, MA Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_YORD_DPG",
+    "name": "Chicago Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_SCO_DPG",
+    "name": "Colorado Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_NUS_DPG",
+    "name": "U.S. Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_YDEN_DPG",
+    "name": "Denver, CO Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_R20_DPG",
+    "name": "Midwest Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_R10_DPG",
+    "name": "East Coast Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_R40_DPG",
+    "name": "Rocky Mountain Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_SNY_DPG",
+    "name": "New York Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_Y05LA_DPG",
+    "name": "Los Angeles, CA Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_R20_DPG",
+    "name": "Midwest Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_R30_DPG",
+    "name": "Gulf Coast Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_SCO_DPG",
+    "name": "Colorado Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_SMN_DPG",
+    "name": "Minnesota Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_SNY_DPG",
+    "name": "New York Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_SWA_DPG",
+    "name": "Washington Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_YDEN_DPG",
+    "name": "Denver Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_NUS_DPG",
+    "name": "U.S. No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_R30_DPG",
+    "name": "Gulf Coast No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_Y44HO_DPG",
+    "name": "Houston, TX All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_R30_DPG",
+    "name": "Gulf Coast All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_R50_DPG",
+    "name": "West Coast All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_SMN_DPG",
+    "name": "Minnesota All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_SNY_DPG",
+    "name": "New York All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_R20_DPG",
+    "name": "Midwest All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_R30_DPG",
+    "name": "Gulf Coast All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_YCLE_DPG",
+    "name": "Cleveland, OH All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_YORD_DPG",
+    "name": "Chicago All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_YDEN_DPG",
+    "name": "Denver, CO Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_R10_DPG",
+    "name": "East Coast Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_R50_DPG",
+    "name": "West Coast Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_SCO_DPG",
+    "name": "Colorado Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_SOH_DPG",
+    "name": "Ohio Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_STX_DPG",
+    "name": "Texas Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_R30_DPG",
+    "name": "Gulf Coast Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_SCA_DPG",
+    "name": "California Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_R20_DPG",
+    "name": "Midwest Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_R50_DPG",
+    "name": "West Coast Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_SMA_DPG",
+    "name": "Massachusetts Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_Y35NY_DPG",
+    "name": "New York Harbor Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_YBOS_DPG",
+    "name": "Boston, MA Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_STX_DPG",
+    "name": "Texas Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_Y05LA_DPG",
+    "name": "Los Angeles Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_YBOS_DPG",
+    "name": "Boston, MA Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_SCA_DPG",
+    "name": "California Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_SCO_DPG",
+    "name": "Colorado Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_YBOS_DPG",
+    "name": "Boston, MA Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_SOH_DPG",
+    "name": "Ohio Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_R10_DPG",
+    "name": "East Coast Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_SMA_DPG",
+    "name": "Massachusetts Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_YMIA_DPG",
+    "name": "Miami, FL Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DM10_PTE_NUS_DPG",
+    "name": "U.S. No 2 Diesel Low Sulfur (15-500 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_R50_DPG",
+    "name": "West Coast No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_R40_DPG",
+    "name": "Rocky Mountain Allgrades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_SCO_DPG",
+    "name": "Colorado Allgrades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_Y35NY_DPG",
+    "name": "New York Harbor All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_YBOS_DPG",
+    "name": "Boston, MA All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_YCLE_DPG",
+    "name": "Cleveland, OH All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_YDEN_DPG",
+    "name": "Denver, CO All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_NUS_DPG",
+    "name": "U.S. All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_SMN_DPG",
+    "name": "Minnesota All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_Y05SF_DPG",
+    "name": "San Francisco All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_R30_DPG",
+    "name": "Gulf Coast Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_SMA_DPG",
+    "name": "Massachusetts Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_NUS_DPG",
+    "name": "U.S. Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_R30_DPG",
+    "name": "Gulf Coast Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_SNY_DPG",
+    "name": "New York Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_Y48SE_DPG",
+    "name": "Seattle, WA Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_SFL_DPG",
+    "name": "Florida Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_SMN_DPG",
+    "name": "Minnesota Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_SWA_DPG",
+    "name": "Washington Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_Y05LA_DPG",
+    "name": "Los Angeles Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_STX_DPG",
+    "name": "Texas Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_Y05SF_DPG",
+    "name": "San Francisco, CA Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_YDEN_DPG",
+    "name": "Denver, CO Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_R30_DPG",
+    "name": "Gulf Coast Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_SCO_DPG",
+    "name": "Colorado Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_YCLE_DPG",
+    "name": "Cleveland, OH Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_SFL_DPG",
+    "name": "Florida Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_Y48SE_DPG",
+    "name": "Seattle, WA Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_SMA_DPG",
+    "name": "Massachusetts Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_YDEN_DPG",
+    "name": "Denver, CO Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_NUS_DPG",
+    "name": "U.S. Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_R40_DPG",
+    "name": "Rocky Mountain Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_SFL_DPG",
+    "name": "Florida Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_SNY_DPG",
+    "name": "New York Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_NUS_DPG",
+    "name": "U.S. Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_R20_DPG",
+    "name": "Midwest Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_SMN_DPG",
+    "name": "Minnesota Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_Y05SF_DPG",
+    "name": "San Francisco Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_R20_DPG",
+    "name": "Midwest All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_R50_DPG",
+    "name": "West Coast All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_SCA_DPG",
+    "name": "California All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_SMA_DPG",
+    "name": "Massachusetts All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_Y05LA_DPG",
+    "name": "Los Angeles, CA All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_Y05SF_DPG",
+    "name": "San Francisco, CA All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_YDEN_DPG",
+    "name": "Denver, CO Allgrades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_YORD_DPG",
+    "name": "Chicago, IL All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_R10_DPG",
+    "name": "East Coast All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_STX_DPG",
+    "name": "Texas All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_SWA_DPG",
+    "name": "Washington All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_YMIA_DPG",
+    "name": "Miami, FL All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_SCO_DPG",
+    "name": "Colorado All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_R10_DPG",
+    "name": "East Coast Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_R40_DPG",
+    "name": "Rocky Mountain Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_YORD_DPG",
+    "name": "Chicago, IL Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_SMN_DPG",
+    "name": "Minnesota Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_YDEN_DPG",
+    "name": "Denver, CO Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_R20_DPG",
+    "name": "Midwest Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_Y48SE_DPG",
+    "name": "Seattle, WA Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_R30_DPG",
+    "name": "Gulf Coast Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_R40_DPG",
+    "name": "Rocky Mountain Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_Y44HO_DPG",
+    "name": "Houston, TX Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_R20_DPG",
+    "name": "Midwest Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_SMN_DPG",
+    "name": "Minnesota Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_R30_DPG",
+    "name": "Gulf Coast Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_R40_DPG",
+    "name": "Rocky Mountain Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_R50_DPG",
+    "name": "West Coast Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_SCA_DPG",
+    "name": "California Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_SMN_DPG",
+    "name": "Minnesota Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_YCLE_DPG",
+    "name": "Cleveland, OH Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_YDEN_DPG",
+    "name": "Denver Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_R20_DPG",
+    "name": "Midwest Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_Y35NY_DPG",
+    "name": "New York Harbor Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_R10_DPG",
+    "name": "East Coast Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_Y48SE_DPG",
+    "name": "Seattle, WA Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_YMIA_DPG",
+    "name": "Miami, FL Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_Y05LA_DPG",
+    "name": "Los Angeles Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_Y48SE_DPG",
+    "name": "Seattle, WA Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_R20_DPG",
+    "name": "Midwest No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_NUS_DPG",
+    "name": "U.S. No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_R40_DPG",
+    "name": "Rocky Mountain No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_SCA_DPG",
+    "name": "California No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_NUS_DPG",
+    "name": "U.S. All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_SOH_DPG",
+    "name": "Ohio All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_STX_DPG",
+    "name": "Texas All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_Y35NY_DPG",
+    "name": "New York City All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_Y44HO_DPG",
+    "name": "Houston All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_YDEN_DPG",
+    "name": "Denver All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_STX_DPG",
+    "name": "Texas Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_Y05SF_DPG",
+    "name": "San Francisco, CA Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_Y44HO_DPG",
+    "name": "Houston, TX Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_SFL_DPG",
+    "name": "Florida Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_R40_DPG",
+    "name": "Rocky Mountain Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_STX_DPG",
+    "name": "Texas Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_R10_DPG",
+    "name": "East Coast Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_SCA_DPG",
+    "name": "California Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_SFL_DPG",
+    "name": "Florida Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_STX_DPG",
+    "name": "Texas Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_SOH_DPG",
+    "name": "Ohio Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_NUS_DPG",
+    "name": "U.S. Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_Y44HO_DPG",
+    "name": "Houston, TX Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_STX_DPG",
+    "name": "Texas Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_SWA_DPG",
+    "name": "Washington Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_YBOS_DPG",
+    "name": "Boston, MA Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_YCLE_DPG",
+    "name": "Cleveland, OH Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_R10_DPG",
+    "name": "East Coast No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_R40_DPG",
+    "name": "Rocky Mountain No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2DXL0_PTE_SCA_DPG",
+    "name": "California No 2 Diesel Ultra Low Sulfur (0-15 ppm) Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMD_EPD2D_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) No 2 Diesel Retail Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_R30_DPG",
+    "name": "Gulf Coast All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0R_PTE_STX_DPG",
+    "name": "Texas All Grades Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0U_PTE_SCO_DPG",
+    "name": "Colorado All Grades Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_R10_DPG",
+    "name": "East Coast All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_R40_DPG",
+    "name": "Rocky Mountain All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_SMA_DPG",
+    "name": "Massachusetts All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_SWA_DPG",
+    "name": "Washington All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPM0_PTE_YBOS_DPG",
+    "name": "Boston, MA All Grades All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMR_PTE_Y05LA_DPG",
+    "name": "Los Angeles, CA Midgrade Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMMU_PTE_R20_DPG",
+    "name": "Midwest Midgrade Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_NUS_DPG",
+    "name": "U.S. Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_R1Z_DPG",
+    "name": "Lower Atlantic (PADD 1C) Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_R50_DPG",
+    "name": "West Coast Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_Y05SF_DPG",
+    "name": "San Francisco Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMM_PTE_YCLE_DPG",
+    "name": "Cleveland, OH Midgrade All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_SNY_DPG",
+    "name": "New York Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPR_PTE_Y05LA_DPG",
+    "name": "Los Angeles, CA Premium Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_R1Y_DPG",
+    "name": "Central Atlantic (PADD 1B) Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_SOH_DPG",
+    "name": "Ohio Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMPU_PTE_YMIA_DPG",
+    "name": "Miami, FL Premium Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_NUS_DPG",
+    "name": "U.S. Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_R10_DPG",
+    "name": "East Coast Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_SCO_DPG",
+    "name": "Colorado Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_SMA_DPG",
+    "name": "Massachusetts Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_SNY_DPG",
+    "name": "New York Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_SWA_DPG",
+    "name": "Washington Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_Y05SF_DPG",
+    "name": "San Francisco Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_Y35NY_DPG",
+    "name": "New York City Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_Y44HO_DPG",
+    "name": "Houston Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMP_PTE_YORD_DPG",
+    "name": "Chicago Premium All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_R30_DPG",
+    "name": "Gulf Coast Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_R5XCA_DPG",
+    "name": "West Coast (PADD 5) Except California Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_STX_DPG",
+    "name": "Texas Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_Y05SF_DPG",
+    "name": "San Francisco, CA Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRR_PTE_YORD_DPG",
+    "name": "Chicago, IL Regular Reformulated Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMRU_PTE_YDEN_DPG",
+    "name": "Denver, CO Regular Conventional Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_R1X_DPG",
+    "name": "New England (PADD 1A) Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_R40_DPG",
+    "name": "Rocky Mountain Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_R50_DPG",
+    "name": "West Coast Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_SCA_DPG",
+    "name": "California Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_SFL_DPG",
+    "name": "Florida Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_SOH_DPG",
+    "name": "Ohio Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   },
+   {
+    "id": "EMM_EPMR_PTE_Y35NY_DPG",
+    "name": "New York City Regular All Formulations Retail Gasoline Prices (Dollars per Gallon)"
+   }
+  ]
+ },
+ "request": {
+  "command": "/v2/petroleum/pri/gnd/facet/series/",
+  "params": []
+ },
+ "apiVersion": "2.1.14",
+ "ExcelAddInVersion": "2.1.0"
+}

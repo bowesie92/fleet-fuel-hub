@@ -1,0 +1,16 @@
+{
+ "petroleum": {"response": {"id": "petroleum", "routes": [{"id": "pri", "name": "Prices"}, {"id": "sum", "name": "Summary"}]}},
+ "petroleum/pri": {"response": {"id": "pri", "routes": [{"id": "gnd", "name": "Gasoline and Diesel Retail Prices"}]}},
+ "petroleum/pri/gnd": {"response": {"id": "gnd", "name": "Gasoline and Diesel Retail Prices", "frequency": [{"id": "weekly"}, {"id": "monthly"}], "facets": [{"id": "duoarea"}, {"id": "product"}, {"id": "series"}]}},
+ "petroleum/pri/gnd/facet/duoarea": {"response": {"facets": [{"id": "R50", "name": "PADD 5"}, {"id": "R5XCA", "name": "PADD 5 EXCEPT CALIFORNIA"}, {"id": "SCA", "name": "CALIFORNIA"}]}},
+ "petroleum/pri/gnd/facet/product": {"response": {"facets": [{"id": "EPD2D", "name": "No 2 Diesel"}, {"id": "EPD2DXL0", "name": "No 2 Diesel Low Sulfur (0-15 ppm)"}, {"id": "EPMRU", "name": "Regular Gasoline"}]}},
+ "petroleum/pri/gnd/facet/series": {"response": {"facets": [{"id": "EMD_EPD2D_PTE_R5XCA_DPG", "name": "x"}]}},
+ "data_pages": [
+  {"response": {"total": "3", "data": [
+   {"period": "2025-01-06", "series": "EMD_EPD2D_PTE_R5XCA_DPG", "series-description": "West Coast (PADD 5) Except California No 2 Diesel Retail Prices (Dollars per Gallon)", "value": "3.9", "units": "$/GAL"},
+   {"period": "2025-01-13", "series": "EMD_EPD2D_PTE_R5XCA_DPG", "series-description": "West Coast (PADD 5) Except California No 2 Diesel Retail Prices (Dollars per Gallon)", "value": "3.9125", "units": "$/GAL"}]},
+   "request": {"params": {"api_key": "TEST-KEY-123"}}},
+  {"response": {"total": "3", "data": [
+   {"period": "2025-01-20", "series": "EMD_EPD2D_PTE_R5XCA_DPG", "series-description": "West Coast (PADD 5) Except California No 2 Diesel Retail Prices (Dollars per Gallon)", "value": "4.01", "units": "$/GAL"}]}}
+ ]
+}

@@ -1,0 +1,21 @@
+# Secrets and private local files
+.env
+.local/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Rebuilt by the pipeline
+data/hub.duckdb
+data/hub.duckdb.wal
+
+# Agent worktrees
+.claude/worktrees/
+
+# OS
+.DS_Store
+Thumbs.db
+docs/design/design-refs/

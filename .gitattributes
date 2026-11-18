@@ -1,0 +1,7 @@
+* text=auto
+*.duckdb binary
+*.png binary
+*.jpg binary
+*.csv text eol=lf
+*.json text eol=lf
+*.geojson text eol=lf

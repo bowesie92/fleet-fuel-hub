@@ -1,0 +1,213 @@
+{
+ "synthetic": true,
+ "generated_on": "2026-11-16",
+ "period_start": "2025-11-01",
+ "period_end": "2026-10-31",
+ "assumptions": [
+  {
+   "key": "seed",
+   "value": 20261116,
+   "note": "Setting: random seed, so every synthetic run is identical"
+  },
+  {
+   "key": "period.start_date",
+   "value": "2025-11-01",
+   "note": "Assumption: first day of the 12 months of synthetic operations"
+  },
+  {
+   "key": "period.end_date",
+   "value": "2026-10-31",
+   "note": "Assumption: last day of the synthetic operations period"
+  },
+  {
+   "key": "period.timezone",
+   "value": "America/Phoenix",
+   "note": "Fact: Arizona local time, which has no daylight saving time"
+  },
+  {
+   "key": "period.operating_days",
+   "value": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "note": "Assumption: delivery days each week"
+  },
+  {
+   "key": "yards.phoenix_dc.id",
+   "value": "PHX_DC",
+   "note": "Setting: location ID used in route plans"
+  },
+  {
+   "key": "yards.phoenix_dc.label",
+   "value": "Phoenix DC",
+   "note": "Setting: display name of the hypothetical distribution center"
+  },
+  {
+   "key": "yards.phoenix_dc.lat",
+   "value": 33.418,
+   "note": "Assumption: approximate hypothetical location in west Phoenix, not a real site"
+  },
+  {
+   "key": "yards.phoenix_dc.lon",
+   "value": -112.155,
+   "note": "Assumption: approximate hypothetical location in west Phoenix, not a real site"
+  },
+  {
+   "key": "yards.phoenix_dc.onsite_fuel",
+   "value": true,
+   "note": "Assumption: the Phoenix DC has an on-site bulk diesel tank; linehaul tractors fill there before each departure"
+  },
+  {
+   "key": "yards.tucson_yard.id",
+   "value": "TUC_YARD",
+   "note": "Setting: location ID used in route plans"
+  },
+  {
+   "key": "yards.tucson_yard.label",
+   "value": "Tucson yard",
+   "note": "Setting: display name of the hypothetical satellite yard"
+  }
+ ],
+ "trucks_in_fleet": 20,
+ "headline_assumptions": [
+  {
+   "key": "prices.class_offset_per_gal.cardlock",
+   "value": -0.1,
+   "note": "Assumption: cardlock fleet fueling site discount versus the EIA average, dollars per gallon; in line with typical advertised fleet fuel-card network discounts (network averages of about 12 and 15 cents; 10 to 25 cents at major truck stops). Owner's figures from the networks' own advertising; no source is cited here because naming the networks would break the project's no-company-names rule",
+   "source": "config"
+  },
+  {
+   "key": "fueling.use_unverified_truck_access",
+   "value": false,
+   "note": "Assumption: synthetic drivers only fuel where truck access is confirmed",
+   "source": "config"
+  },
+  {
+   "key": "yard_fuel.discount_vs_eia_per_gal",
+   "value": 0.2,
+   "note": "Assumption: bulk diesel delivered to the Phoenix DC tank costs this much less than the EIA weekly retail average, dollars per gallon; within a vendor-quoted bulk range of 15 to 30 cents (owner's figure; no public source)",
+   "source": "config"
+  },
+  {
+   "key": "yard_fuel.skip_rate",
+   "value": 0.03,
+   "note": "Assumption: share of linehaul departures that leave without the yard fill (tank queue, late load); a skipped truck uses the card only if it runs low mid-trip",
+   "source": "config"
+  },
+  {
+   "key": "routes.linehaul_runs_per_day",
+   "value": 5,
+   "note": "Assumption: daily Phoenix DC to Tucson yard round trips, one tractor each; the sixth linehaul tractor is a spare",
+   "source": "config"
+  },
+  {
+   "key": "derived.tucson_local_route_miles_per_day",
+   "value": 31.6,
+   "note": "synthetic-route assumption: openrouteservice road miles over the synthetic route plans",
+   "source": "derived"
+  },
+  {
+   "key": "prices.partner_set_description",
+   "value": "Named truck stops on I-10 between Casa Grande and Eloy (truck access confirmed)",
+   "note": "Assumption: the hypothetical fuel partner program is the named, truck-confirmed truck stops on the I-10 stretch from Casa Grande to Eloy (replaces a random draw)",
+   "source": "config"
+  },
+  {
+   "key": "prices.partner_discount_cpg",
+   "value": 12,
+   "note": "Assumption: partner discount off the posted price, cents per gallon; in line with typical advertised fleet fuel-card network discounts (network averages of about 12 and 15 cents; 10 to 25 cents at major truck stops). Owner's figures from the networks' own advertising; no source is cited here because naming the networks would break the project's no-company-names rule",
+   "source": "config"
+  },
+  {
+   "key": "routing.candidate_station_radius_mi",
+   "value": 15,
+   "note": "Assumption: stations farther than this from a route are never a sensible detour; kept equal to fueling.search_radius_mi so every station a driver could pick has detour figures",
+   "source": "config"
+  },
+  {
+   "key": "time_cost.travel_time_index",
+   "value": 1.07,
+   "note": "Fact (averaged by us): Tucson Travel Time Index, mean of the four FHWA Urban Congestion Report quarters Oct 2025 to Sep 2026 (1.09, 1.09, 1.04, 1.05), freeways; https://ops.fhwa.dot.gov/perf_measurement/ucr/reports/fy2026_q4.pdf",
+   "source": "config"
+  },
+  {
+   "key": "time_cost.planning_time_index",
+   "value": 1.38,
+   "note": "Fact (averaged by us): Tucson Planning Time Index (95th percentile, late one day a month), mean of the same four FHWA quarters (1.55, 1.39, 1.31, 1.28); same source",
+   "source": "config"
+  },
+  {
+   "key": "time_cost.use_reliability_buffer",
+   "value": false,
+   "note": "Setting: when true, peak detour minutes use the Planning Time Index instead of the Travel Time Index (the conservative, plan-for-a-bad-day view)",
+   "source": "config"
+  },
+  {
+   "key": "time_cost.peak_windows",
+   "value": [
+    "06:00-09:00",
+    "16:00-19:00"
+   ],
+   "note": "Fact: FHWA Urban Congestion Report peak periods (weekday AM 6 to 9, PM 4 to 7); https://ops.fhwa.dot.gov/perf_measurement/ucr/documentation.htm",
+   "source": "config"
+  },
+  {
+   "key": "time_cost.max_detour_minutes",
+   "value": 45,
+   "note": "Assumption: a detour longer than this (after the time-of-day factor) is never recommended or counted",
+   "source": "config"
+  },
+  {
+   "key": "time_cost.schedule_risk_usd_per_minute",
+   "value": 0.5,
+   "note": "Assumption: cost of each detour minute taken before the route's last customer delivery, for the risk of a late delivery",
+   "source": "config"
+  },
+  {
+   "key": "hos.max_driving_hours",
+   "value": 11,
+   "note": "Fact: FMCSA hours of service, property-carrying drivers may drive a total of 11 hours (49 CFR 395.3(a)(3)(i)); https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3",
+   "source": "config"
+  },
+  {
+   "key": "hos.max_on_duty_hours",
+   "value": 14,
+   "note": "Fact: FMCSA hours of service, no driving after 14 consecutive hours on duty (49 CFR 395.3(a)(2)); the short-haul exception (150 air-miles, 49 CFR 395.1(e)(1)) keeps the 14-hour limit; https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1",
+   "source": "config"
+  },
+  {
+   "key": "savings.driver_cost_per_hour",
+   "value": 38.0,
+   "note": "Assumption: loaded cost, wage plus benefits for a foodservice route driver, dollars per hour. Basis: BLS OEWS, Heavy and Tractor-Trailer Truck Drivers (53-3032): national median $57,440 a year (May 2024); Tucson metro median $27.23 an hour (May 2025, the latest Tucson figure, BLS series OEUM004606000000053303208); foodservice routes pay above the metro median; https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm and https://data.bls.gov/timeseries/OEUM004606000000053303208",
+   "source": "config"
+  },
+  {
+   "key": "fleet.local_mpg",
+   "value": 6.0,
+   "note": "Assumption: stop-and-go miles per gallon on city delivery routes. Source: NACFE, Run on Less Regional (2019), Class 8 regional haul average estimated at 6.0 MPG; https://nacfe.org/research/run-on-less/run-on-less-regional/",
+   "source": "config"
+  },
+  {
+   "key": "fleet.linehaul_mpg",
+   "value": 6.8,
+   "note": "Assumption: highway miles per gallon for a loaded tractor-trailer. Basis: ATRI, An Analysis of the Operational Costs of Trucking, 2026 Update, reports 6.73 mpg at 30,001 to 40,000 lb (full report is registration-only; figure as reported, not checked by this project); https://truckingresearch.org/2026/07/analysis-of-the-operational-costs-of-trucking-2026-update/",
+   "source": "config"
+  },
+  {
+   "key": "savings.variable_cost_per_mile",
+   "value": 0.25,
+   "note": "Assumption: maintenance and tire cost per detour mile, dollars. Basis: ATRI, An Analysis of the Operational Costs of Trucking, 2026 Update, reports repair and maintenance at $0.22 a mile in 2025, plus tires (full report is registration-only; figure as reported, not checked by this project); https://truckingresearch.org/2026/07/analysis-of-the-operational-costs-of-trucking-2026-update/",
+   "source": "config"
+  },
+  {
+   "key": "savings.min_saving_threshold_usd",
+   "value": 5.0,
+   "note": "Assumption: a missed saving must beat this many dollars to count",
+   "source": "config"
+  }
+ ]
+}

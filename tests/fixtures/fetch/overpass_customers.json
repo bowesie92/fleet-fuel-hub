@@ -1,0 +1,7 @@
+{"version": 0.6, "elements": [
+ {"type": "node", "id": 11, "lat": 32.2226611, "lon": -110.9747111, "tags": {"amenity": "restaurant", "name": "Secret Name Cafe", "addr:street": "Main St", "phone": "555-0100"}},
+ {"type": "way", "id": 12, "center": {"lat": 32.2301234, "lon": -110.9605678}, "tags": {"amenity": "fast_food", "name": "Another Name"}},
+ {"type": "node", "id": 13, "lat": 32.2226611, "lon": -110.9747111, "tags": {"amenity": "cafe", "name": "Same Spot"}},
+ {"type": "node", "id": 14, "lat": 32.3, "lon": -110.9, "tags": {"amenity": "cafe"}},
+ {"type": "relation", "id": 15, "center": {"lat": 32.15, "lon": -110.85}, "tags": {"amenity": "restaurant"}}
+]}

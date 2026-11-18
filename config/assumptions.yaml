@@ -1,0 +1,229 @@
+# Fleet Fuel Hub: every assumption in one place.
+# Everything here describes a HYPOTHETICAL distributor. These are assumptions, not facts
+# about any real fleet. Notes start with "Assumption:", "Fact:" (public fact) or
+# "Setting:" (a technical knob). Code reads values from here; the site prints them.
+# Format rule: one "key: value  # note" per line, lists written inline as [a, b].
+
+seed: 20261116  # Setting: random seed, so every synthetic run is identical
+
+period:
+  start_date: "2025-11-01"  # Assumption: first day of the 12 months of synthetic operations
+  end_date: "2026-10-31"  # Assumption: last day of the synthetic operations period
+  timezone: "America/Phoenix"  # Fact: Arizona local time, which has no daylight saving time
+  operating_days: [Mon, Tue, Wed, Thu, Fri, Sat]  # Assumption: delivery days each week
+
+yards:
+  phoenix_dc:
+    id: "PHX_DC"  # Setting: location ID used in route plans
+    label: "Phoenix DC"  # Setting: display name of the hypothetical distribution center
+    lat: 33.4180  # Assumption: approximate hypothetical location in west Phoenix, not a real site
+    lon: -112.1550  # Assumption: approximate hypothetical location in west Phoenix, not a real site
+    onsite_fuel: true  # Assumption: the Phoenix DC has an on-site bulk diesel tank; linehaul tractors fill there before each departure
+  tucson_yard:
+    id: "TUC_YARD"  # Setting: location ID used in route plans
+    label: "Tucson yard"  # Setting: display name of the hypothetical satellite yard
+    lat: 32.1400  # Assumption: approximate hypothetical location in south Tucson, not a real site
+    lon: -110.9600  # Assumption: approximate hypothetical location in south Tucson, not a real site
+    onsite_fuel: false  # Assumption (SPEC section 1): the Tucson yard has no on-site fueling
+
+yard_fuel:
+  discount_vs_eia_per_gal: 0.20  # Assumption: bulk diesel delivered to the Phoenix DC tank costs this much less than the EIA weekly retail average, dollars per gallon; within a vendor-quoted bulk range of 15 to 30 cents (owner's figure; no public source)
+  skip_rate: 0.03  # Assumption: share of linehaul departures that leave without the yard fill (tank queue, late load); a skipped truck uses the card only if it runs low mid-trip
+
+fleet:
+  linehaul_trucks: 6  # Assumption: Phoenix tractors running Phoenix DC to Tucson yard and back
+  local_trucks: 14  # Assumption: Tucson tractors delivering to customers (10 routes plus spares)
+  linehaul_tank_gal: 200  # Assumption: usable diesel tank capacity of a linehaul tractor, gallons
+  local_tank_gal: 120  # Assumption: usable diesel tank capacity of a local tractor, gallons
+  linehaul_mpg: 6.8  # Assumption: highway miles per gallon for a loaded tractor-trailer. Basis: ATRI, An Analysis of the Operational Costs of Trucking, 2026 Update, reports 6.73 mpg at 30,001 to 40,000 lb (full report is registration-only; figure as reported, not checked by this project); https://truckingresearch.org/2026/07/analysis-of-the-operational-costs-of-trucking-2026-update/
+  local_mpg: 6.0  # Assumption: stop-and-go miles per gallon on city delivery routes. Source: NACFE, Run on Less Regional (2019), Class 8 regional haul average estimated at 6.0 MPG; https://nacfe.org/research/run-on-less/run-on-less-regional/
+  mpg_daily_noise_sd: 0.3  # Assumption: day-to-day standard deviation of MPG
+  mpg_noise_cap_sd: 3  # Setting: day-to-day MPG noise is cut off at this many standard deviations
+  starting_odometer_min_mi: 120000  # Assumption: lowest starting odometer in the fleet, miles
+  starting_odometer_max_mi: 480000  # Assumption: highest starting odometer in the fleet, miles
+
+routes:
+  local_route_count: 10  # Assumption: Tucson local delivery routes, fixed for the whole period
+  stops_per_route_min: 8  # Assumption (SPEC section 3): fewest customer stops on a route
+  stops_per_route_max: 12  # Assumption (SPEC section 3): most customer stops on a route
+  minutes_per_stop: 25  # Assumption: unloading time at each customer
+  avg_speed_mph_local: 28  # Assumption: average city driving speed between stops
+  avg_speed_mph_linehaul: 58  # Assumption: average I-10 speed for a loaded truck
+  straight_line_circuity: 1.25  # Assumption: road miles per straight-line mile, used until real routing in Wave 2
+  local_start_time: "05:00"  # Assumption: local routes leave the Tucson yard at this time
+  linehaul_start_time: "02:00"  # Assumption: linehaul trucks leave Phoenix DC at this time
+  linehaul_yard_dwell_minutes: 45  # Assumption: time at the Tucson yard to swap trailers
+  linehaul_runs_per_day: 5  # Assumption: daily Phoenix DC to Tucson yard round trips, one tractor each; the sixth linehaul tractor is a spare
+  linehaul_departure_stagger_minutes: 30  # Assumption: gap between linehaul departures from Phoenix DC, starting at linehaul_start_time
+  actual_miles_noise_pct: 0.05  # Assumption: actual miles vary from planned by up to this fraction
+
+fueling:
+  refuel_below_tank_fraction: 0.35  # Assumption: drivers look for fuel once the tank is below this share
+  fill_to_tank_fraction: 0.95  # Assumption: drivers fill to about this share of the tank
+  fill_fraction_noise_sd: 0.03  # Assumption: variation in how full drivers fill the tank
+  search_radius_mi: 15  # Assumption: drivers only consider stations within this distance of their route
+  use_unverified_truck_access: false  # Assumption: synthetic drivers only fuel where truck access is confirmed
+  fill_minutes: 15  # Assumption: time at the pump for one fill
+  behavior_mix:
+    sensible: 0.80  # Assumption: share of fills at the lowest net-cost station after detour costs
+    convenient: 0.15  # Assumption: share of fills at the nearest station, even when pricier
+    odd: 0.05  # Assumption: share of fills at a random reachable station (creates exceptions)
+
+prices:
+  class_offset_per_gal:
+    travel_center: 0.00  # Assumption: travel center price versus the EIA regional average, dollars per gallon
+    branded: 0.08  # Assumption: branded retail station premium versus the EIA average, dollars per gallon
+    unbranded: -0.05  # Assumption: unbranded station discount versus the EIA average, dollars per gallon
+    cardlock: -0.10  # Assumption: cardlock fleet fueling site discount versus the EIA average, dollars per gallon; in line with typical advertised fleet fuel-card network discounts (network averages of about 12 and 15 cents; 10 to 25 cents at major truck stops). Owner's figures from the networks' own advertising; no source is cited here because naming the networks would break the project's no-company-names rule
+  station_offset_sd_per_gal: 0.08  # Assumption: spread of fixed per-station price offsets, dollars per gallon
+  daily_noise_sd_per_gal: 0.02  # Assumption: day-to-day price noise at a station, dollars per gallon
+  partner_set_description: "Named truck stops on I-10 between Casa Grande and Eloy (truck access confirmed)"  # Assumption: the hypothetical fuel partner program is the named, truck-confirmed truck stops on the I-10 stretch from Casa Grande to Eloy (replaces a random draw)
+  partner_set_named_only: true  # Assumption: only stations with an OSM name or brand join the partner program; unnamed truck-tagged fuel points are left out
+  partner_set_bbox: [32.70, -111.75, 32.85, -111.50]  # Setting: south, west, north, east box on I-10 from the Casa Grande exits to Eloy; truck-confirmed stations inside (named ones only, see partner_set_named_only) are partners
+  partner_discount_cpg: 12  # Assumption: partner discount off the posted price, cents per gallon; in line with typical advertised fleet fuel-card network discounts (network averages of about 12 and 15 cents; 10 to 25 cents at major truck stops). Owner's figures from the networks' own advertising; no source is cited here because naming the networks would break the project's no-company-names rule
+
+site:
+  headline_assumption_keys: ["prices.class_offset_per_gal.cardlock", "fueling.use_unverified_truck_access", "yard_fuel.discount_vs_eia_per_gal", "yard_fuel.skip_rate", "routes.linehaul_runs_per_day", "derived.tucson_local_route_miles_per_day", "prices.partner_set_description", "prices.partner_discount_cpg", "routing.candidate_station_radius_mi", "time_cost.travel_time_index", "time_cost.index_cross_check", "time_cost.planning_time_index", "time_cost.use_reliability_buffer", "time_cost.peak_windows", "time_cost.max_detour_minutes", "savings.typical_fill_gal", "hos.max_driving_hours", "hos.max_on_duty_hours", "savings.driver_cost_per_hour", "fleet.local_mpg", "fleet.linehaul_mpg", "savings.variable_cost_per_mile", "savings.min_saving_threshold_usd"]  # Setting: assumptions that move the headline numbers, shown in the "Assumptions behind these numbers" panel, in this order
+
+export:
+  max_detour_paths: 400  # Setting: most route-station detour legs drawn on real roads (one openrouteservice directions call each, then cached); kept above the ref_detour row count so every detour is drawn
+
+time_cost:
+  peak_windows: ["06:00-09:00", "16:00-19:00"]  # Fact: FHWA Urban Congestion Report peak periods (weekday AM 6 to 9, PM 4 to 7); https://ops.fhwa.dot.gov/perf_measurement/ucr/documentation.htm
+  peak_weekdays_only: true  # Fact: the FHWA peak periods are weekdays only, so Saturday fills are off-peak
+  travel_time_index: 1.17  # Fact: Tucson Travel Time Index, Texas A&M Transportation Institute, 2025 Urban Mobility Report (2024 data), freeways and arterial streets, which is where fuel-stop detours run; https://static.tti.tamu.edu/tti.tamu.edu/documents/mobility-report-2025.pdf
+  planning_time_index: 1.38  # Fact: Tucson freeway Planning Time Index (95th percentile, late one day a month), Texas A&M 2025 Urban Mobility Report; the FHWA cross-check below gives the same 1.38; same source
+  index_cross_check: "FHWA Urban Congestion Report, Tucson, mean of the four quarters Oct 2025 to Sep 2026 (averaged by us), freeways only: TTI 1.07, PTI 1.38; https://ops.fhwa.dot.gov/perf_measurement/ucr/reports/fy2026_q4.pdf"  # Fact: cross-check for the two indices; the FHWA TTI is lower because it covers freeways only
+  use_reliability_buffer: false  # Setting: when true, peak detour minutes use the Planning Time Index instead of the Travel Time Index (the conservative, plan-for-a-bad-day view)
+  max_detour_minutes: 15  # Assumption: a detour longer than this (after the rush-hour factor) is never recommended, counted as a missed saving or credited to the scout
+  schedule_risk_usd_per_minute: 0.50  # Setting: ranking penalty per detour minute taken before the route's last customer delivery; it only ranks Test route stops lower to protect the delivery schedule and is never counted in missed savings, break-even or the scout
+  worked_example_detour_minutes: 12  # Setting: Test route worked example, detour length in minutes (with the rush-hour factor it stays under the 15-minute detour limit)
+  worked_example_detour_miles: 4  # Assumption: Test route worked example, miles a 12-minute city detour adds (20 mph in town)
+  worked_example_time: "07:00"  # Setting: Test route worked example, local time of day on a weekday; 7 am is in the morning rush, when Tucson routes are on the road
+
+partner_scout:
+  discount_min_cpg: 0  # Setting: lowest partner discount on the Overview slider, cents per gallon
+  discount_max_cpg: 30  # Setting: highest partner discount on the Overview slider, cents per gallon
+  discount_step_cpg: 1  # Setting: slider step, cents per gallon
+  default_discount_cpg: 12  # Assumption: starting slider value, the same discount the existing partner program gets; the 0 to 30 cent range covers typical advertised fleet fuel-card network discounts (network averages of about 12 and 15 cents; 10 to 25 cents at major truck stops). Owner's figures from the networks' own advertising; no source is cited here because naming the networks would break the project's no-company-names rule
+
+stations:
+  add_match_distance_m: 300  # Setting: a chain-locator site this close to an OSM station is treated as the same site
+
+savings:
+  driver_cost_per_hour: 38.00  # Assumption: loaded cost, wage plus benefits for a foodservice route driver, dollars per hour. Basis: BLS OEWS, Heavy and Tractor-Trailer Truck Drivers (53-3032): national median $57,440 a year (May 2024); Tucson metro median $27.23 an hour (May 2025, the latest Tucson figure, BLS series OEUM004606000000053303208); foodservice routes pay above the metro median; https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm and https://data.bls.gov/timeseries/OEUM004606000000053303208
+  include_variable_cost: true  # Assumption: count wear and tear on detour miles (the optional SPEC term)
+  variable_cost_per_mile: 0.25  # Assumption: maintenance and tire cost per detour mile, dollars. Basis: ATRI, An Analysis of the Operational Costs of Trucking, 2026 Update, reports repair and maintenance at $0.22 a mile in 2025, plus tires (full report is registration-only; figure as reported, not checked by this project); https://truckingresearch.org/2026/07/analysis-of-the-operational-costs-of-trucking-2026-update/
+  min_saving_threshold_usd: 5.00  # Assumption: a missed saving must beat this many dollars to count
+  reserve_gal: 25  # Assumption: fuel a truck must keep in reserve when reaching an alternative station
+  typical_fill_gal: 72  # Assumption: typical Tucson fill, gallons: a local truck refuels from 35% to 95% of its 120-gallon tank (fueling.refuel_below_tank_fraction to fueling.fill_to_tank_fraction); synthetic Tucson card fills average about 73. Used for break-even, the Test route and its worked example
+  price_basis_weeks: 4  # Setting: the test route page prices stations at their average posted net price over this many final weeks of the period
+  include_unverified_truck_access_default: false  # Setting: starting position of the site toggle; recommendations and missed savings use confirmed stations only
+  max_route_day_minutes: 840  # Fact: 14-hour on-duty window for property-carrying drivers (FMCSA, 49 CFR 395.3(a)(2)); https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3
+
+hos:
+  max_driving_hours: 11  # Fact: FMCSA hours of service, property-carrying drivers may drive a total of 11 hours (49 CFR 395.3(a)(3)(i)); https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.3
+  max_on_duty_hours: 14  # Fact: FMCSA hours of service, no driving after 14 consecutive hours on duty (49 CFR 395.3(a)(2)); the short-haul exception (150 air-miles, 49 CFR 395.1(e)(1)) keeps the 14-hour limit; https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/subpart-A/section-395.1
+
+messiness:
+  name_variant_mix:
+    canonical: 0.40  # Assumption: share of swipes showing the station's OSM name as-is
+    upper_store: 0.35  # Assumption: share shown upper-case with a store number, like "BRAND #812 TUCSON"
+    short_brand: 0.15  # Assumption: share shown as a shortened brand only
+    merchant_code: 0.10  # Assumption: share shown only as a merchant code, like "MERCH 004512"
+  duplicate_swipe_rate: 0.02  # Assumption: share of fills that also appear as a duplicate swipe
+  missing_odometer_rate: 0.05  # Assumption: share of swipes with a blank odometer
+  wrong_odometer_rate: 0.03  # Assumption: share of swipes with a mistyped or implausible odometer
+  ping_interval_min_minutes: 5  # Assumption: shortest gap between GPS pings while driving
+  ping_interval_max_minutes: 25  # Assumption: longest normal gap between GPS pings while driving
+  gps_gap_rate_per_truck_day: 0.05  # Assumption: chance a truck-day has a GPS outage
+  gps_gap_minutes_min: 20  # Assumption: shortest GPS outage
+  gps_gap_minutes_max: 90  # Assumption: longest GPS outage
+  telematics_export_timezone: "UTC"  # Assumption: the GPS vendor exports timestamps in UTC
+  store_number_min: 100  # Setting: lowest invented store number in 'upper_store' merchant names
+  store_number_max: 999  # Setting: highest invented store number in 'upper_store' merchant names
+  unnamed_station_merchant_label: "FUEL STOP"  # Setting: generic merchant label a card vendor shows for a station with no OSM name or brand, followed by a stable store number
+  wrong_odometer_attempts: 20  # Setting: tries to draw a mistyped odometer far enough off to be detectable
+  wrong_odometer_fallback_multiple: 2  # Setting: if no draw works, the wrong odometer is this many detection thresholds off
+  ping_position_noise_m: 15  # Assumption: GPS position jitter on each ping, meters
+  ping_speed_sd_fraction: 0.15  # Assumption: spread of reported speed around the true speed, as a fraction
+
+pipeline:
+  source_timezones:
+    fuel_card: "America/Phoenix"  # Assumption: fuel card export uses local merchant time
+    telematics: "UTC"  # Assumption: what the GPS vendor's documentation says it exports
+    route_plans: "America/Phoenix"  # Assumption: routing software export uses local time
+  station_match:
+    ping_window_minutes: 30  # Setting: look for the truck's GPS position within this many minutes of a swipe
+    max_distance_mi: 1.0  # Setting: candidate stations must be within this distance of that GPS position
+    name_score_min: 60  # Setting: lowest fuzzy name score (0 to 100) that counts as name evidence
+    weight_name: 0.5  # Setting: weight of name similarity in the match confidence
+    weight_brand: 0.2  # Setting: weight of brand agreement in the match confidence
+    weight_distance: 0.3  # Setting: weight of GPS distance in the match confidence
+    min_confidence: 0.70  # Setting: below this confidence a swipe stays unmatched instead of guessed
+    ambiguity_margin: 0.03  # Setting: if the top two candidates score closer than this, the swipe stays unmatched
+    alias_min_swipes: 3  # Setting: a code-only merchant string is tied to a station only after this many GPS-confirmed swipes
+    alias_min_share: 0.8  # Setting: and only if at least this share of those swipes point to the same station
+  timezones:
+    start_diff_tolerance_minutes: 120  # Setting: flag trucks whose first GPS ping is this far from the planned route start
+  dedupe:
+    window_minutes: 2  # Setting: swipes by the same truck this close together can be duplicates
+    amount_tolerance_usd: 0.01  # Setting: duplicate swipes must have totals this close
+  odometer:
+    max_gap_vs_telematics_mi: 25  # Setting: card odometer further than this from GPS odometer is treated as wrong
+    eval_tolerance_mi: 2.0  # Setting: a repaired odometer within this of the truth counts as correct
+
+fetch:
+  eia:
+    api_base: "https://api.eia.gov/v2"  # Fact: EIA Open Data API v2 base URL
+    region_description: "West Coast (PADD 5) except California"  # Fact: EIA region that includes Arizona
+    product_description: "No 2 Diesel"  # Fact: on-highway retail diesel product in EIA data
+    start_date: "2022-11-01"  # Setting: pull at least 3 years of weekly history
+    page_size: 5000  # Setting: rows per EIA API page
+    pause_s: 1.0  # Setting: polite pause between EIA requests, seconds
+  connect_timeout_s: 30  # Setting: seconds to wait for an API connection before giving up
+  read_timeout_s: 60  # Setting: seconds to wait for an API response once connected
+  retry:
+    max_retries: 4  # Setting: retries when Overpass or EIA answers busy (HTTP 429, 502, 503, 504)
+    wait_s: 30  # Setting: first wait before a retry, seconds; doubles each retry
+  overpass:
+    endpoint: "https://overpass-api.de/api/interpreter"  # Fact: public Overpass API endpoint
+    user_agent: "fleet-fuel-hub/0.1 (public portfolio demo, synthetic data)"  # Setting: polite User-Agent
+    timeout_s: 180  # Setting: Overpass query timeout, seconds
+    pause_between_queries_s: 10  # Setting: wait between Overpass queries, seconds
+    stations_bbox: [31.95, -112.45, 33.75, -110.60]  # Setting: south, west, north, east covering Phoenix, I-10 via Casa Grande, and Tucson through Vail
+    tucson_metro_bbox: [31.95, -111.30, 32.50, -110.60]  # Setting: south, west, north, east for the wider Tucson station filter: I-10 from Marana to Vail plus the I-19 junction
+    cardlock_aliases: ["Pacific Pride", "CFN", "Commercial Fueling Network", "Cardlock", "Card Lock", "Fleet Fueling"]  # Fact: fleet fueling network words matched in brand, name or operator (Tucson metro only)
+    fleet_access_values: ["customers", "private"]  # Setting: access tag values that, with fuel:diesel=yes, mark a commercial fleet fueling site
+    truck_evidence_hgv_values: ["destination", "permissive", "delivery"]  # Setting: weaker hgv tag values that count as truck-access evidence for an unverified station
+    truck_evidence_words: ["truck", "diesel", "fleet", "semi"]  # Setting: words in name or operator that count as truck-access evidence for an unverified station
+    truck_brand_aliases: ["Love's", "Loves", "Pilot", "Flying J", "TA", "TravelCenters of America", "Petro", "Petro Stopping Centers"]  # Fact (SPEC section 3): truck-stop brands kept even without truck tags
+    dedupe_distance_m: 100  # Setting: a node and a way this close are one station (raised from 75: five same-site pairs sat 75 to 94 m apart)
+  customers:
+    bbox: [32.10, -111.05, 32.35, -110.80]  # Setting: south, west, north, east covering metro Tucson
+    osm_tags: ["amenity=restaurant", "amenity=fast_food", "amenity=cafe"]  # Setting: food-service places used as stand-in customer locations
+    max_points: 300  # Setting: sample size of anonymized customer points
+    coord_decimals: 5  # Setting: decimals kept on customer coordinates (about 1 meter)
+    offset_min_m: 300  # Setting: each stand-in customer point is moved at least this far from the real business it came from, so no stop sits on a real business; the sample, order and offsets are drawn once from unseeded randomness and stored nowhere, so the move cannot be replayed
+    offset_max_m: 600  # Setting: and at most this far, so stops stay in the same part of town
+    offset_clear_of_any_original_m: 50  # Setting: a moved point is redrawn if it lands this close to any original point (so it never sits on another real business)
+    min_candidate_originals: 3  # Setting: a moved point is redrawn unless at least this many original businesses lie 300 to 600 m from it, so nobody rerunning the public OpenStreetMap query can tell which one it came from (Cass, Nov 18)
+    max_reach_rounds: 10  # Setting: how many times the unseeded draw may redraw points a truck cannot reach before it stops with an error
+    road_ping_min_mph: 5  # Setting: privacy check only. A synthetic GPS ping at this speed or more is a point on a road, so one that passes within 5 m of a business on that road is reported, not failed
+    road_ping_max_exempt: 3  # Setting: privacy check only. More road pings than this near originals in one file fails the check, as does any within the clear distance of a customer stop
+
+routing:
+  ors_base_url: "https://api.heigit.org"  # Fact: openrouteservice hosted API; api.openrouteservice.org is being deprecated in favor of this host
+  ors_profile: "driving-hgv"  # Fact: truck routing profile
+  ors_pause_s: 2.0  # Setting: wait between live calls, shared by every client in a run, so the rate stays at or under 30 a minute (free plan allows 40)
+  max_matrix_cells: 3500  # Fact: free-plan limit of origins x destinations per matrix call
+  daily_directions_limit: 2000  # Fact: free-plan directions calls per day
+  daily_matrix_limit: 500  # Fact: free-plan matrix calls per day
+  daily_snap_limit: 500  # Setting: most snap calls a day; the hosted API documents 5,000 locations per snap call but no daily quota, so this stays at the matrix limit to be safe
+  snap_batch_size: 5000  # Fact: most locations in one openrouteservice snap call (hosted API restrictions page)
+  candidate_station_radius_mi: 15  # Assumption: stations farther than this from a route are never a sensible detour; kept equal to fueling.search_radius_mi so every station a driver could pick has detour figures
+  snap_retry_radius_m: 1000  # Setting: if openrouteservice cannot place a stop on a truck road within its default search distance, the request is retried once letting it search this far (needed once customer points were moved off real businesses)
+  reachable_radius_m: 350  # Setting: a customer point counts as reachable by truck when openrouteservice can place it on a truck road this close (its default search distance)
+  rate_limit_wait_s: 65  # Setting: first backoff after a 429 when the server sends no Retry-After, seconds; doubles on the next retry
+  rate_limit_tries: 3  # Setting: most tries of one request when openrouteservice keeps answering 429 (the first try plus two backed-off retries)
+  max_retry_after_s: 120  # Setting: a 429 asking to wait longer than this means the daily quota or a long block; the request fails instead of sleeping

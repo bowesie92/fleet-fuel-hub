@@ -1,0 +1,89 @@
+/* Round 2 additions: truck access toggle, dimmed markers, menus, hub arrows. Colors come from tokens.css only. */
+.sr { position: absolute; left: -9999px; }
+.toggle { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-900); cursor: pointer; }
+.toggle input { width: 16px; height: 16px; accent-color: var(--teal-600); }
+.gm.dim { opacity: .5; }
+.chip.unv { background: var(--amber-50); color: var(--amber-500); }
+.menuwrap { position: relative; }
+.menu { position: absolute; right: 0; top: 44px; z-index: 10; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-sm); box-shadow: var(--shadow); padding: 8px 12px; min-width: 200px; }
+.menu label { display: flex; gap: 8px; align-items: center; padding: 4px 0; font-size: 13px; }
+.hubcol { position: relative; }
+.col-arrow { position: absolute; top: 120px; right: -24px; width: 24px; display: grid; place-items: center; color: var(--text-400); }
+.pager .btn[disabled] { opacity: .4; cursor: default; }
+.float-head .toggle { margin-right: 12px; }
+@media (max-width: 1100px) { .col-arrow { display: none; } }
+@media (max-width: 767px) { .metrics3.m-only { display: grid; } }
+
+/* Partnership scout card (Overview lead insight) */
+.scout { margin-bottom: 24px; }
+.scout[hidden] { display: none; }
+.scout-body { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 32px; margin-bottom: 16px; }
+.scout .hero-num.teal { color: var(--teal-600); margin: 12px 0 4px; }
+.scout-best { display: flex; flex-direction: column; gap: 2px; color: var(--text-600); }
+.scout-already { font-size: 13px; color: var(--text-400); }
+.scout-best b { color: var(--text-900); font-size: 18px; }
+.scout-slider { margin-top: 20px; }
+.scout-slider label { display: block; margin-bottom: 8px; }
+.scout-slider input[type=range] { width: 100%; accent-color: var(--teal-600); }
+.scout .ticks { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-400); font-variant-numeric: tabular-nums; }
+.scout-rank h3 { font-size: 14px; font-weight: 600; margin: 0 0 8px; }
+.scout-rank tr.lead td { font-weight: 600; background: var(--teal-50); }
+.scout-rank td.num, .scout-rank th.num { font-variant-numeric: tabular-nums; }
+@media (max-width: 1100px) { .scout-body { grid-template-columns: minmax(0, 1fr); gap: 20px; } }
+@media (max-width: 767px) { .scout .card-head { flex-wrap: wrap; } .scout-rank th, .scout-rank td { padding: 0 8px; white-space: normal; height: 44px; } }
+
+/* EIA caption plus plain line, shown wherever a price appears */
+.eia-note { margin: 8px 0 0; }
+
+/* v1.6: split lines under KPI tiles, per truck lines, assumptions panel */
+.kpi .split { font-size: 13px; color: var(--text-600); margin-bottom: 4px; }
+.kpi .split b { color: var(--text-900); font-weight: 600; }
+.per-truck { font-size: 14px; font-weight: 600; color: var(--text-900); margin: 0 0 8px; }
+.per-truck[hidden] { display: none; }
+.assump { margin-bottom: 24px; }
+.assump[hidden] { display: none; }
+.assump summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; cursor: pointer; list-style: none; min-height: 44px; }
+.assump summary::-webkit-details-marker { display: none; }
+.assump summary b { display: block; font-size: 16px; }
+.assump summary small { color: var(--text-600); font-size: 13px; }
+.assump summary .ic { flex: none; color: var(--text-600); transition: transform .15s; }
+.assump[open] summary .ic { transform: rotate(180deg); }
+.assump-list { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 32px; }
+.assump-row { border-top: 1px solid var(--border); padding-top: 10px; }
+.assump-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.assump-label { font-weight: 500; }
+.assump-note { display: block; margin-top: 4px; color: var(--text-600); font-size: 12px; }
+@media (max-width: 767px) { .assump-list { grid-template-columns: minmax(0, 1fr); } }
+
+.assump-val { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.hero-num .unit { font-size: 16px; font-weight: 600; color: var(--text-600); }
+.kpi .v .unit { font-size: 13px; font-weight: 600; color: var(--text-600); }
+.kpi .split a { color: var(--teal-600); font-weight: 600; }
+
+.attrib { font-size: 11px; color: var(--text-600); margin: 8px 0 0; }
+.attrib a { color: var(--teal-600); }
+.attrib-box { padding: 0 16px 12px; }
+.optlist .opt { padding: 8px 0; border-bottom: 1px solid var(--border); }
+.optlist .opt button { border-bottom: 0; padding: 0; }
+.optlist .opt.over { opacity: .55; }
+.optlist .opt button:disabled { cursor: not-allowed; }
+.optlist .opt-time { font-size: 12px; font-weight: 600; color: var(--text-600); margin: 12px 0 0; }
+.optlist .opt-time:first-child { margin-top: 0; }
+.optlist .opt-sub { font-size: 12px; color: var(--text-600); margin-top: 2px; }
+.optlist .opt-chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; }
+.worked-nums { display: block; margin-top: 4px; }
+
+.hos { background: var(--teal-50); border-radius: var(--radius-sm); padding: 12px 16px; margin: 0 0 16px; color: var(--text-900); }
+.hos[hidden] { display: none; }
+.hos b, .hos small { display: block; }
+.hos small { color: var(--text-600); font-size: 12px; margin-top: 2px; }
+.hos.warn { background: var(--amber-50); border-left: 3px solid var(--amber-500); }
+.hos .hos-list { margin: 8px 0 0; padding-left: 18px; font-size: 13px; }
+.route-body .hos { margin-bottom: 12px; }
+
+/* Sidebar credit and the "How this is calculated" section */
+.credit { font-size: 12px; color: var(--card); padding: 0 8px; }
+.credit a { color: var(--card); }
+.how-eq { background: var(--teal-50); border-radius: var(--radius-sm); padding: 12px; margin: 8px 0; font-variant-numeric: tabular-nums; }
+.opt-sub.note { color: var(--text-600); }
+.legend i.dash.navy { border-top-color: var(--navy-900); }

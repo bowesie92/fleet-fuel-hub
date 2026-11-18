@@ -1,0 +1,952 @@
+{
+ "type": "FeatureCollection",
+ "synthetic": true,
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.96152,
+     32.295076
+    ]
+   },
+   "properties": {
+    "station_id": "STN-001",
+    "name": "Chevron",
+    "display_name": "Chevron",
+    "city": null,
+    "brand": "Chevron",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.176,
+    "break_even_cpg": 14.8,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.956707,
+     32.400669
+    ]
+   },
+   "properties": {
+    "station_id": "STN-002",
+    "name": "Fry's Fuel",
+    "display_name": "Fry's Fuel",
+    "city": "Oro Valley",
+    "brand": "Kroger",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.311,
+    "break_even_cpg": 61.3,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.618004,
+     32.779928
+    ]
+   },
+   "properties": {
+    "station_id": "STN-003",
+    "name": null,
+    "display_name": "Unnamed fuel station \u00b7 STN-003",
+    "city": null,
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.066,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.672123,
+     32.8119
+    ]
+   },
+   "properties": {
+    "station_id": "STN-004",
+    "name": null,
+    "display_name": "Unnamed fuel station \u00b7 STN-004",
+    "city": null,
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.086,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.996103,
+     33.415242
+    ]
+   },
+   "properties": {
+    "station_id": "STN-005",
+    "name": null,
+    "display_name": "Unnamed fuel station \u00b7 STN-005",
+    "city": null,
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.105,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.873704,
+     32.125678
+    ]
+   },
+   "properties": {
+    "station_id": "STN-006",
+    "name": "Pilot",
+    "display_name": "Pilot",
+    "city": "Tucson",
+    "brand": "Pilot",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 5,
+    "gallons": 362.8,
+    "avg_price_paid": 5.562,
+    "avg_posted_price": 5.276,
+    "break_even_cpg": 27.1,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.962357,
+     33.279582
+    ]
+   },
+   "properties": {
+    "station_id": "STN-007",
+    "name": "Love's",
+    "display_name": "Love's",
+    "city": "Chandler",
+    "brand": "Love's",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.157,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.672209,
+     32.806516
+    ]
+   },
+   "properties": {
+    "station_id": "STN-008",
+    "name": null,
+    "display_name": "Unnamed fuel station \u00b7 STN-008",
+    "city": null,
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 4.993,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.617854,
+     32.772551
+    ]
+   },
+   "properties": {
+    "station_id": "STN-010",
+    "name": null,
+    "display_name": "Unnamed fuel station \u00b7 STN-010",
+    "city": null,
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.087,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.13718,
+     33.437399
+    ]
+   },
+   "properties": {
+    "station_id": "STN-011",
+    "name": null,
+    "display_name": "Unnamed fuel station \u00b7 STN-011",
+    "city": null,
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.26,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.222096,
+     33.452745
+    ]
+   },
+   "properties": {
+    "station_id": "STN-012",
+    "name": null,
+    "display_name": "Unnamed fuel station \u00b7 STN-012",
+    "city": null,
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.157,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.188657,
+     33.438098
+    ]
+   },
+   "properties": {
+    "station_id": "STN-013",
+    "name": null,
+    "display_name": "Unnamed fuel station \u00b7 STN-013",
+    "city": null,
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.147,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.205449,
+     33.46091
+    ]
+   },
+   "properties": {
+    "station_id": "STN-014",
+    "name": "Flying J",
+    "display_name": "Flying J",
+    "city": "Phoenix",
+    "brand": "Flying J",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.259,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.044354,
+     32.424656
+    ]
+   },
+   "properties": {
+    "station_id": "STN-015",
+    "name": "Fry's Fuel",
+    "display_name": "Fry's Fuel",
+    "city": "Oro Valley",
+    "brand": "Kroger",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.241,
+    "break_even_cpg": 84.5,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.079705,
+     32.425638
+    ]
+   },
+   "properties": {
+    "station_id": "STN-016",
+    "name": "Speedway",
+    "display_name": "Speedway",
+    "city": "Marana",
+    "brand": "Speedway",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.345,
+    "break_even_cpg": 74.3,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.091879,
+     32.357855
+    ]
+   },
+   "properties": {
+    "station_id": "STN-017",
+    "name": "Chevron",
+    "display_name": "Chevron",
+    "city": null,
+    "brand": "Chevron",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.234,
+    "break_even_cpg": 62.7,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.549733,
+     32.731739
+    ]
+   },
+   "properties": {
+    "station_id": "STN-018",
+    "name": "Flying J",
+    "display_name": "Flying J",
+    "city": null,
+    "brand": "Flying J",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": true,
+    "partner_discount_cpg": 12.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.195,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.549354,
+     32.738136
+    ]
+   },
+   "properties": {
+    "station_id": "STN-019",
+    "name": "Pilot",
+    "display_name": "Pilot",
+    "city": null,
+    "brand": "Pilot",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": true,
+    "partner_discount_cpg": 12.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.222,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.117597,
+     33.459527
+    ]
+   },
+   "properties": {
+    "station_id": "STN-021",
+    "name": "Petro Stop",
+    "display_name": "Petro Stop",
+    "city": null,
+    "brand": "Petro",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.195,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.239201,
+     33.458536
+    ]
+   },
+   "properties": {
+    "station_id": "STN-022",
+    "name": "Love's",
+    "display_name": "Love's",
+    "city": "Tolleson",
+    "brand": "Love's",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.212,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.273152,
+     33.456394
+    ]
+   },
+   "properties": {
+    "station_id": "STN-023",
+    "name": "Pilot",
+    "display_name": "Pilot",
+    "city": "Avondale",
+    "brand": "Pilot",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.252,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.160227,
+     32.425113
+    ]
+   },
+   "properties": {
+    "station_id": "STN-024",
+    "name": "Maverik",
+    "display_name": "Maverik",
+    "city": null,
+    "brand": "Maverik",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.266,
+    "break_even_cpg": 63.3,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.167502,
+     33.461393
+    ]
+   },
+   "properties": {
+    "station_id": "STN-025",
+    "name": "QuikTrip",
+    "display_name": "QuikTrip",
+    "city": "Phoenix",
+    "brand": "QuikTrip",
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.264,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.961533,
+     32.250752
+    ]
+   },
+   "properties": {
+    "station_id": "STN-026",
+    "name": "Fry's Fuel",
+    "display_name": "Fry's Fuel",
+    "city": "Tucson",
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.27,
+    "break_even_cpg": 9.9,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.807796,
+     32.191362
+    ]
+   },
+   "properties": {
+    "station_id": "STN-027",
+    "name": "Circle K",
+    "display_name": "Circle K",
+    "city": "Tucson",
+    "brand": "Circle K",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.281,
+    "break_even_cpg": 44.9,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.100902,
+     32.349568
+    ]
+   },
+   "properties": {
+    "station_id": "STN-028",
+    "name": "Fry's",
+    "display_name": "Fry's",
+    "city": null,
+    "brand": null,
+    "station_class": "unbranded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.171,
+    "break_even_cpg": 67.7,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.0111,
+     33.408546
+    ]
+   },
+   "properties": {
+    "station_id": "STN-029",
+    "name": "Petro Stop",
+    "display_name": "Petro Stop",
+    "city": "Phoenix",
+    "brand": "Petro",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.074,
+    "break_even_cpg": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.773373,
+     32.235093
+    ]
+   },
+   "properties": {
+    "station_id": "STN-031",
+    "name": "Circle K",
+    "display_name": "Circle K",
+    "city": "Tucson",
+    "brand": "Circle K",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.245,
+    "break_even_cpg": 59.2,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.803649,
+     32.084348
+    ]
+   },
+   "properties": {
+    "station_id": "STN-032",
+    "name": "Pilot Express",
+    "display_name": "Pilot Express",
+    "city": "Tucson",
+    "brand": "Pilot",
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 1,
+    "gallons": 79.5,
+    "avg_price_paid": 3.946,
+    "avg_posted_price": 5.197,
+    "break_even_cpg": 49.1,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.978478,
+     32.206381
+    ]
+   },
+   "properties": {
+    "station_id": "STN-033",
+    "name": "Circle K",
+    "display_name": "Circle K",
+    "city": "Tucson",
+    "brand": "Circle K",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.335,
+    "break_even_cpg": 3.9,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.751927,
+     32.251354
+    ]
+   },
+   "properties": {
+    "station_id": "STN-034",
+    "name": "Circle K",
+    "display_name": "Circle K",
+    "city": "Tucson",
+    "brand": "Circle K",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.325,
+    "break_even_cpg": 85.7,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.995127,
+     32.397254
+    ]
+   },
+   "properties": {
+    "station_id": "STN-035",
+    "name": "Fry's Fuel",
+    "display_name": "Fry's Fuel",
+    "city": "Oro Valley",
+    "brand": "Kroger",
+    "station_class": "branded",
+    "truck_access": "unverified",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 0,
+    "gallons": 0.0,
+    "avg_price_paid": null,
+    "avg_posted_price": 5.157,
+    "break_even_cpg": 70.2,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.987639,
+     32.252908
+    ]
+   },
+   "properties": {
+    "station_id": "STN-A02",
+    "name": "CFN 5915 Tucson",
+    "display_name": "CFN 5915 Tucson",
+    "city": "Tucson",
+    "brand": "CFN",
+    "station_class": "cardlock",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 94,
+    "gallons": 6915.5,
+    "avg_price_paid": 5.006,
+    "avg_posted_price": 4.974,
+    "break_even_cpg": 9.1,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.954327,
+     32.178823
+    ]
+   },
+   "properties": {
+    "station_id": "STN-A03",
+    "name": "CFN 1792 Benson Hwy",
+    "display_name": "CFN 1792 Benson Hwy",
+    "city": "Tucson",
+    "brand": "CFN",
+    "station_class": "cardlock",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 73,
+    "gallons": 5305.4,
+    "avg_price_paid": 5.001,
+    "avg_posted_price": 5.08,
+    "break_even_cpg": 0.9,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.916397,
+     32.182126
+    ]
+   },
+   "properties": {
+    "station_id": "STN-A04",
+    "name": "CFN 0307 Richey Blvd",
+    "display_name": "CFN 0307 Richey Blvd",
+    "city": "Tucson",
+    "brand": "CFN",
+    "station_class": "cardlock",
+    "truck_access": "confirmed",
+    "is_partner": false,
+    "partner_discount_cpg": 0.0,
+    "fills": 44,
+    "gallons": 3225.9,
+    "avg_price_paid": 5.145,
+    "avg_posted_price": 5.088,
+    "break_even_cpg": 9.2,
+    "break_even_route_id": "TUC-R01",
+    "break_even_is_peak": false
+   }
+  }
+ ]
+}

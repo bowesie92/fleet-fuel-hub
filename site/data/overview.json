@@ -1,0 +1,22 @@
+{
+ "synthetic": true,
+ "kpis": {
+  "total_gallons": 80204,
+  "card_gallons": 15647,
+  "yard_gallons": 64557,
+  "avg_net_price_per_gal": 5.043,
+  "avg_yard_price_per_gal": 5.006,
+  "missed_savings_usd": 401.32,
+  "missed_usd_per_truck_per_year": 20.07,
+  "missed_savings_cpg_card": 2.56,
+  "tucson_card_gallons_partner_share": 0.0
+ },
+ "hos_check": {
+  "limit_driving_hours": 11.0,
+  "limit_on_duty_hours": 14.0,
+  "max_driving_hours": 5.3,
+  "max_on_duty_hours": 7.3,
+  "routes_over": [],
+  "message": "All routes within federal hours-of-service limits"
+ }
+}

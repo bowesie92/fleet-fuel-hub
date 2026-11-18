@@ -1,0 +1,4 @@
+truck_id,home_yard,role,tank_gal,mpg_assumed,telematics_device_id,fuel_card_last4
+PHX-01,PHX_DC,linehaul,200,6.8,GPS-10001,1111
+TUC-01,TUC_YARD,local,120,6.0,GPS-20001,2201
+TUC-02,TUC_YARD,local,120,6.0,GPS-20002,2202

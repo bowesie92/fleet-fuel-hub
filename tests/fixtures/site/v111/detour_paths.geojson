@@ -1,0 +1,93 @@
+{
+ "type": "FeatureCollection",
+ "synthetic": true,
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "route_id": "TUC-R02",
+    "station_id": "STN-006",
+    "insert_after_stop": 2
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -110.96,
+      32.13998
+     ],
+     [
+      -110.87425,
+      32.12655
+     ],
+     [
+      -110.90727,
+      32.18015
+     ],
+     [
+      -110.87338,
+      32.20201
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "route_id": "TUC-R02",
+    "station_id": "STN-A03",
+    "insert_after_stop": 2
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -110.96,
+      32.13998
+     ],
+     [
+      -110.95626,
+      32.1718
+     ],
+     [
+      -110.90704,
+      32.18111
+     ],
+     [
+      -110.87338,
+      32.20201
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "route_id": "TUC-R01",
+    "station_id": "STN-006",
+    "insert_after_stop": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -110.92315,
+      32.13812
+     ],
+     [
+      -110.88624,
+      32.13316
+     ],
+     [
+      -110.84087,
+      32.1784
+     ],
+     [
+      -110.83405,
+      32.20656
+     ]
+    ]
+   }
+  }
+ ]
+}

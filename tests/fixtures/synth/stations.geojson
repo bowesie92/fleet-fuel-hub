@@ -1,0 +1,534 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.19,
+     33.439
+    ]
+   },
+   "properties": {
+    "station_id": "STN-001",
+    "osm_ref": "node/9000001",
+    "name": "Sample Travel Plaza #12",
+    "brand": "Sample Travel Plaza",
+    "operator": null,
+    "city": "Phoenix",
+    "truck_tagged": false,
+    "truck_brand": true,
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "access_basis": "truck_brand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.13,
+     33.401
+    ]
+   },
+   "properties": {
+    "station_id": "STN-002",
+    "osm_ref": "node/9000002",
+    "name": "Sample Fuel Stop #3",
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Phoenix",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.23,
+     33.455
+    ]
+   },
+   "properties": {
+    "station_id": "STN-003",
+    "osm_ref": "node/9000003",
+    "name": "Corner Pump West",
+    "brand": null,
+    "operator": null,
+    "city": "Phoenix",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9,
+     33.3
+    ]
+   },
+   "properties": {
+    "station_id": "STN-004",
+    "osm_ref": "node/9000004",
+    "name": "Sample Fuel Stop #8",
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Chandler",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.75,
+     32.88
+    ]
+   },
+   "properties": {
+    "station_id": "STN-005",
+    "osm_ref": "node/9000005",
+    "name": "Sample Travel Plaza #21",
+    "brand": "Sample Travel Plaza",
+    "operator": null,
+    "city": "Casa Grande",
+    "truck_tagged": false,
+    "truck_brand": true,
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "access_basis": "truck_brand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.73,
+     32.87
+    ]
+   },
+   "properties": {
+    "station_id": "STN-006",
+    "osm_ref": "node/9000006",
+    "name": "Desert Road Fuel",
+    "brand": null,
+    "operator": null,
+    "city": "Casa Grande",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.55,
+     32.75
+    ]
+   },
+   "properties": {
+    "station_id": "STN-007",
+    "osm_ref": "node/9000007",
+    "name": "Sample Fuel Stop #14",
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Eloy",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.22,
+     32.43
+    ]
+   },
+   "properties": {
+    "station_id": "STN-008",
+    "osm_ref": "node/9000008",
+    "name": "Sample Travel Plaza #30",
+    "brand": "Sample Travel Plaza",
+    "operator": null,
+    "city": "Marana",
+    "truck_tagged": false,
+    "truck_brand": true,
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "access_basis": "truck_brand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.18,
+     32.4
+    ]
+   },
+   "properties": {
+    "station_id": "STN-009",
+    "osm_ref": "node/9000009",
+    "name": null,
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Marana",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.98,
+     32.12
+    ]
+   },
+   "properties": {
+    "station_id": "STN-010",
+    "osm_ref": "node/9000010",
+    "name": "Sample Travel Plaza #44",
+    "brand": "Sample Travel Plaza",
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": false,
+    "truck_brand": true,
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "access_basis": "truck_brand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.94,
+     32.17
+    ]
+   },
+   "properties": {
+    "station_id": "STN-011",
+    "osm_ref": "node/9000011",
+    "name": "Sample Fuel Stop #51",
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.97,
+     32.1
+    ]
+   },
+   "properties": {
+    "station_id": "STN-012",
+    "osm_ref": "node/9000012",
+    "name": "South Side Gas",
+    "brand": null,
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": false,
+    "truck_brand": false,
+    "station_class": "unbranded",
+    "truck_access": "unverified",
+    "access_basis": "truck_evidence"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.93,
+     32.23
+    ]
+   },
+   "properties": {
+    "station_id": "STN-013",
+    "osm_ref": "node/9000013",
+    "name": "Sample Fuel Stop #52",
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.98,
+     32.25
+    ]
+   },
+   "properties": {
+    "station_id": "STN-014",
+    "osm_ref": "node/9000014",
+    "name": "Midtown Pump",
+    "brand": null,
+    "operator": null,
+    "city": null,
+    "truck_tagged": false,
+    "truck_brand": false,
+    "station_class": "unbranded",
+    "truck_access": "unverified",
+    "access_basis": "truck_evidence"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.0,
+     32.3
+    ]
+   },
+   "properties": {
+    "station_id": "STN-015",
+    "osm_ref": "node/9000015",
+    "name": "Sample Fuel Stop #60",
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.03,
+     32.2
+    ]
+   },
+   "properties": {
+    "station_id": "STN-016",
+    "osm_ref": "node/9000016",
+    "name": null,
+    "brand": null,
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.91,
+     32.06
+    ]
+   },
+   "properties": {
+    "station_id": "STN-017",
+    "osm_ref": "node/9000017",
+    "name": "Sample Travel Plaza #61",
+    "brand": "Sample Travel Plaza",
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": false,
+    "truck_brand": true,
+    "station_class": "travel_center",
+    "truck_access": "confirmed",
+    "access_basis": "truck_brand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.86,
+     32.21
+    ]
+   },
+   "properties": {
+    "station_id": "STN-018",
+    "osm_ref": "node/9000018",
+    "name": "Sample Fuel Stop #70",
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.83,
+     32.24
+    ]
+   },
+   "properties": {
+    "station_id": "STN-019",
+    "osm_ref": "node/9000019",
+    "name": "East Side Fuel",
+    "brand": null,
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": false,
+    "truck_brand": false,
+    "station_class": "cardlock",
+    "truck_access": "confirmed",
+    "access_basis": "cardlock"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.95,
+     32.33
+    ]
+   },
+   "properties": {
+    "station_id": "STN-020",
+    "osm_ref": "node/9000020",
+    "name": "Sample Fuel Stop #77",
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.99,
+     32.15
+    ]
+   },
+   "properties": {
+    "station_id": "STN-021",
+    "osm_ref": "node/9000021",
+    "name": "Sample Fuel Stop #90",
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.9901,
+     32.1501
+    ]
+   },
+   "properties": {
+    "station_id": "STN-022",
+    "osm_ref": "node/9000022",
+    "name": null,
+    "brand": "Sample Fuel",
+    "operator": null,
+    "city": null,
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "branded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.95,
+     32.13
+    ]
+   },
+   "properties": {
+    "station_id": "STN-023",
+    "osm_ref": "node/9000023",
+    "name": "Sample Scale House",
+    "brand": null,
+    "operator": null,
+    "city": "Tucson",
+    "truck_tagged": true,
+    "truck_brand": false,
+    "station_class": "unbranded",
+    "truck_access": "confirmed",
+    "access_basis": "truck_tag"
+   }
+  }
+ ]
+}
