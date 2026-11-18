@@ -368,7 +368,7 @@
     box.hidden = false;
   }
 
-  /** A derived entry's note, shown in parentheses after the value (any leading 'Derived:' tag is dropped). */
+  /** A derived entry's note, shown in the description text (any leading 'Derived:' tag is dropped). */
   function derivedNote(n) { return String(n).replace(/^Derived:\s*/, ''); }
 
   /** Plain label from an assumption key: drops the section name and spells out the rest. */
@@ -439,6 +439,17 @@
     return typeof v === 'object' && v !== null ? JSON.stringify(v) : String(v);
   }
 
+  /** Longest value a badge may hold (a number and its unit). Anything longer goes in the description text. */
+  var BADGE_MAX = 25;
+
+  /** One assumption split for display: a short value for the badge, a long value for the description, and the note (a derived entry's note says where the number comes from). */
+  function assumptionParts(a) {
+    var shown = assumptionValue(a.value, a.key);
+    var fits = shown.length <= BADGE_MAX;
+    var note = a.source === 'derived' ? derivedNote(a.note || '') : String(a.note || '').replace(/^(Assumption|Setting|Fact|Derived):\s*/, '');
+    return { badge: fits ? shown : '', long: fits ? '' : shown, note: note };
+  }
+
   /** Fill the "Assumptions behind these numbers" panel from meta.json headline_assumptions. Stays hidden when the field is missing. */
   function renderAssumptionsPanel(meta) {
     var panel = document.getElementById('assump-panel');
@@ -450,17 +461,19 @@
       var row = el('li', 'assump-row');
       var head = el('div', 'assump-head');
       head.appendChild(el('span', 'assump-label', keyLabel(a.key)));
-      var right = el('span', 'assump-val');
-      if (a.source === 'derived') { right.appendChild(el('span', 'chip amber', 'derived from the data')); right.appendChild(document.createTextNode(' ')); }
-      right.appendChild(el('span', 'chip', assumptionValue(a.value, a.key)));
-      if (a.source === 'derived' && a.note) { right.appendChild(document.createTextNode(' (' + derivedNote(a.note) + ')')); }
-      head.appendChild(right);
-      row.appendChild(head);
-      if (a.note && a.source !== 'derived') {
-        var nt = el('small', 'assump-note');
-        nt.appendChild(linkify(String(a.note).replace(/^(Assumption|Setting|Fact|Derived):\s*/, '')));
-        row.appendChild(nt);
+      var parts = assumptionParts(a);
+      if (parts.badge) {
+        var right = el('span', 'assump-val');
+        right.appendChild(el('span', 'chip', parts.badge));
+        head.appendChild(right);
       }
+      row.appendChild(head);
+      [parts.long, parts.note].forEach(function (txt) {
+        if (!txt) { return; }
+        var nt = el('small', 'assump-note');
+        nt.appendChild(linkify(txt));
+        row.appendChild(nt);
+      });
       body.appendChild(row);
     });
     try { panel.open = window.matchMedia('(min-width: 768px)').matches; } catch (e) { panel.open = true; }
@@ -468,7 +481,7 @@
   }
 
   window.FFH = {
-    eiaNote: eiaNote, perTruckText: perTruckText, keyLabel: keyLabel, renderAssumptionsPanel: renderAssumptionsPanel,
+    eiaNote: eiaNote, perTruckText: perTruckText, keyLabel: keyLabel, renderAssumptionsPanel: renderAssumptionsPanel, assumptionParts: assumptionParts, BADGE_MAX: BADGE_MAX,
     EIA_CAPTION: EIA_CAPTION, SYN_CAPTION: SYN_CAPTION, MST: MST, ROUNDING_NOTE: ROUNDING_NOTE, css: css, loadData: loadData, dataUrl: dataUrl, loadOptional: loadOptional,
     isNum: isNum, centsRate: centsRate, assumptionValue: assumptionValue, derivedNote: derivedNote, renderHos: renderHos, linkify: linkify, peakWindows: peakWindows, usd: usd, usd0: usd0, perGal: perGal, price3: price3, num: num, pct: pct, cents: cents,
     dateLabel: dateLabel, dateLong: dateLong, stationLabel: stationLabel, stationIndex: stationIndex,

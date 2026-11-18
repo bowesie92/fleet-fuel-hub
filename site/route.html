@@ -1,26 +1,27 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="build-version" content="06ea23704a5e">
+<meta charset="utf-8"><meta name="build-version" content="e21228404e59">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Test route | Fleet Fuel Hub</title>
 <meta name="description" content="Try a station on a Tucson route.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="css/tokens.css?v=06ea23704a5e">
-<link rel="stylesheet" href="css/app.css?v=06ea23704a5e">
-<link rel="stylesheet" href="css/extra.css?v=06ea23704a5e">
+<link rel="stylesheet" href="css/tokens.css?v=e21228404e59">
+<link rel="stylesheet" href="css/app.css?v=e21228404e59">
+<link rel="stylesheet" href="css/extra.css?v=e21228404e59">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
 </head>
 <body>
 <svg class="sprite" aria-hidden="true" focusable="false"><defs><symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 9.5V20h14V9.5"/></symbol><symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol><symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2"/><circle cx="18" cy="6" r="2"/><path d="M8 18h8a3 3 0 000-6H8a3 3 0 010-6h8"/></symbol><symbol id="i-dollar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5c-.5-1-1.5-1.5-2.5-1.5-1.5 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.8 2.5 2-1 2-2.5 2c-1 0-2-.5-2.5-1.5M12 6v2M12 16v2"/></symbol><symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></symbol><symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 001.3 2.2h12.4a1.5 1.5 0 001.3-2.2L14 9V3"/><path d="M7.5 15h9"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-pump" viewBox="0 0 24 24"><path d="M4 21V5a2 2 0 012-2h6a2 2 0 012 2v16"/><path d="M3 21h12M6 8h6"/><path d="M14 9h2a2 2 0 012 2v5a1.5 1.5 0 003 0V8l-3-3"/></symbol><symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v10M8 10l4 4 4-4M5 19h14"/></symbol><symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol><symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></symbol><symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 00-3.5 10.900c.6.5 1 1.200 1 2.100h5c0-.9.4-1.600 1-2.100A6 6 0 0012 3z"/></symbol><symbol id="i-plus" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></symbol><symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.500 9.500a2.500 2.500 0 114 2c-.9.6-1.500 1-1.500 2M12 17h.01"/></symbol><symbol id="i-pie" viewBox="0 0 24 24"><path d="M12 3v9h9"/><circle cx="12" cy="12" r="9"/></symbol><symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l10 18H2L12 3z"/><path d="M12 10v5M12 18h.01"/></symbol><symbol id="i-file" viewBox="0 0 24 24"><path d="M6 3h8l5 5v13H6z"/><path d="M14 3v5h5"/></symbol><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-sort" viewBox="0 0 24 24"><path d="M8 9l4-4 4 4M8 15l4 4 4-4"/></symbol><symbol id="i-left" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol><symbol id="i-right" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol><symbol id="i-gauge" viewBox="0 0 24 24"><path d="M4 18a9 9 0 1116 0"/><path d="M12 14l4-5"/></symbol></defs></svg>
 <div class="strip" role="note">
 <span class="chip-syn"><svg class="ic" aria-hidden="true"><use href="#i-flask"/></svg> SYNTHETIC DATA</span>
-<span class="right"><span class="note"><svg class="ic sm" aria-hidden="true"><use href="#i-info"/></svg> Demonstration only. Not real data.</span><a href="assumptions.html">Assumptions</a></span>
+<span class="right"><span class="note"><svg class="ic sm" aria-hidden="true"><use href="#i-info"/></svg> Demonstration only. Not real data.</span><a href="guide.html">New here? Start here</a><a href="assumptions.html">Assumptions</a></span>
 </div>
 <aside class="sidebar">
 <div class="brand"><strong>Fleet Fuel Hub</strong><span>Fuel analytics demo</span></div>
 <nav aria-label="Main">
+<a href="guide.html"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg> Start here</a>
 <a href="index.html"><svg class="ic" aria-hidden="true"><use href="#i-home"/></svg> Overview</a>
 <a href="map.html"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg> Station map</a>
 <a href="route.html" aria-current="page"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg> Test route</a>
@@ -71,7 +72,7 @@
 </main>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="js/common.js?v=06ea23704a5e"></script>
-<script src="js/route.js?v=06ea23704a5e"></script>
+<script src="js/common.js?v=e21228404e59"></script>
+<script src="js/route.js?v=e21228404e59"></script>
 </body>
 </html>

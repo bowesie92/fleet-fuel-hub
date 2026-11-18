@@ -83,7 +83,7 @@ def test_source_urls_become_links_with_source_names():
     c = js("common")
     assert "function linkify" in c
     assert "FHWA Urban Congestion Report" in c and "ops.fhwa.dot.gov" in c
-    assert "linkify(String(a.note)" in c  # the panel renders notes through it
+    assert "linkify(txt)" in c  # the panel renders long values and notes through it
     a = js("assumptions")
     assert "FFH.linkify(" in a  # the full page renders values and notes through it
     assert "time_cost.index_cross_check" not in a  # shown like any other entry, so it needs no special case

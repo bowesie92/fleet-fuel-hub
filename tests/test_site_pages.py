@@ -10,8 +10,8 @@ import yaml
 REPO = Path(__file__).resolve().parents[1]
 SITE = REPO / "site"
 DATA = SITE / "data"
-PAGES = ["index", "map", "route", "missed", "hub", "assumptions"]
-NAV_ORDER = ["Overview", "Station map", "Test route", "Missed savings", "Data hub"]
+PAGES = ["index", "map", "route", "missed", "hub", "assumptions", "guide"]
+NAV_ORDER = ["Start here", "Overview", "Station map", "Test route", "Missed savings", "Data hub"]
 EIA = "Source: U.S. Energy Information Administration (EIA)"
 EM_DASH = chr(0x2014)
 FORBIDDEN_TEXT = ["FuelOptix", "FleetFuel ", "Arizona Fuel Insights", "Current price", "Last updated"]
@@ -384,3 +384,50 @@ def test_map_chip_has_synthetic_price_line_beside_it():
     html = page("map")
     chip = html.index('id="p-chip"')
     assert "benchmark source: U.S. Energy Information Administration" in html[chip : chip + 500]
+
+
+# ---- v1.17: short value badges and the Start here page ----
+
+@pytest.mark.parametrize("name", PAGES)
+def test_strip_links_start_here(name):
+    strip = page(name).split('class="strip"')[1].split("</div>")[0]
+    assert '<a href="guide.html">New here? Start here</a>' in strip
+    assert 'href="assumptions.html"' in strip
+
+
+def test_guide_item_is_current_only_on_the_guide():
+    for name in PAGES:
+        sidebar = page(name).split('<aside class="sidebar">')[1].split("</aside>")[0]
+        has = 'href="guide.html" aria-current="page"' in sidebar
+        assert has == (name == "guide"), name
+
+
+def test_overview_has_start_here_link_above_scout():
+    html = page("index")
+    link = html.index('class="start-link"')
+    assert 'href="guide.html"' in html[link:link + 200]
+    assert link < html.index('id="scout"')
+
+
+def test_guide_links_every_page_and_assumptions():
+    html = page("guide")
+    assert "<title>Start here | Fleet Fuel Hub</title>" in html
+    assert "Start here: a 5-minute tour" in html
+    main = html.split("<main")[1]
+    for target in ["index", "map", "route", "missed", "hub", "assumptions"]:
+        assert f'href="{target}.html"' in main, target
+    assert "fuel on site at the distribution center" in html
+
+
+def test_derived_from_the_data_badge_is_gone():
+    for js in (SITE / "js").glob("*.js"):
+        assert "derived from the data'" not in read(js), js.name
+
+
+def test_badge_limit_and_split_function_exist():
+    common = read(SITE / "js" / "common.js")
+    assert "BADGE_MAX = 25" in common
+    assert "function assumptionParts" in common
+    css = read(SITE / "css" / "app.css")
+    chip = [ln for ln in css.splitlines() if ln.startswith(".chip {")][0]
+    assert "nowrap" not in chip and "max-width: 100%" in chip and "overflow-wrap: anywhere" in chip

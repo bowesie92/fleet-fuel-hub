@@ -60,20 +60,19 @@ FFH.boot(function () {
     (m.headline_assumptions || []).forEach(function (a) { if (a.source === 'derived' && !have[a.key]) { all.push(a); } });
     all.forEach(function (a) {
       var tr = FFH.el('tr');
-      var kc = FFH.el('td', null, (a.source === 'derived' ? FFH.keyLabel(a.key) : a.key) + ' ');
-      if (a.source === 'derived') { kc.appendChild(FFH.el('span', 'chip amber', 'derived from the data')); }
-      tr.appendChild(kc);
+      tr.appendChild(FFH.el('td', null, a.source === 'derived' ? FFH.keyLabel(a.key) : a.key));
       var shown = typeof a.value === 'object' ? (/peak_windows$/.test(a.key) ? FFH.assumptionValue(a.value, a.key) : JSON.stringify(a.value)) :
         (String(a.key).indexOf('miles_per_day') >= 0 || (String(a.key).indexOf('time_cost.') === 0 || String(a.key).indexOf('hos.') === 0 || /_mpg$/.test(a.key)) ? FFH.assumptionValue(a.value, a.key) : String(a.value));
-      shown += a.source === 'derived' && a.note ? ' (' + FFH.derivedNote(a.note) + ')' : '';
-      var vc = FFH.el('td', 'num');
-      if (shown.length > 40) { vc.style.whiteSpace = 'normal'; vc.style.textAlign = 'left'; vc.style.minWidth = '220px'; }
-      vc.appendChild(FFH.linkify(shown));
-      tr.appendChild(vc);
-      var note = FFH.el('td');
-      note.appendChild(FFH.linkify(a.source === 'derived' ? '' : (a.note || '')));
-      note.style.whiteSpace = 'normal';
-      note.style.minWidth = '260px';
+      var fits = shown.length <= FFH.BADGE_MAX;
+      tr.appendChild(FFH.el('td', 'num', fits ? shown : 'See description'));
+      var note = FFH.el('td', 'what');
+      var noteText = a.source === 'derived' ? FFH.derivedNote(a.note || '') : (a.note || '');
+      if (!fits) {
+        var lv = FFH.el('div', 'assump-longval');
+        lv.appendChild(FFH.linkify(shown));
+        note.appendChild(lv);
+      }
+      note.appendChild(FFH.linkify(noteText));
       tr.appendChild(note);
       body.appendChild(tr);
     });

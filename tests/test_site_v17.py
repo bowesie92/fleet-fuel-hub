@@ -159,8 +159,9 @@ def test_partner_tile_relabelled_and_linked_to_the_scout():
 def test_assumptions_derived_entry_and_chip():
     common = text(SITE / "js" / "common.js")
     assert "Tucson local route length" in common and "mi/day" in common
-    assert "derived from the data" in common and "source === 'derived'" in common
-    assert "derived from the data" in text(SITE / "js" / "assumptions.js")
+    assert "source === 'derived'" in common
+    assert "derived from the data'" not in common  # v1.17: the badge is gone
+    assert "derived from the data'" not in text(SITE / "js" / "assumptions.js")
 
 
 def test_assumption_units_and_copy_fixes():
@@ -216,7 +217,7 @@ def test_map_keeps_synthetic_line_when_price_has_no_eia_week():
 def test_partner_program_label_and_derived_entry_on_full_page():
     assert "'Fuel partner program'" in text(SITE / "js" / "common.js")
     a = text(SITE / "js" / "assumptions.js")
-    assert "headline_assumptions" in a and "derived from the data" in a and "keyLabel" in a
+    assert "headline_assumptions" in a and "derived from the data'" not in a and "keyLabel" in a
 
 
 def test_fixture_meta_matches_the_current_partner_assumptions():
@@ -225,14 +226,16 @@ def test_fixture_meta_matches_the_current_partner_assumptions():
     assert {"prices.partner_set_description", "prices.partner_set_bbox", "fetch.overpass.tucson_metro_bbox"} <= keys
 
 
-def test_derived_entries_read_value_unit_then_note_in_parentheses():
+def test_derived_entries_keep_their_note_in_the_description_not_after_the_badge():
     common = text(SITE / "js" / "common.js")
-    assert "' (' + derivedNote(a.note) + ')'" in common
+    assert "' (' + derivedNote(a.note) + ')'" not in common
+    assert "derivedNote(a.note || '')" in common
     a = text(SITE / "js" / "assumptions.js")
-    assert "' (' + FFH.derivedNote(a.note) + ')'" in a
+    assert "' (' + FFH.derivedNote(a.note) + ')'" not in a
+    assert "FFH.derivedNote(a.note || '')" in a
     meta = json.loads(text(FIXTURES / "meta.json"))
     d = [x for x in meta["headline_assumptions"] if x["key"] == "derived.tucson_local_route_miles_per_day"][0]
-    assert f"{d['value']} mi/day ({d['note']})" == "31.6 mi/day (synthetic-route assumption: openrouteservice road miles over the synthetic route plans)"
+    assert f"{d['value']} mi/day" == "31.6 mi/day" and d["note"].startswith("synthetic-route assumption")
 
 
 def test_zero_partner_note_grammar_for_one_two_and_many():
