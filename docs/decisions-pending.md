@@ -67,19 +67,8 @@ Stop time windows, cases per stop, route end time and a date-range control are l
 - **Default:** leave it. A jittered ping sits near a moved stop, and each stop has 3 or more candidate businesses.
 - **Alternative:** cap the jitter radius below the clear distance (a synth change and one more resynth).
 
-### D14. GitHub Pages: prepared, waiting for your go (Nov 17)
-- **Ready:** `.github/workflows/pages.yml` builds from the committed cache with no secrets and deploys `site/`.
-  - A fresh clone with no `.env` anywhere builds with 0 live API calls and all 337 road paths, passes every test, and leaves `git status` clean.
-  - Until Pages is enabled, the deploy job fails on every push to `main`. That is expected.
-- **To go live (your steps, not done):**
-  1. Make the repo public.
-  2. In Settings, Pages, set Source to "GitHub Actions".
-  3. Re-run the Pages workflow, or push to `main`.
-- **What becomes public:** the whole repo and all 3 branches on GitHub (`main` and two `claude/` branches, both already contained in `main`), with full history.
-  - That covers code, tests, `docs/` (decisions, build log, contracts, design notes), `CLAUDE.md`, `.claude/agents` and `.claude/settings.json`.
-  - It also covers `data/raw` (synthetic fleet data, EIA prices, OpenStreetMap stations and anonymized customer coordinates) and `data/cache` (EIA, OpenStreetMap and openrouteservice responses).
-  - Commit authors show your name with a GitHub no-reply address.
-- **Full-history scan (Nov 17):** 0 hits for the forbidden terms, the real API key values, secret-shaped patterns, personal email addresses or local user paths. No `.env`, `.local/` or database file was ever committed.
+### D14. GitHub Pages: live (resolved Nov 18)
+- **Done:** Cass said go. The public repo `bowesie92/fleet-fuel-hub` holds one clean commit, and GitHub Pages serves https://bowesie92.github.io/fleet-fuel-hub/ from the Pages workflow. The old working history stays in the private `bowesie92/fleet-fuel-hub-dev`. Details in `docs/publishing-plan.md`.
 
 ## Resolved
 

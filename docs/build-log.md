@@ -164,3 +164,9 @@ One short entry per milestone or agent wave: what was built, key decisions, and 
 - **Rebuild:** resynth, 338 detour legs, 0 failed, 0 straight-line fallbacks, 157 stale cache files pruned. openrouteservice today: 136 new directions answers (about one call each), 10 matrix and 3 snap calls, well under the 2,000 and 500 daily limits. Missed savings now $401.32 over 24 fills (212 fills analysed).
 - **Hand checks:** FC5659816 ($46.94, both), FC8960414 ($8.74, lower price), FC4426227 ($6.72, shorter detour).
 - **Understand before moving on:** offsetting a point is not enough on its own. It also needs a crowd: if only one real business could be the source, the offset hides nothing. This is the same idea as k-anonymity, here with k = 3.
+
+## Going public (Nov 18)
+- **Built:** the working repo became the private `fleet-fuel-hub-dev`. A new public `fleet-fuel-hub` starts from one commit with the same files as the last reviewed `main`, so no old history, deleted file or earlier customer position is public. GitHub Pages serves the site.
+- **Checks before public:** the new repo was cloned fresh and scanned (forbidden terms, secret patterns, original coordinates, the 38 replaced positions), then tested and built with no API keys. Everything was clean.
+- **Guard rails:** rulesets on the public repo block new branches, tags, deletion and force pushes. Locally every old branch pushes to `dev` only. The pre-push guard script is ready, but its hook file still has to be created by hand.
+- **Understand before moving on:** a private repo's history goes public with it. Starting the public repo from a single commit is the simple way to publish only what is true today.
