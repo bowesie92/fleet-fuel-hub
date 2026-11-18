@@ -61,10 +61,10 @@ FFH.boot(function () {
     all.forEach(function (a) {
       var tr = FFH.el('tr');
       tr.appendChild(FFH.el('td', null, a.source === 'derived' ? FFH.keyLabel(a.key) : a.key));
-      var shown = typeof a.value === 'object' ? (/peak_windows$/.test(a.key) ? FFH.assumptionValue(a.value, a.key) : JSON.stringify(a.value)) :
-        (String(a.key).indexOf('miles_per_day') >= 0 || (String(a.key).indexOf('time_cost.') === 0 || String(a.key).indexOf('hos.') === 0 || /_mpg$/.test(a.key)) ? FFH.assumptionValue(a.value, a.key) : String(a.value));
-      var fits = shown.length <= FFH.BADGE_MAX;
-      tr.appendChild(FFH.el('td', 'num', fits ? shown : 'See description'));
+      var parts = FFH.assumptionParts(a);
+      var shown = parts.text;
+      var fits = parts.fits;
+      tr.appendChild(FFH.el('td', fits ? 'num' : 'num muted', fits ? shown : 'In the description'));
       var note = FFH.el('td', 'what');
       var noteText = a.source === 'derived' ? FFH.derivedNote(a.note || '') : (a.note || '');
       if (!fits) {

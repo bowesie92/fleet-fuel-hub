@@ -75,7 +75,7 @@ def test_v19_fixtures_have_the_new_fields():
 
 def test_time_cost_units_are_formatted():
     c = js("common")
-    for token in ["_time_index$", "'×'", "_usd_per_minute$", "'/minute'", "' minutes'", "_mpg$", "peakWindows", "' (weekdays)'"]:
+    for token in ["_time_index$", "'×'", "_usd_per_minute$", "'/minute'", "' minutes'", "_mpg$", "peakWindows"]:
         assert token in c, token
 
 

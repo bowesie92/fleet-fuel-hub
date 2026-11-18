@@ -387,7 +387,7 @@
     return list.map(function (w) {
       var p = String(w).split('-'), a = hr(p[0]), b = hr(p[1]);
       return a.n + (a.ap === b.ap ? '' : ' ' + a.ap) + ' to ' + b.n + ' ' + b.ap;
-    }).join(', ') + ' (weekdays)';
+    }).join(', ');
   }
 
   var SOURCE_NAMES = {
@@ -426,6 +426,8 @@
       if (/_minutes$/.test(k)) { return v + ' minutes'; }
       if (/_hours$/.test(k)) { return v + ' hours'; }
       if (/_miles$/.test(k)) { return v + ' miles'; }
+      if (/_gal$/.test(k) && !/_per_gal$/.test(k)) { return Number(v.toFixed(1)) + ' gallons'; }
+      if (/_per_day$/.test(k) && k.indexOf('miles_per_day') < 0) { return Number(v.toFixed(1)) + ' a day'; }
       if (k.indexOf('miles_per_day') >= 0) { return Number(v.toFixed(1)) + ' mi/day'; }
       if (k.indexOf('per_hour') >= 0) { return money + '/hour'; }
       if (k.indexOf('per_mile') >= 0) { return money + '/mile'; }
@@ -447,7 +449,7 @@
     var shown = assumptionValue(a.value, a.key);
     var fits = shown.length <= BADGE_MAX;
     var note = a.source === 'derived' ? derivedNote(a.note || '') : String(a.note || '').replace(/^(Assumption|Setting|Fact|Derived):\s*/, '');
-    return { badge: fits ? shown : '', long: fits ? '' : shown, note: note };
+    return { badge: fits ? shown : '', long: fits ? '' : shown, note: note, text: shown, fits: fits };
   }
 
   /** Fill the "Assumptions behind these numbers" panel from meta.json headline_assumptions. Stays hidden when the field is missing. */

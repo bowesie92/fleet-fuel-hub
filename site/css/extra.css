@@ -114,3 +114,4 @@
   .strip .right { gap: 10px; }
   .strip .chip-syn { gap: 6px; letter-spacing: .03em; }
 }
+td.num.muted { text-align: left; color: var(--text-600); font-weight: 400; }
