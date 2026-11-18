@@ -41,7 +41,7 @@ Reference map:
 - **Sidebar footer:** a "Data as of" card with the build date and "Synthetic data, rebuilt on each deploy", plus links to Assumptions and Help.
 - **Top strip:** light gray, centered "SYNTHETIC DATA" with a flask icon, and "Demonstration only. Not real data." on the right (from 02). On every page, always.
 - **Page header:** H1 title, muted subtitle, and controls on the right (date range, route selector, Export). The controls are outlined buttons with icons (from 01).
-- **Nav items, in order:** Overview, Station map, Test route, Missed savings, Data hub. Later: Partner scout, Review flags. **No "Drivers" page.**
+- **Nav items, in order:** Start here (`guide.html`, v1.17), Overview, Station map, Test route, Missed savings, Data hub. Later: Partner scout, Review flags. **No "Drivers" page.**
 - **Full-bleed map pages** (Station map, Test route): the sidebar stays and the map fills the rest. Panels float on top of the map as white cards.
 
 ## 2. Design tokens

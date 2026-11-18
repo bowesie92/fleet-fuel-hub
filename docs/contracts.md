@@ -1,6 +1,6 @@
 # Contracts: the interface every agent builds against
 
-Version 1.16 (Nov 18 2026, at least 3 candidate businesses per customer point). Owner: the orchestrator.
+Version 1.17 (Nov 18 2026, short value badges and a "Start here" page). Owner: the orchestrator.
 
 > **v1.11 summary (read section 11 first):** schedule risk is a ranking penalty only; one cost per Test route option at the time its stop happens; detours drawn on real roads (`detour_paths.geojson`); missed-savings rows carry their cost breakdown; `stops_json` stops carry `planned_arrival`.
 SPEC.md is the source of truth for *what* to build. This file is the source of truth
@@ -571,6 +571,8 @@ Rules:
 | 2026-11-17 | 1.7 | Cass's review changes. Headlines as rates: `missed_savings_cpg_card`, `cpg_per_card_gallon` and `net_savings_cpg_captured`. `tucson_card_gallons_partner_share` replaces `partner_share_gallons`. The partner list is a stated rule (`prices.partner_set_bbox`), not a random draw. `derived.` headline assumptions (Tucson route miles a day). Two EIA captions: the plain source line only for actual EIA numbers, the "benchmark source" line for synthetic prices. |
 | 2026-11-17 | 1.8 | Cass's R1 answer: scout deal value per fill is capped at the discount on the gallons it captures, and pre-existing gaps are never deal value. Partner set limited to named truck stops (`prices.partner_set_named_only`). The derived route length note reads "from the synthetic route plans, set by generator assumptions". |
 | 2026-11-17 | 1.9 | Time-cost upgrade (SPEC section 6): peak multiplier from Tucson's published Travel Time Index, an optional Planning Time Index buffer, max detour minutes, schedule-risk charge and overtime. New detour option fields, `break_even_cpg_peak` and `worked_example` in detours.json. |
+| 2026-11-18 | 1.17 | Section 17: value badges hold short values only (long values and derived notes move to the description, no "derived from the data" badge); new `guide.html` "Start here" page, first in the sidebar, linked from every banner and the Overview. |
+| 2026-11-18 | 1.16 | Section 16: at least 3 candidate businesses per customer point. |
 | 2026-11-17 | 1.15 | Section 15: the customer sample, order and offsets are unseeded and stored nowhere (the v1.14 seeded move was reversible); Retry-After cap; retries count toward the daily limit; refused retries cached; checker hardening. |
 | 2026-11-17 | 1.14 | Section 14: seeded 300 to 600 m offset on every customer point (cache and CSV hold moved points only), openrouteservice snapping fallback, `refresh_cache` with pruning, history and coordinate checks in `scripts/`. |
 | 2026-11-17 | 1.13 | Section 13: `why` and `why_line` on missed rows; "Lower-cost option" replaces "Cheaper alternative" on the Missed savings page, with a Why column. |
@@ -751,3 +753,22 @@ A moved point hides its business only when several originals could be the one it
 - The tree must hold no coordinate within 5 m of the 38 replaced positions either (they were the identifiable ones), checked once against the commit before the redraw.
 - **Moving GPS pings:** a telematics row with `speed_mph` above 0 is a point on a road, not a place. When one passes within the 5 m radius of an original (one did after this resynth: 3.6 m, at 21 mph, 419 m from any customer stop), the check reports it on its own line instead of failing. This applies only to `data/raw/telematics.csv` rows at `fetch.customers.road_ping_min_mph` (5) or more; more than `road_ping_max_exempt` (3) such pings in one file, or one within the clear distance of a customer stop, still fails. Slower and parked pings always fail.
 - `tests/fixtures/site/v111` (routes and detour paths) is regenerated from the new data, because it held the old stop positions.
+
+## 17. v1.17 changes (Cass, Nov 18): short value badges and a "Start here" page
+
+Site only (site-builder). No data format changes.
+
+### 17.1 Value badges
+- A value badge (`.chip` holding an assumption value) holds only a short value: a number and its unit, at most 25 characters. A longer value (a sentence, a source name, a URL, a list) is never put in a badge; it goes in the description text under the label, before the note.
+- A derived entry's note (for example "synthetic-route assumption: openrouteservice road miles over the synthetic route plans") goes in the description text, not in parentheses after the badge. This replaces the "value, unit, then the note in parentheses" wording in section 7.
+- The "derived from the data" badge is removed everywhere (the Overview and Missed savings panel and the Assumptions page). The description text says where the number comes from instead.
+- Badges may wrap: no `white-space: nowrap` on a value badge, and a badge never grows past its column (`max-width: 100%`, long words break).
+- On the Assumptions page table, the Value cell holds only a short value; a long value moves into the "What it means" cell, before the note.
+- No horizontal overflow on any page at 1280, 1920 and 2560 px wide, or at 375 px (mobile). Tables that are wider than the screen scroll inside their own card, never the page.
+
+### 17.2 "Start here" page
+- New page `site/guide.html`, title "Start here: a 5-minute tour", with the same shell as every other page (SYNTHETIC DATA strip with the Assumptions link, sidebar, "Data as of" card, owner credit footer).
+- **Sidebar order:** Start here, Overview, Station map, Test route, Missed savings, Data hub. The mobile tab bar keeps its five tabs; the guide is reached from the banner link and the Overview link.
+- **Banner:** every page's top strip gains a "New here? Start here" link to `guide.html`.
+- **Overview:** a "New here? Start here" link at the top of the page, above the scout card.
+- Content is Cass's text (Nov 18) verbatim: what this is, the scenario, five numbered steps each linked to its page (`index.html`, `map.html`, `route.html`, `missed.html`, `hub.html`), how to read the numbers (linking `assumptions.html`), and what would be different with real data. No charts, so no EIA caption.
