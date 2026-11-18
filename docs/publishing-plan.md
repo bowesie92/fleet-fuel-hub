@@ -11,7 +11,7 @@ Status: **run Nov 18, 2026** on Cass's go, after qa-reviewer passed v1.16. Publi
 - Step 5: made public. The branch ruleset went in at once; the tag ruleset was refused once with "Repository has been locked" (a short lock while the visibility change finished) and went in on the retry. Both show `enforcement: active`.
 - Step 6: Pages set to Actions, deploy run succeeded; all six pages return 200 with the SYNTHETIC DATA banner and build `06ea23704a5e`.
 - Step 7: `origin` is the public repo, old `main` is `dev-main`, every old branch has `pushRemote dev`, `fleetfuel.publicRoot` and `fleetfuel.publicUrl` are set. 33 merged, clean agent worktrees were removed; one with uncommitted changes and two locked ones were kept, and one folder (`.claude/worktrees/agent-ad34c4e9adabf7e92`) could not be fully deleted by Windows and can be removed by hand.
-- **Not done: the pre-push hook file.** The session's tool guard blocks writing into the main checkout's `.git` folder, so Cass creates `C:\devleet-fuel-hub\.git\hooks\pre-push` with the two lines in step 7 and runs the guard test there. Until then the server-side rulesets still refuse any push of old history (no new branches or tags, no non-fast-forward to `main`).
+- **Not done: the pre-push hook file.** The session's tool guard blocks writing into the main checkout's `.git` folder, so Cass creates `C:\dev\fleet-fuel-hub\.git\hooks\pre-push` with the two lines in step 7 and runs the guard test there. Until then the server-side rulesets still refuse any push of old history (no new branches or tags, no non-fast-forward to `main`).
 
 ## Goal
 
