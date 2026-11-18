@@ -170,3 +170,9 @@ One short entry per milestone or agent wave: what was built, key decisions, and 
 - **Checks before public:** the new repo was cloned fresh and scanned (forbidden terms, secret patterns, original coordinates, the 38 replaced positions), then tested and built with no API keys. Everything was clean.
 - **Guard rails:** rulesets on the public repo block new branches, tags, deletion and force pushes. Locally every old branch pushes to `dev` only. The pre-push guard script is ready, but its hook file still has to be created by hand.
 - **Understand before moving on:** a private repo's history goes public with it. Starting the public repo from a single commit is the simple way to publish only what is true today.
+
+## v1.17: short value badges and a "Start here" page (Nov 18)
+- **Built:** value badges in the "Assumptions behind these numbers" panel and on the Assumptions page now hold only short values (25 characters or less, a number and its unit). Longer values, source names and URLs move into the description text, and badges can wrap instead of spilling out of their column. The "derived from the data" badge is gone; the Tucson route length's note is now plain description text.
+- **Built:** a new `guide.html`, "Start here: a 5-minute tour", first in the sidebar and linked from every page's top strip and the top of the Overview. It walks through the five pages in order and says what would change with real data.
+- **Checks:** every page was loaded at 375, 1280, 1920 and 2560 px wide; no page scrolls sideways and no badge or text passes the edge of its card. 616 tests pass.
+- **Understand before moving on:** a badge is for a value you scan, not for reading. Keeping badges short is a content rule first and a CSS rule second; the CSS only makes sure that a value which slips through still wraps instead of breaking the layout.
