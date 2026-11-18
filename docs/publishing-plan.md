@@ -1,6 +1,17 @@
 # Publishing plan: a clean public repo
 
-Status: **prepared, not run.** Nothing below happens until Cass says go.
+Status: **run Nov 18, 2026** on Cass's go, after qa-reviewer passed v1.16. Public repo: https://github.com/bowesie92/fleet-fuel-hub. Site: https://bowesie92.github.io/fleet-fuel-hub/.
+
+## What happened (Nov 18)
+
+- Step 0: Cass confirmed no other clones exist.
+- Step 1: renamed to `fleet-fuel-hub-dev` (PRIVATE); the local remote is `dev`.
+- Steps 2 and 3: one commit, `ebf3486`, made from `main` at `b11f7bc` (same tree hash), pushed to a new PRIVATE `fleet-fuel-hub`.
+- Step 4, on a fresh clone: forbidden terms (4 checked), secret patterns and em dashes CLEAN; original coordinates CLEAN, including the 38 positions replaced in v1.16; 1 commit, 1 branch, no tags, one no-reply author; with no `.env`, 597 tests passed (4 skipped, they need the local terms list), the build made 0 live API calls and drew all 338 road paths, and `git status` stayed clean.
+- Step 5: made public. The branch ruleset went in at once; the tag ruleset was refused once with "Repository has been locked" (a short lock while the visibility change finished) and went in on the retry. Both show `enforcement: active`.
+- Step 6: Pages set to Actions, deploy run succeeded; all six pages return 200 with the SYNTHETIC DATA banner and build `06ea23704a5e`.
+- Step 7: `origin` is the public repo, old `main` is `dev-main`, every old branch has `pushRemote dev`, `fleetfuel.publicRoot` and `fleetfuel.publicUrl` are set. 33 merged, clean agent worktrees were removed; one with uncommitted changes and two locked ones were kept, and one folder (`.claude/worktrees/agent-ad34c4e9adabf7e92`) could not be fully deleted by Windows and can be removed by hand.
+- **Not done: the pre-push hook file.** The session's tool guard blocks writing into the main checkout's `.git` folder, so Cass creates `C:\devleet-fuel-hub\.git\hooks\pre-push` with the two lines in step 7 and runs the guard test there. Until then the server-side rulesets still refuse any push of old history (no new branches or tags, no non-fast-forward to `main`).
 
 ## Goal
 
